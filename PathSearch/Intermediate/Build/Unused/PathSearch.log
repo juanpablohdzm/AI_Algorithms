@@ -1,6 +1,14 @@
 ﻿  Using 'git status' to determine working set for adaptive non-unity build (C:\Users\Juan Pablo\Documents\Unreal Projects\AI).
-  Creating makefile for PathSearchEditor (ini files are newer than UBTMakefile)
+  Creating makefile for PathSearchEditor (source directory changed)
   Using Visual Studio 2017 14.16.27023 toolchain (C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.16.27023) and Windows 10.0.16299.0 SDK (C:\Program Files (x86)\Windows Kits\10).
-  Target is up to date
+  Deleting old hot reload file: "C:\Users\Juan Pablo\Documents\Unreal Projects\AI\PathSearch\Binaries\Win64\UE4Editor-PathSearch-1917.dll".
+  Deleting old hot reload file: "C:\Users\Juan Pablo\Documents\Unreal Projects\AI\PathSearch\Binaries\Win64\UE4Editor-PathSearch-1917.pdb".
+  Building 4 actions with 8 processes...
+    [1/4] HillClimbing.cpp
+    [2/4] LevelManager.cpp
+    [3/4] UE4Editor-PathSearch.lib
+       Creating library C:\Users\Juan Pablo\Documents\Unreal Projects\AI\PathSearch\Intermediate\Build\Win64\UE4Editor\Development\PathSearch\UE4Editor-PathSearch.lib and object C:\Users\Juan Pablo\Documents\Unreal Projects\AI\PathSearch\Intermediate\Build\Win64\UE4Editor\Development\PathSearch\UE4Editor-PathSearch.exp
+    [4/4] UE4Editor-PathSearch.dll
+       Creating library C:\Users\Juan Pablo\Documents\Unreal Projects\AI\PathSearch\Intermediate\Build\Win64\UE4Editor\Development\PathSearch\UE4Editor-PathSearch.suppressed.lib and object C:\Users\Juan Pablo\Documents\Unreal Projects\AI\PathSearch\Intermediate\Build\Win64\UE4Editor\Development\PathSearch\UE4Editor-PathSearch.suppressed.exp
   Deploying PathSearchEditor Win64 Development...
-  Total build time: 9.87 seconds (NoActionsToExecute executor: 0.00 seconds)
+  Total build time: 12.16 seconds (Parallel executor: 3.24 seconds)

@@ -66,6 +66,9 @@
     <ClInclude Include="..\..\Source\PathSearch\Public\DLFS.h">
       <Filter>Source\PathSearch\Public</Filter>
     </ClInclude>
+    <ClInclude Include="..\..\Source\PathSearch\Public\HillClimbing.h">
+      <Filter>Source\PathSearch\Public</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="..\..\Source\PathSearch\Private\LevelManager.cpp">
@@ -81,6 +84,9 @@
       <Filter>Source\PathSearch\Private</Filter>
     </ClCompile>
     <ClCompile Include="..\..\Source\PathSearch\Private\DLFS.cpp">
+      <Filter>Source\PathSearch\Private</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\PathSearch\Private\HillClimbing.cpp">
       <Filter>Source\PathSearch\Private</Filter>
     </ClCompile>
   </ItemGroup>

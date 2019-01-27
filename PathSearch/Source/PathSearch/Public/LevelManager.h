@@ -71,6 +71,9 @@ protected:
 	UPROPERTY(EditDefaultsOnly, BlueprintReadWrite, Category = "Path")
 		class ADLFS * DLFS;
 
+	UPROPERTY(EditDefaultsOnly, BlueprintReadWrite, Category = "Path")
+		class AGraph * HillClim;
+
 	virtual void DrawLevel();
 
 
@@ -91,5 +94,8 @@ public:
 
 	UFUNCTION(BlueprintCallable)
 		void DrawPathIDDS();
+
+	UFUNCTION(BlueprintCallable)
+		void DrawPathHill();
 
 };

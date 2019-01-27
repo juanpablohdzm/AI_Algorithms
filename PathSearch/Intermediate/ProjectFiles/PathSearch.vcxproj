@@ -647,11 +647,13 @@
     <ClCompile Include="..\..\Source\PathSearch\Private\DFS.cpp" />
     <ClCompile Include="..\..\Source\PathSearch\Private\DLFS.cpp" />
     <ClCompile Include="..\..\Source\PathSearch\Private\Graph.cpp" />
+    <ClCompile Include="..\..\Source\PathSearch\Private\HillClimbing.cpp" />
     <ClCompile Include="..\..\Source\PathSearch\Private\LevelManager.cpp" />
     <ClInclude Include="..\..\Source\PathSearch\Public\BFS.h" />
     <ClInclude Include="..\..\Source\PathSearch\Public\DFS.h" />
     <ClInclude Include="..\..\Source\PathSearch\Public\DLFS.h" />
     <ClInclude Include="..\..\Source\PathSearch\Public\Graph.h" />
+    <ClInclude Include="..\..\Source\PathSearch\Public\HillClimbing.h" />
     <ClInclude Include="..\..\Source\PathSearch\Public\LevelManager.h" />
     <None Include="..\..\PathSearch.uproject" />
     <None Include="..\..\Source\PathSearch.Target.cs" />

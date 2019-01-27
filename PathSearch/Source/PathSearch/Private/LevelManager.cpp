@@ -78,7 +78,7 @@ void ALevelManager::DrawPathBFS()
 	}
 
 	
-	if (BFS)
+	if (BFS && !GetWorld()->GetTimerManager().IsTimerActive(DrawTimerHandle))
 	{
 		
 		TArray<FVector> Path;
@@ -87,9 +87,8 @@ void ALevelManager::DrawPathBFS()
 		DrawTimerDelegate.BindUFunction(this, FName("DrawPath"), Path, SpawnParams);
 
 		//Draw the path every .3 seconds
-		TimerCount = Path.Num();
-		if(!GetWorld()->GetTimerManager().IsTimerActive(DrawTimerHandle))
-			GetWorld()->GetTimerManager().SetTimer(DrawTimerHandle, DrawTimerDelegate, 0.3f, true);
+		TimerCount = Path.Num();	
+		GetWorld()->GetTimerManager().SetTimer(DrawTimerHandle, DrawTimerDelegate, 0.3f, true);
 			
 	}
 }
@@ -103,7 +102,7 @@ void ALevelManager::DrawPathDFS()
 		item->Destroy();
 	}
 	
-	if (DFS)
+	if (DFS && !GetWorld()->GetTimerManager().IsTimerActive(DrawTimerHandle))
 	{
 		TArray<FVector> Path;
 		DFS->GetPath(Path);
@@ -112,8 +111,7 @@ void ALevelManager::DrawPathDFS()
 
 		//Draw the path every .3 seconds
 		TimerCount = Path.Num();
-		if (!GetWorld()->GetTimerManager().IsTimerActive(DrawTimerHandle))
-			GetWorld()->GetTimerManager().SetTimer(DrawTimerHandle, DrawTimerDelegate, 0.3f, true);
+		GetWorld()->GetTimerManager().SetTimer(DrawTimerHandle, DrawTimerDelegate, 0.3f, true);
 	}
 }
 
@@ -126,7 +124,7 @@ void ALevelManager::DrawPathDLFS()
 		item->Destroy();
 	}
 
-	if (DLFS)
+	if (DLFS && !GetWorld()->GetTimerManager().IsTimerActive(DrawTimerHandle))
 	{
 		TArray<FVector> Path;
 		DLFS->GetPath(Path);
@@ -135,8 +133,7 @@ void ALevelManager::DrawPathDLFS()
 
 		//Draw the path every .3 seconds
 		TimerCount = Path.Num();
-		if (!GetWorld()->GetTimerManager().IsTimerActive(DrawTimerHandle))
-			GetWorld()->GetTimerManager().SetTimer(DrawTimerHandle, DrawTimerDelegate, 0.3f, true);
+		GetWorld()->GetTimerManager().SetTimer(DrawTimerHandle, DrawTimerDelegate, 0.3f, true);
 	}
 }
 
@@ -150,7 +147,7 @@ void ALevelManager::DrawPathIDDS()
 		item->Destroy();
 	}
 
-	if (DLFS)
+	if (DLFS && !GetWorld()->GetTimerManager().IsTimerActive(DrawTimerHandle))
 	{
 		int MaxDepth = DLFS->GetDepthLimit();
 		TArray<FVector> Path;
@@ -168,8 +165,29 @@ void ALevelManager::DrawPathIDDS()
 
 		//Draw the path every .3 seconds
 		TimerCount = Path.Num();
-		if (!GetWorld()->GetTimerManager().IsTimerActive(DrawTimerHandle))
-			GetWorld()->GetTimerManager().SetTimer(DrawTimerHandle, DrawTimerDelegate, 0.3f, true);
+		GetWorld()->GetTimerManager().SetTimer(DrawTimerHandle, DrawTimerDelegate, 0.3f, true);
+	}
+}
+
+void ALevelManager::DrawPathHill()
+{
+	//Destroy the previous path
+	while (GarbageCollector.Num() != 0)
+	{
+		AActor* item = GarbageCollector.Pop(true);
+		item->Destroy();
+	}
+
+	if (HillClim && !GetWorld()->GetTimerManager().IsTimerActive(DrawTimerHandle))
+	{
+		TArray<FVector> Path;
+		HillClim->GetPath(Path);
+		FTimerDelegate DrawTimerDelegate;
+		DrawTimerDelegate.BindUFunction(this, FName("DrawPath"), Path, SpawnParams);
+
+		//Draw the path every .3 seconds
+		TimerCount = Path.Num();		
+		GetWorld()->GetTimerManager().SetTimer(DrawTimerHandle, DrawTimerDelegate, 0.3f, true);
 	}
 }
 

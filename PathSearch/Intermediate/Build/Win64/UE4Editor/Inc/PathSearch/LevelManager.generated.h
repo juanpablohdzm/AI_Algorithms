@@ -16,6 +16,14 @@ struct FVector;
 
 #define PathSearch_Source_PathSearch_Public_LevelManager_h_16_RPC_WRAPPERS \
  \
+	DECLARE_FUNCTION(execDrawPathHill) \
+	{ \
+		P_FINISH; \
+		P_NATIVE_BEGIN; \
+		P_THIS->DrawPathHill(); \
+		P_NATIVE_END; \
+	} \
+ \
 	DECLARE_FUNCTION(execDrawPathIDDS) \
 	{ \
 		P_FINISH; \
@@ -59,6 +67,14 @@ struct FVector;
 
 
 #define PathSearch_Source_PathSearch_Public_LevelManager_h_16_RPC_WRAPPERS_NO_PURE_DECLS \
+ \
+	DECLARE_FUNCTION(execDrawPathHill) \
+	{ \
+		P_FINISH; \
+		P_NATIVE_BEGIN; \
+		P_THIS->DrawPathHill(); \
+		P_NATIVE_END; \
+	} \
  \
 	DECLARE_FUNCTION(execDrawPathIDDS) \
 	{ \
@@ -159,7 +175,8 @@ DEFINE_VTABLE_PTR_HELPER_CTOR_CALLER(ALevelManager); \
 	FORCEINLINE static uint32 __PPO__Camera() { return STRUCT_OFFSET(ALevelManager, Camera); } \
 	FORCEINLINE static uint32 __PPO__BFS() { return STRUCT_OFFSET(ALevelManager, BFS); } \
 	FORCEINLINE static uint32 __PPO__DFS() { return STRUCT_OFFSET(ALevelManager, DFS); } \
-	FORCEINLINE static uint32 __PPO__DLFS() { return STRUCT_OFFSET(ALevelManager, DLFS); }
+	FORCEINLINE static uint32 __PPO__DLFS() { return STRUCT_OFFSET(ALevelManager, DLFS); } \
+	FORCEINLINE static uint32 __PPO__HillClim() { return STRUCT_OFFSET(ALevelManager, HillClim); }
 
 
 #define PathSearch_Source_PathSearch_Public_LevelManager_h_13_PROLOG
