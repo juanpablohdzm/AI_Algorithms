@@ -69,6 +69,15 @@
     <ClInclude Include="..\..\Source\PathSearch\Public\HillClimbing.h">
       <Filter>Source\PathSearch\Public</Filter>
     </ClInclude>
+    <ClInclude Include="..\..\Source\PathSearch\Public\BestFirst.h">
+      <Filter>Source\PathSearch\Public</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\PathSearch\Public\BeamSearch.h">
+      <Filter>Source\PathSearch\Public</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\PathSearch\Public\BranchAndBound.h">
+      <Filter>Source\PathSearch\Public</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="..\..\Source\PathSearch\Private\LevelManager.cpp">
@@ -87,6 +96,15 @@
       <Filter>Source\PathSearch\Private</Filter>
     </ClCompile>
     <ClCompile Include="..\..\Source\PathSearch\Private\HillClimbing.cpp">
+      <Filter>Source\PathSearch\Private</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\PathSearch\Private\BestFirst.cpp">
+      <Filter>Source\PathSearch\Private</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\PathSearch\Private\BeamSearch.cpp">
+      <Filter>Source\PathSearch\Private</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\PathSearch\Private\BranchAndBound.cpp">
       <Filter>Source\PathSearch\Private</Filter>
     </ClCompile>
   </ItemGroup>

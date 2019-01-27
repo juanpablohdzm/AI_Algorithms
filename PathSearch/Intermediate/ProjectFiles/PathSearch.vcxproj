@@ -643,13 +643,19 @@
     <NMakeOutput>..\..\Binaries\HTML5\PathSearch-HTML5-Shipping.js</NMakeOutput>
   </PropertyGroup>
   <ItemGroup>
+    <ClCompile Include="..\..\Source\PathSearch\Private\BeamSearch.cpp" />
+    <ClCompile Include="..\..\Source\PathSearch\Private\BestFirst.cpp" />
     <ClCompile Include="..\..\Source\PathSearch\Private\BFS.cpp" />
+    <ClCompile Include="..\..\Source\PathSearch\Private\BranchAndBound.cpp" />
     <ClCompile Include="..\..\Source\PathSearch\Private\DFS.cpp" />
     <ClCompile Include="..\..\Source\PathSearch\Private\DLFS.cpp" />
     <ClCompile Include="..\..\Source\PathSearch\Private\Graph.cpp" />
     <ClCompile Include="..\..\Source\PathSearch\Private\HillClimbing.cpp" />
     <ClCompile Include="..\..\Source\PathSearch\Private\LevelManager.cpp" />
+    <ClInclude Include="..\..\Source\PathSearch\Public\BeamSearch.h" />
+    <ClInclude Include="..\..\Source\PathSearch\Public\BestFirst.h" />
     <ClInclude Include="..\..\Source\PathSearch\Public\BFS.h" />
+    <ClInclude Include="..\..\Source\PathSearch\Public\BranchAndBound.h" />
     <ClInclude Include="..\..\Source\PathSearch\Public\DFS.h" />
     <ClInclude Include="..\..\Source\PathSearch\Public\DLFS.h" />
     <ClInclude Include="..\..\Source\PathSearch\Public\Graph.h" />

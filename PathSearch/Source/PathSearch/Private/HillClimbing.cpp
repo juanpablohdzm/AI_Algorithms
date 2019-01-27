@@ -5,6 +5,8 @@
 void AHillClimbing::BestSelection(TArray<FVector>& List)
 {
 	FVector GoalLocation = Goal->GetActorLocation();
+
+	//The nearest vector to the goal is placed at the front
 	List.Sort([GoalLocation](const FVector& LHS, const FVector& RHS) 
 	{
 		float Dist1 = FVector::Dist(LHS, GoalLocation);
@@ -14,9 +16,8 @@ void AHillClimbing::BestSelection(TArray<FVector>& List)
 		else
 			return true;
 	});
-	FVector temp = List[0];
-	List.Empty();
-	List.Add(temp);
+	
+	List.SetNum(1, true);
 }
 
 bool AHillClimbing::Search(FVector& CurrentPosition)

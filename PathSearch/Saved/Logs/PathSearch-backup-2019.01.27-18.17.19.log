@@ -1,0 +1,1134 @@
+﻿Log file open, 01/27/19 12:03:36
+LogWindows: Failed to load 'aqProf.dll' (GetLastError=126)
+LogWindows: File 'aqProf.dll' does not exist
+LogWindows: Failed to load 'VtuneApi.dll' (GetLastError=126)
+LogWindows: File 'VtuneApi.dll' does not exist
+LogWindows: Failed to load 'VtuneApi32e.dll' (GetLastError=126)
+LogWindows: File 'VtuneApi32e.dll' does not exist
+LogConsoleResponse: Display: Failed to find resolution value strings in scalability ini. Falling back to default.
+LogInit: Display: Running engine for game: PathSearch
+LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+LogPlatformFile: Not using cached read wrapper
+LogTaskGraph: Started task graph with 5 named threads and 23 total threads with 3 sets of task threads.
+LogStats: Stats thread started at 0.454289
+LogD3D11RHI: Loaded GFSDK_Aftermath_Lib.x64.dll
+LogICUInternationalization: ICU TimeZone Detection - Raw Offset: -6:00, Platform Override: ''
+LogPluginManager: Mounting plugin Paper2D
+LogPluginManager: Mounting plugin AISupport
+LogPluginManager: Mounting plugin LightPropagationVolume
+LogPluginManager: Mounting plugin ActorLayerUtilities
+LogPluginManager: Mounting plugin CLionSourceCodeAccess
+LogPluginManager: Mounting plugin CodeLiteSourceCodeAccess
+LogPluginManager: Mounting plugin GitSourceControl
+LogPluginManager: Mounting plugin KDevelopSourceCodeAccess
+LogPluginManager: Mounting plugin NullSourceCodeAccess
+LogPluginManager: Mounting plugin PerforceSourceControl
+LogPluginManager: Mounting plugin SubversionSourceControl
+LogPluginManager: Mounting plugin UObjectPlugin
+LogPluginManager: Mounting plugin VisualStudioCodeSourceCodeAccess
+LogPluginManager: Mounting plugin VisualStudioSourceCodeAccess
+LogPluginManager: Mounting plugin XCodeSourceCodeAccess
+LogPluginManager: Mounting plugin AssetManagerEditor
+LogPluginManager: Mounting plugin CryptoKeys
+LogPluginManager: Mounting plugin DataValidation
+LogPluginManager: Mounting plugin FacialAnimation
+LogPluginManager: Mounting plugin GameplayTagsEditor
+LogPluginManager: Mounting plugin MacGraphicsSwitching
+LogPluginManager: Mounting plugin MeshEditor
+LogPluginManager: Mounting plugin MobileLauncherProfileWizard
+LogPluginManager: Mounting plugin PluginBrowser
+LogPluginManager: Mounting plugin SpeedTreeImporter
+LogPluginManager: Mounting plugin DatasmithContent
+LogPluginManager: Mounting plugin VariantManagerContent
+LogPluginManager: Mounting plugin AlembicImporter
+LogPluginManager: Mounting plugin AppleImageUtils
+LogPluginManager: Mounting plugin AppleVision
+LogPluginManager: Mounting plugin BackChannel
+LogPluginManager: Mounting plugin CharacterAI
+LogPluginManager: Mounting plugin GeometryCache
+LogPluginManager: Mounting plugin HTML5Networking
+LogPluginManager: Mounting plugin ProxyLODPlugin
+LogPluginManager: Mounting plugin MagicLeap
+LogPluginManager: Mounting plugin MagicLeapMedia
+LogPluginManager: Mounting plugin AndroidMedia
+LogPluginManager: Mounting plugin AvfMedia
+LogPluginManager: Mounting plugin ImgMedia
+LogPluginManager: Mounting plugin LinearTimecode
+LogPluginManager: Mounting plugin MediaCompositing
+LogPluginManager: Mounting plugin MediaPlayerEditor
+LogPluginManager: Mounting plugin WebMMedia
+LogPluginManager: Mounting plugin WmfMedia
+LogPluginManager: Mounting plugin TcpMessaging
+LogPluginManager: Mounting plugin UdpMessaging
+LogPluginManager: Mounting plugin ActorSequence
+LogPluginManager: Mounting plugin LevelSequenceEditor
+LogPluginManager: Mounting plugin MatineeToLevelSequence
+LogPluginManager: Mounting plugin NetcodeUnitTest
+LogPluginManager: Mounting plugin NUTUnrealEngine4
+LogPluginManager: Mounting plugin OnlineSubsystemGooglePlay
+LogPluginManager: Mounting plugin OnlineSubsystemIOS
+LogPluginManager: Mounting plugin OnlineSubsystem
+LogPluginManager: Mounting plugin OnlineSubsystemNull
+LogPluginManager: Mounting plugin OnlineSubsystemUtils
+LogPluginManager: Mounting plugin LauncherChunkInstaller
+LogPluginManager: Mounting plugin AndroidDeviceProfileSelector
+LogPluginManager: Mounting plugin AndroidMoviePlayer
+LogPluginManager: Mounting plugin AndroidPermission
+LogPluginManager: Mounting plugin AppleMoviePlayer
+LogPluginManager: Mounting plugin ArchVisCharacter
+LogPluginManager: Mounting plugin AudioCapture
+LogPluginManager: Mounting plugin CableComponent
+LogPluginManager: Mounting plugin CustomMeshComponent
+LogPluginManager: Mounting plugin EditableMesh
+LogPluginManager: Mounting plugin ExampleDeviceProfileSelector
+LogPluginManager: Mounting plugin Firebase
+LogPluginManager: Mounting plugin GoogleCloudMessaging
+LogPluginManager: Mounting plugin IOSDeviceProfileSelector
+LogPluginManager: Mounting plugin LinuxDeviceProfileSelector
+LogPluginManager: Mounting plugin LocationServicesBPLibrary
+LogPluginManager: Mounting plugin MobilePatchingUtils
+LogPluginManager: Mounting plugin OculusVR
+LogPluginManager: Mounting plugin PhysXVehicles
+LogPluginManager: Mounting plugin ProceduralMeshComponent
+LogPluginManager: Mounting plugin RuntimePhysXCooking
+LogPluginManager: Mounting plugin SteamVR
+LogPluginManager: Mounting plugin WebMMoviePlayer
+LogPluginManager: Mounting plugin WindowsMoviePlayer
+LogStreaming: Display: Took  0.191s to configure plugins.
+LogInit: Using libcurl 7.55.1-DEV
+LogInit:  - built for x86_64-pc-win32
+LogInit:  - supports SSL with OpenSSL/1.0.2h
+LogInit:  - supports HTTP deflate (compression) using libz 1.2.8
+LogInit:  - other features:
+LogInit:      CURL_VERSION_SSL
+LogInit:      CURL_VERSION_LIBZ
+LogInit:      CURL_VERSION_IPV6
+LogInit:      CURL_VERSION_ASYNCHDNS
+LogInit:      CURL_VERSION_LARGEFILE
+LogInit:      CURL_VERSION_IDN
+LogInit:  CurlRequestOptions (configurable via config and command line):
+LogInit:  - bVerifyPeer = true  - Libcurl will verify peer certificate
+LogInit:  - bUseHttpProxy = false  - Libcurl will NOT use HTTP proxy
+LogInit:  - bDontReuseConnections = false  - Libcurl will reuse connections
+LogInit:  - MaxHostConnections = 16  - Libcurl will limit the number of connections to a host
+LogInit:  - LocalHostAddr = Default
+LogInit:  - BufferSize = 65536
+LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+LogInit: Build: ++UE4+Release-4.21-CL-4753647
+LogInit: Engine Version: 4.21.2-4753647+++UE4+Release-4.21
+LogInit: Compatible Engine Version: 4.21.0-4541578+++UE4+Release-4.21
+LogInit: Net CL: 4541578
+LogInit: OS: Windows 10 (), CPU: Intel(R) Core(TM) i7-6700HQ CPU @ 2.60GHz, GPU: Intel(R) HD Graphics 530
+LogInit: Compiled (64-bit): Jan 19 2019 02:07:31
+LogInit: Compiled with Visual C++: 19.13.26129.00
+LogInit: Build Configuration: Development
+LogInit: Branch Name: ++UE4+Release-4.21
+LogInit: Command Line:  -skipcompile
+LogInit: Base Directory: C:/Program Files/Epic Games/UE_4.21/Engine/Binaries/Win64/
+LogInit: Installed Engine Build: 1
+LogDevObjectVersion: Number of dev versions registered: 22
+LogDevObjectVersion:   Dev-Blueprints (B0D832E4-1F89-4F0D-ACCF-7EB736FD4AA2): 10
+LogDevObjectVersion:   Dev-Build (E1C64328-A22C-4D53-A36C-8E866417BD8C): 0
+LogDevObjectVersion:   Dev-Core (375EC13C-06E4-48FB-B500-84F0262A717E): 2
+LogDevObjectVersion:   Dev-Editor (E4B068ED-F494-42E9-A231-DA0B2E46BB41): 26
+LogDevObjectVersion:   Dev-Framework (CFFC743F-43B0-4480-9391-14DF171D2073): 34
+LogDevObjectVersion:   Dev-Mobile (B02B49B5-BB20-44E9-A304-32B752E40360): 2
+LogDevObjectVersion:   Dev-Networking (A4E4105C-59A1-49B5-A7C5-40C4547EDFEE): 0
+LogDevObjectVersion:   Dev-Online (39C831C9-5AE6-47DC-9A44-9C173E1C8E7C): 0
+LogDevObjectVersion:   Dev-Physics (78F01B33-EBEA-4F98-B9B4-84EACCB95AA2): 0
+LogDevObjectVersion:   Dev-Platform (6631380F-2D4D-43E0-8009-CF276956A95A): 0
+LogDevObjectVersion:   Dev-Rendering (12F88B9F-8875-4AFC-A67C-D90C383ABD29): 27
+LogDevObjectVersion:   Dev-Sequencer (7B5AE74C-D270-4C10-A958-57980B212A5A): 9
+LogDevObjectVersion:   Dev-VR (D7296918-1DD6-4BDD-9DE2-64A83CC13884): 2
+LogDevObjectVersion:   Dev-LoadTimes (C2A15278-BFE7-4AFE-6C17-90FF531DF755): 1
+LogDevObjectVersion:   Private-Geometry (6EACA3D4-40EC-4CC1-B786-8BED09428FC5): 3
+LogDevObjectVersion:   Dev-AnimPhys (29E575DD-E0A3-4627-9D10-D276232CDCEA): 17
+LogDevObjectVersion:   Dev-Anim (AF43A65D-7FD3-4947-9873-3E8ED9C1BB05): 2
+LogDevObjectVersion:   Dev-ReflectionCapture (6B266CEC-1EC7-4B8F-A30B-E4D90942FC07): 1
+LogDevObjectVersion:   Dev-Automation (0DF73D61-A23F-47EA-B727-89E90C41499A): 1
+LogDevObjectVersion:   FortniteMain (601D1886-AC64-4F84-AA16-D3DE0DEAC7D6): 17
+LogDevObjectVersion:   Dev-Enterprise (9DFFBCD6-494F-0158-E221-12823C92A888): 4
+LogDevObjectVersion:   Dev-Niagara (F2AED0AC-9AFE-416F-8664-AA7FFA26D6FC): 1
+LogStreaming: Display: Took  0.011s to delete old logs.
+LogInit: Presizing for max 8388607 objects, including 0 objects not considered by GC, pre-allocating 0 bytes for permanent pool.
+LogInit: Object subsystem initialized
+LogConfig: Setting CVar [[con.DebugEarlyDefault:1]]
+LogConfig: Setting CVar [[r.setres:1280x720]]
+[2019.01.27-18.03.37:186][  0]LogConfig: Setting CVar [[r.VSync:0]]
+[2019.01.27-18.03.37:186][  0]LogConfig: Setting CVar [[r.RHICmdBypass:0]]
+[2019.01.27-18.03.37:187][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.RendererSettings] File [C:/Users/Juan Pablo/Documents/Unreal Projects/AI/PathSearch/Saved/Config/Windows/Engine.ini]
+[2019.01.27-18.03.37:187][  0]LogConfig: Setting CVar [[r.GPUCrashDebugging:0]]
+[2019.01.27-18.03.37:187][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.RendererOverrideSettings] File [C:/Users/Juan Pablo/Documents/Unreal Projects/AI/PathSearch/Saved/Config/Windows/Engine.ini]
+[2019.01.27-18.03.37:187][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.StreamingSettings] File [C:/Users/Juan Pablo/Documents/Unreal Projects/AI/PathSearch/Saved/Config/Windows/Engine.ini]
+[2019.01.27-18.03.37:188][  0]LogConfig: Setting CVar [[s.MinBulkDataSizeForAsyncLoading:131072]]
+[2019.01.27-18.03.37:188][  0]LogConfig: Setting CVar [[s.AsyncLoadingThreadEnabled:0]]
+[2019.01.27-18.03.37:188][  0]LogConfig: Setting CVar [[s.EventDrivenLoaderEnabled:1]]
+[2019.01.27-18.03.37:188][  0]LogConfig: Setting CVar [[s.WarnIfTimeLimitExceeded:0]]
+[2019.01.27-18.03.37:189][  0]LogConfig: Setting CVar [[s.TimeLimitExceededMultiplier:1.5]]
+[2019.01.27-18.03.37:189][  0]LogConfig: Setting CVar [[s.TimeLimitExceededMinTime:0.005]]
+[2019.01.27-18.03.37:189][  0]LogConfig: Setting CVar [[s.UseBackgroundLevelStreaming:1]]
+[2019.01.27-18.03.37:189][  0]LogConfig: Setting CVar [[s.PriorityAsyncLoadingExtraTime:15.0]]
+[2019.01.27-18.03.37:190][  0]LogConfig: Setting CVar [[s.LevelStreamingActorsUpdateTimeLimit:5.0]]
+[2019.01.27-18.03.37:190][  0]LogConfig: Setting CVar [[s.PriorityLevelStreamingActorsUpdateExtraTime:5.0]]
+[2019.01.27-18.03.37:190][  0]LogConfig: Setting CVar [[s.LevelStreamingComponentsRegistrationGranularity:10]]
+[2019.01.27-18.03.37:190][  0]LogConfig: Setting CVar [[s.UnregisterComponentsTimeLimit:1.0]]
+[2019.01.27-18.03.37:191][  0]LogConfig: Setting CVar [[s.LevelStreamingComponentsUnregistrationGranularity:5]]
+[2019.01.27-18.03.37:191][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.GarbageCollectionSettings] File [C:/Users/Juan Pablo/Documents/Unreal Projects/AI/PathSearch/Saved/Config/Windows/Engine.ini]
+[2019.01.27-18.03.37:191][  0]LogConfig: Setting CVar [[gc.MaxObjectsNotConsideredByGC:1]]
+[2019.01.27-18.03.37:192][  0]LogConfig: Setting CVar [[gc.SizeOfPermanentObjectPool:0]]
+[2019.01.27-18.03.37:192][  0]LogConfig: Setting CVar [[gc.FlushStreamingOnGC:0]]
+[2019.01.27-18.03.37:192][  0]LogConfig: Setting CVar [[gc.NumRetriesBeforeForcingGC:10]]
+[2019.01.27-18.03.37:192][  0]LogConfig: Setting CVar [[gc.AllowParallelGC:1]]
+[2019.01.27-18.03.37:193][  0]LogConfig: Setting CVar [[gc.TimeBetweenPurgingPendingKillObjects:61.1]]
+[2019.01.27-18.03.37:193][  0]LogConfig: Setting CVar [[gc.MaxObjectsInEditor:8388607]]
+[2019.01.27-18.03.37:193][  0]LogConfig: Setting CVar [[gc.IncrementalBeginDestroyEnabled:1]]
+[2019.01.27-18.03.37:193][  0]LogConfig: Setting CVar [[gc.CreateGCClusters:1]]
+[2019.01.27-18.03.37:194][  0]LogConfig: Setting CVar [[gc.MergeGCClusters:0]]
+[2019.01.27-18.03.37:194][  0]LogConfig: Setting CVar [[gc.MinGCClusterSize:5]]
+[2019.01.27-18.03.37:194][  0]LogConfig: Setting CVar [[gc.ActorClusteringEnabled:0]]
+[2019.01.27-18.03.37:194][  0]LogConfig: Setting CVar [[gc.BlueprintClusteringEnabled:0]]
+[2019.01.27-18.03.37:195][  0]LogConfig: Setting CVar [[gc.UseDisregardForGCOnDedicatedServers:0]]
+[2019.01.27-18.03.37:195][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.NetworkSettings] File [C:/Users/Juan Pablo/Documents/Unreal Projects/AI/PathSearch/Saved/Config/Windows/Engine.ini]
+[2019.01.27-18.03.37:195][  0]LogConfig: Applying CVar settings from Section [/Script/UnrealEd.CookerSettings] File [C:/Users/Juan Pablo/Documents/Unreal Projects/AI/PathSearch/Saved/Config/Windows/Engine.ini]
+[2019.01.27-18.03.37:230][  0]LogConfig: Applying CVar settings from Section [ViewDistanceQuality@3] File [C:/Users/Juan Pablo/Documents/Unreal Projects/AI/PathSearch/Saved/Config/Windows/Scalability.ini]
+[2019.01.27-18.03.37:231][  0]LogConfig: Setting CVar [[r.SkeletalMeshLODBias:0]]
+[2019.01.27-18.03.37:231][  0]LogConfig: Setting CVar [[r.ViewDistanceScale:1.0]]
+[2019.01.27-18.03.37:231][  0]LogConfig: Applying CVar settings from Section [AntiAliasingQuality@3] File [C:/Users/Juan Pablo/Documents/Unreal Projects/AI/PathSearch/Saved/Config/Windows/Scalability.ini]
+[2019.01.27-18.03.37:231][  0]LogConfig: Setting CVar [[r.PostProcessAAQuality:4]]
+[2019.01.27-18.03.37:231][  0]LogConfig: Applying CVar settings from Section [ShadowQuality@3] File [C:/Users/Juan Pablo/Documents/Unreal Projects/AI/PathSearch/Saved/Config/Windows/Scalability.ini]
+[2019.01.27-18.03.37:232][  0]LogConfig: Setting CVar [[r.LightFunctionQuality:1]]
+[2019.01.27-18.03.37:232][  0]LogConfig: Setting CVar [[r.ShadowQuality:5]]
+[2019.01.27-18.03.37:232][  0]LogConfig: Setting CVar [[r.Shadow.CSM.MaxCascades:10]]
+[2019.01.27-18.03.37:232][  0]LogConfig: Setting CVar [[r.Shadow.MaxResolution:2048]]
+[2019.01.27-18.03.37:232][  0]LogConfig: Setting CVar [[r.Shadow.MaxCSMResolution:2048]]
+[2019.01.27-18.03.37:232][  0]LogConfig: Setting CVar [[r.Shadow.RadiusThreshold:0.01]]
+[2019.01.27-18.03.37:233][  0]LogConfig: Setting CVar [[r.Shadow.DistanceScale:1.0]]
+[2019.01.27-18.03.37:233][  0]LogConfig: Setting CVar [[r.Shadow.CSM.TransitionScale:1.0]]
+[2019.01.27-18.03.37:233][  0]LogConfig: Setting CVar [[r.Shadow.PreShadowResolutionFactor:1.0]]
+[2019.01.27-18.03.37:233][  0]LogConfig: Setting CVar [[r.DistanceFieldShadowing:1]]
+[2019.01.27-18.03.37:233][  0]LogConfig: Setting CVar [[r.DistanceFieldAO:1]]
+[2019.01.27-18.03.37:234][  0]LogConfig: Setting CVar [[r.AOQuality:2]]
+[2019.01.27-18.03.37:234][  0]LogConfig: Setting CVar [[r.VolumetricFog:1]]
+[2019.01.27-18.03.37:234][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridPixelSize:8]]
+[2019.01.27-18.03.37:234][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridSizeZ:128]]
+[2019.01.27-18.03.37:234][  0]LogConfig: Setting CVar [[r.VolumetricFog.HistoryMissSupersampleCount:4]]
+[2019.01.27-18.03.37:234][  0]LogConfig: Setting CVar [[r.LightMaxDrawDistanceScale:1]]
+[2019.01.27-18.03.37:235][  0]LogConfig: Setting CVar [[r.CapsuleShadows:1]]
+[2019.01.27-18.03.37:235][  0]LogConfig: Applying CVar settings from Section [PostProcessQuality@3] File [C:/Users/Juan Pablo/Documents/Unreal Projects/AI/PathSearch/Saved/Config/Windows/Scalability.ini]
+[2019.01.27-18.03.37:235][  0]LogConfig: Setting CVar [[r.MotionBlurQuality:4]]
+[2019.01.27-18.03.37:235][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMipLevelFactor:0.4]]
+[2019.01.27-18.03.37:235][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMaxQuality:100]]
+[2019.01.27-18.03.37:235][  0]LogConfig: Setting CVar [[r.AmbientOcclusionLevels:-1]]
+[2019.01.27-18.03.37:236][  0]LogConfig: Setting CVar [[r.AmbientOcclusionRadiusScale:1.0]]
+[2019.01.27-18.03.37:236][  0]LogConfig: Setting CVar [[r.DepthOfFieldQuality:2]]
+[2019.01.27-18.03.37:236][  0]LogConfig: Setting CVar [[r.RenderTargetPoolMin:400]]
+[2019.01.27-18.03.37:236][  0]LogConfig: Setting CVar [[r.LensFlareQuality:2]]
+[2019.01.27-18.03.37:236][  0]LogConfig: Setting CVar [[r.SceneColorFringeQuality:1]]
+[2019.01.27-18.03.37:236][  0]LogConfig: Setting CVar [[r.EyeAdaptationQuality:2]]
+[2019.01.27-18.03.37:237][  0]LogConfig: Setting CVar [[r.BloomQuality:5]]
+[2019.01.27-18.03.37:237][  0]LogConfig: Setting CVar [[r.FastBlurThreshold:100]]
+[2019.01.27-18.03.37:237][  0]LogConfig: Setting CVar [[r.Upscale.Quality:3]]
+[2019.01.27-18.03.37:237][  0]LogConfig: Setting CVar [[r.Tonemapper.GrainQuantization:1]]
+[2019.01.27-18.03.37:237][  0]LogConfig: Setting CVar [[r.LightShaftQuality:1]]
+[2019.01.27-18.03.37:237][  0]LogConfig: Setting CVar [[r.Filter.SizeScale:1]]
+[2019.01.27-18.03.37:238][  0]LogConfig: Setting CVar [[r.Tonemapper.Quality:5]]
+[2019.01.27-18.03.37:238][  0]LogConfig: Setting CVar [[r.DOF.Gather.AccumulatorQuality:1        ; higher gathering accumulator quality]]
+[2019.01.27-18.03.37:238][  0]LogConfig: Setting CVar [[r.DOF.Gather.PostfilterMethod:1          ; Median3x3 postfilering method]]
+[2019.01.27-18.03.37:238][  0]LogConfig: Setting CVar [[r.DOF.Gather.EnableBokehSettings:0       ; no bokeh simulation when gathering]]
+[2019.01.27-18.03.37:238][  0]LogConfig: Setting CVar [[r.DOF.Gather.RingCount:4                 ; medium number of samples when gathering]]
+[2019.01.27-18.03.37:238][  0]LogConfig: Setting CVar [[r.DOF.Scatter.ForegroundCompositing:1    ; additive foreground scattering]]
+[2019.01.27-18.03.37:239][  0]LogConfig: Setting CVar [[r.DOF.Scatter.BackgroundCompositing:2    ; additive background scattering]]
+[2019.01.27-18.03.37:239][  0]LogConfig: Setting CVar [[r.DOF.Scatter.EnableBokehSettings:1      ; bokeh simulation when scattering]]
+[2019.01.27-18.03.37:239][  0]LogConfig: Setting CVar [[r.DOF.Scatter.MaxSpriteRatio:0.1         ; only a maximum of 10% of scattered bokeh]]
+[2019.01.27-18.03.37:239][  0]LogConfig: Setting CVar [[r.DOF.Recombine.Quality:1                ; cheap slight out of focus]]
+[2019.01.27-18.03.37:239][  0]LogConfig: Setting CVar [[r.DOF.Recombine.EnableBokehSettings:0    ; no bokeh simulation on slight out of focus]]
+[2019.01.27-18.03.37:240][  0]LogConfig: Setting CVar [[r.DOF.TemporalAAQuality:1                ; more stable temporal accumulation]]
+[2019.01.27-18.03.37:240][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxForegroundRadius:0.025]]
+[2019.01.27-18.03.37:240][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxBackgroundRadius:0.025]]
+[2019.01.27-18.03.37:240][  0]LogConfig: Applying CVar settings from Section [TextureQuality@3] File [C:/Users/Juan Pablo/Documents/Unreal Projects/AI/PathSearch/Saved/Config/Windows/Scalability.ini]
+[2019.01.27-18.03.37:240][  0]LogConfig: Setting CVar [[r.Streaming.MipBias:0]]
+[2019.01.27-18.03.37:240][  0]LogConfig: Setting CVar [[r.Streaming.AmortizeCPUToGPUCopy:0]]
+[2019.01.27-18.03.37:241][  0]LogConfig: Setting CVar [[r.Streaming.MaxNumTexturesToStreamPerFrame:0]]
+[2019.01.27-18.03.37:241][  0]LogConfig: Setting CVar [[r.Streaming.Boost:1]]
+[2019.01.27-18.03.37:241][  0]LogConfig: Setting CVar [[r.MaxAnisotropy:8]]
+[2019.01.27-18.03.37:241][  0]LogConfig: Setting CVar [[r.Streaming.LimitPoolSizeToVRAM:0]]
+[2019.01.27-18.03.37:241][  0]LogConfig: Setting CVar [[r.Streaming.PoolSize:1000]]
+[2019.01.27-18.03.37:242][  0]LogConfig: Setting CVar [[r.Streaming.MaxEffectiveScreenSize:0]]
+[2019.01.27-18.03.37:242][  0]LogConfig: Applying CVar settings from Section [EffectsQuality@3] File [C:/Users/Juan Pablo/Documents/Unreal Projects/AI/PathSearch/Saved/Config/Windows/Scalability.ini]
+[2019.01.27-18.03.37:242][  0]LogConfig: Setting CVar [[r.TranslucencyLightingVolumeDim:64]]
+[2019.01.27-18.03.37:242][  0]LogConfig: Setting CVar [[r.RefractionQuality:2]]
+[2019.01.27-18.03.37:242][  0]LogConfig: Setting CVar [[r.SSR.Quality:3]]
+[2019.01.27-18.03.37:242][  0]LogConfig: Setting CVar [[r.SceneColorFormat:4]]
+[2019.01.27-18.03.37:242][  0]LogConfig: Setting CVar [[r.DetailMode:2]]
+[2019.01.27-18.03.37:242][  0]LogConfig: Setting CVar [[r.TranslucencyVolumeBlur:1]]
+[2019.01.27-18.03.37:242][  0]LogConfig: Setting CVar [[r.MaterialQualityLevel:1 ; High quality]]
+[2019.01.27-18.03.37:243][  0]LogConfig: Setting CVar [[r.SSS.Scale:1]]
+[2019.01.27-18.03.37:243][  0]LogConfig: Setting CVar [[r.SSS.SampleSet:2]]
+[2019.01.27-18.03.37:243][  0]LogConfig: Setting CVar [[r.SSS.Quality:1]]
+[2019.01.27-18.03.37:243][  0]LogConfig: Setting CVar [[r.SSS.HalfRes:1]]
+[2019.01.27-18.03.37:243][  0]LogConfig: Setting CVar [[r.EmitterSpawnRateScale:1.0]]
+[2019.01.27-18.03.37:243][  0]LogConfig: Setting CVar [[r.ParticleLightQuality:2]]
+[2019.01.27-18.03.37:243][  0]LogConfig: Applying CVar settings from Section [FoliageQuality@3] File [C:/Users/Juan Pablo/Documents/Unreal Projects/AI/PathSearch/Saved/Config/Windows/Scalability.ini]
+[2019.01.27-18.03.37:243][  0]LogConfig: Setting CVar [[foliage.DensityScale:1.0]]
+[2019.01.27-18.03.37:244][  0]LogConfig: Setting CVar [[grass.DensityScale:1.0]]
+[2019.01.27-18.03.37:244][  0]LogInit: Selected Device Profile: [Windows]
+[2019.01.27-18.03.37:244][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2019.01.27-18.03.37:263][  0]LogHAL: Display: Platform has ~ 12 GB [12744183808 / 17179869184 / 12], which maps to Larger [LargestMinGB=32, LargerMinGB=12, DefaultMinGB=8, SmallerMinGB=6, SmallestMinGB=0)
+[2019.01.27-18.03.37:263][  0]LogConfig: Setting CVar [[r.Vulkan.UseRealUBs:1]]
+[2019.01.27-18.03.37:263][  0]LogInit: Going up to parent DeviceProfile []
+[2019.01.27-18.03.37:264][  0]LogConfig: Applying CVar settings from Section [ViewDistanceQuality@2] File [C:/Users/Juan Pablo/Documents/Unreal Projects/AI/PathSearch/Saved/Config/Windows/Scalability.ini]
+[2019.01.27-18.03.37:264][  0]LogConfig: Setting CVar [[r.SkeletalMeshLODBias:0]]
+[2019.01.27-18.03.37:264][  0]LogConfig: Setting CVar [[r.ViewDistanceScale:0.8]]
+[2019.01.27-18.03.37:264][  0]LogConfig: Applying CVar settings from Section [AntiAliasingQuality@2] File [C:/Users/Juan Pablo/Documents/Unreal Projects/AI/PathSearch/Saved/Config/Windows/Scalability.ini]
+[2019.01.27-18.03.37:264][  0]LogConfig: Setting CVar [[r.PostProcessAAQuality:3]]
+[2019.01.27-18.03.37:264][  0]LogConfig: Applying CVar settings from Section [ShadowQuality@2] File [C:/Users/Juan Pablo/Documents/Unreal Projects/AI/PathSearch/Saved/Config/Windows/Scalability.ini]
+[2019.01.27-18.03.37:264][  0]LogConfig: Setting CVar [[r.LightFunctionQuality:1]]
+[2019.01.27-18.03.37:264][  0]LogConfig: Setting CVar [[r.ShadowQuality:5]]
+[2019.01.27-18.03.37:265][  0]LogConfig: Setting CVar [[r.Shadow.CSM.MaxCascades:4]]
+[2019.01.27-18.03.37:265][  0]LogConfig: Setting CVar [[r.Shadow.MaxResolution:1024]]
+[2019.01.27-18.03.37:265][  0]LogConfig: Setting CVar [[r.Shadow.MaxCSMResolution:2048]]
+[2019.01.27-18.03.37:265][  0]LogConfig: Setting CVar [[r.Shadow.RadiusThreshold:0.04]]
+[2019.01.27-18.03.37:265][  0]LogConfig: Setting CVar [[r.Shadow.DistanceScale:0.85]]
+[2019.01.27-18.03.37:265][  0]LogConfig: Setting CVar [[r.Shadow.CSM.TransitionScale:0.8]]
+[2019.01.27-18.03.37:265][  0]LogConfig: Setting CVar [[r.Shadow.PreShadowResolutionFactor:0.5]]
+[2019.01.27-18.03.37:265][  0]LogConfig: Setting CVar [[r.DistanceFieldShadowing:1]]
+[2019.01.27-18.03.37:266][  0]LogConfig: Setting CVar [[r.DistanceFieldAO:1]]
+[2019.01.27-18.03.37:266][  0]LogConfig: Setting CVar [[r.AOQuality:1]]
+[2019.01.27-18.03.37:266][  0]LogConfig: Setting CVar [[r.VolumetricFog:1]]
+[2019.01.27-18.03.37:266][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridPixelSize:16]]
+[2019.01.27-18.03.37:266][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridSizeZ:64]]
+[2019.01.27-18.03.37:266][  0]LogConfig: Setting CVar [[r.VolumetricFog.HistoryMissSupersampleCount:4]]
+[2019.01.27-18.03.37:266][  0]LogConfig: Setting CVar [[r.LightMaxDrawDistanceScale:1]]
+[2019.01.27-18.03.37:266][  0]LogConfig: Setting CVar [[r.CapsuleShadows:1]]
+[2019.01.27-18.03.37:266][  0]LogConfig: Applying CVar settings from Section [PostProcessQuality@2] File [C:/Users/Juan Pablo/Documents/Unreal Projects/AI/PathSearch/Saved/Config/Windows/Scalability.ini]
+[2019.01.27-18.03.37:266][  0]LogConfig: Setting CVar [[r.MotionBlurQuality:3]]
+[2019.01.27-18.03.37:267][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMipLevelFactor:0.6]]
+[2019.01.27-18.03.37:267][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMaxQuality:100]]
+[2019.01.27-18.03.37:267][  0]LogConfig: Setting CVar [[r.AmbientOcclusionLevels:-1]]
+[2019.01.27-18.03.37:267][  0]LogConfig: Setting CVar [[r.AmbientOcclusionRadiusScale:1.5]]
+[2019.01.27-18.03.37:267][  0]LogConfig: Setting CVar [[r.DepthOfFieldQuality:2]]
+[2019.01.27-18.03.37:267][  0]LogConfig: Setting CVar [[r.RenderTargetPoolMin:400]]
+[2019.01.27-18.03.37:267][  0]LogConfig: Setting CVar [[r.LensFlareQuality:2]]
+[2019.01.27-18.03.37:267][  0]LogConfig: Setting CVar [[r.SceneColorFringeQuality:1]]
+[2019.01.27-18.03.37:267][  0]LogConfig: Setting CVar [[r.EyeAdaptationQuality:2]]
+[2019.01.27-18.03.37:267][  0]LogConfig: Setting CVar [[r.BloomQuality:5]]
+[2019.01.27-18.03.37:268][  0]LogConfig: Setting CVar [[r.FastBlurThreshold:3]]
+[2019.01.27-18.03.37:268][  0]LogConfig: Setting CVar [[r.Upscale.Quality:2]]
+[2019.01.27-18.03.37:268][  0]LogConfig: Setting CVar [[r.Tonemapper.GrainQuantization:1]]
+[2019.01.27-18.03.37:268][  0]LogConfig: Setting CVar [[r.LightShaftQuality:1]]
+[2019.01.27-18.03.37:268][  0]LogConfig: Setting CVar [[r.Filter.SizeScale:0.8]]
+[2019.01.27-18.03.37:268][  0]LogConfig: Setting CVar [[r.Tonemapper.Quality:5]]
+[2019.01.27-18.03.37:268][  0]LogConfig: Setting CVar [[r.DOF.Gather.AccumulatorQuality:0        ; lower gathering accumulator quality]]
+[2019.01.27-18.03.37:268][  0]LogConfig: Setting CVar [[r.DOF.Gather.PostfilterMethod:2          ; Max3x3 postfilering method]]
+[2019.01.27-18.03.37:268][  0]LogConfig: Setting CVar [[r.DOF.Gather.EnableBokehSettings:0       ; no bokeh simulation when gathering]]
+[2019.01.27-18.03.37:268][  0]LogConfig: Setting CVar [[r.DOF.Gather.RingCount:4                 ; medium number of samples when gathering]]
+[2019.01.27-18.03.37:268][  0]LogConfig: Setting CVar [[r.DOF.Scatter.ForegroundCompositing:1    ; additive foreground scattering]]
+[2019.01.27-18.03.37:269][  0]LogConfig: Setting CVar [[r.DOF.Scatter.BackgroundCompositing:1    ; no background occlusion]]
+[2019.01.27-18.03.37:269][  0]LogConfig: Setting CVar [[r.DOF.Scatter.EnableBokehSettings:0      ; no bokeh simulation when scattering]]
+[2019.01.27-18.03.37:269][  0]LogConfig: Setting CVar [[r.DOF.Scatter.MaxSpriteRatio:0.04        ; only a maximum of 4% of scattered bokeh]]
+[2019.01.27-18.03.37:269][  0]LogConfig: Setting CVar [[r.DOF.Recombine.Quality:0                ; no slight out of focus]]
+[2019.01.27-18.03.37:269][  0]LogConfig: Setting CVar [[r.DOF.TemporalAAQuality:0                ; faster temporal accumulation]]
+[2019.01.27-18.03.37:269][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxForegroundRadius:0.012   ; required because of AccumulatorQuality=0]]
+[2019.01.27-18.03.37:269][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxBackgroundRadius:0.012   ; required because of AccumulatorQuality=0]]
+[2019.01.27-18.03.37:269][  0]LogConfig: Applying CVar settings from Section [TextureQuality@2] File [C:/Users/Juan Pablo/Documents/Unreal Projects/AI/PathSearch/Saved/Config/Windows/Scalability.ini]
+[2019.01.27-18.03.37:269][  0]LogConfig: Setting CVar [[r.Streaming.MipBias:0]]
+[2019.01.27-18.03.37:270][  0]LogConfig: Setting CVar [[r.Streaming.AmortizeCPUToGPUCopy:0]]
+[2019.01.27-18.03.37:270][  0]LogConfig: Setting CVar [[r.Streaming.MaxNumTexturesToStreamPerFrame:0]]
+[2019.01.27-18.03.37:270][  0]LogConfig: Setting CVar [[r.Streaming.Boost:1]]
+[2019.01.27-18.03.37:270][  0]LogConfig: Setting CVar [[r.MaxAnisotropy:4]]
+[2019.01.27-18.03.37:270][  0]LogConfig: Setting CVar [[r.Streaming.LimitPoolSizeToVRAM:1]]
+[2019.01.27-18.03.37:270][  0]LogConfig: Setting CVar [[r.Streaming.PoolSize:800]]
+[2019.01.27-18.03.37:270][  0]LogConfig: Setting CVar [[r.Streaming.MaxEffectiveScreenSize:0]]
+[2019.01.27-18.03.37:270][  0]LogConfig: Applying CVar settings from Section [EffectsQuality@2] File [C:/Users/Juan Pablo/Documents/Unreal Projects/AI/PathSearch/Saved/Config/Windows/Scalability.ini]
+[2019.01.27-18.03.37:270][  0]LogConfig: Setting CVar [[r.TranslucencyLightingVolumeDim:48]]
+[2019.01.27-18.03.37:270][  0]LogConfig: Setting CVar [[r.RefractionQuality:2]]
+[2019.01.27-18.03.37:271][  0]LogConfig: Setting CVar [[r.SSR.Quality:2]]
+[2019.01.27-18.03.37:271][  0]LogConfig: Setting CVar [[r.SceneColorFormat:3]]
+[2019.01.27-18.03.37:271][  0]LogConfig: Setting CVar [[r.DetailMode:1]]
+[2019.01.27-18.03.37:271][  0]LogConfig: Setting CVar [[r.TranslucencyVolumeBlur:1]]
+[2019.01.27-18.03.37:271][  0]LogConfig: Setting CVar [[r.MaterialQualityLevel:1 ; High quality]]
+[2019.01.27-18.03.37:271][  0]LogConfig: Setting CVar [[r.SSS.Scale:1]]
+[2019.01.27-18.03.37:271][  0]LogConfig: Setting CVar [[r.SSS.SampleSet:1]]
+[2019.01.27-18.03.37:271][  0]LogConfig: Setting CVar [[r.SSS.Quality:-1]]
+[2019.01.27-18.03.37:271][  0]LogConfig: Setting CVar [[r.SSS.HalfRes:1]]
+[2019.01.27-18.03.37:272][  0]LogConfig: Setting CVar [[r.EmitterSpawnRateScale:0.5]]
+[2019.01.27-18.03.37:272][  0]LogConfig: Setting CVar [[r.ParticleLightQuality:1]]
+[2019.01.27-18.03.37:272][  0]LogConfig: Applying CVar settings from Section [FoliageQuality@2] File [C:/Users/Juan Pablo/Documents/Unreal Projects/AI/PathSearch/Saved/Config/Windows/Scalability.ini]
+[2019.01.27-18.03.37:272][  0]LogConfig: Setting CVar [[foliage.DensityScale:0.8]]
+[2019.01.27-18.03.37:272][  0]LogConfig: Setting CVar [[grass.DensityScale:0.8]]
+[2019.01.27-18.03.37:272][  0]LogConfig: Applying CVar settings from Section [Startup] File [../../../Engine/Config/ConsoleVariables.ini]
+[2019.01.27-18.03.37:273][  0]LogConfig: Setting CVar [[net.UseAdaptiveNetUpdateFrequency:0]]
+[2019.01.27-18.03.37:273][  0]LogConfig: Applying CVar settings from Section [ConsoleVariables] File [C:/Users/Juan Pablo/Documents/Unreal Projects/AI/PathSearch/Saved/Config/Windows/Engine.ini]
+[2019.01.27-18.03.37:273][  0]LogInit: Computer: DESKTOP-1MK8LI7
+[2019.01.27-18.03.37:274][  0]LogInit: User: JuanPablo
+[2019.01.27-18.03.37:274][  0]LogInit: CPU Page size=4096, Cores=4
+[2019.01.27-18.03.37:274][  0]LogInit: High frequency timer resolution =2.531254 MHz
+[2019.01.27-18.03.37:275][  0]LogMemory: Memory total: Physical=11.9GB (12GB approx)
+[2019.01.27-18.03.37:275][  0]LogMemory: Platform Memory Stats for Windows
+[2019.01.27-18.03.37:275][  0]LogMemory: Process Physical Memory: 103.21 MB used, 103.21 MB peak
+[2019.01.27-18.03.37:275][  0]LogMemory: Process Virtual Memory: 90.20 MB used, 90.20 MB peak
+[2019.01.27-18.03.37:275][  0]LogMemory: Physical Memory: 7372.65 MB used,  4781.15 MB free, 12153.80 MB total
+[2019.01.27-18.03.37:276][  0]LogMemory: Virtual Memory: 4652.17 MB used,  134213072.00 MB free, 134217728.00 MB total
+[2019.01.27-18.03.37:458][  0]LogInit: Overriding language with editor language configuration option (en).
+[2019.01.27-18.03.37:458][  0]LogInit: Overriding locale with editor culture configuration option ().
+[2019.01.27-18.03.37:458][  0]LogInit: Using OS detected locale (es-MX).
+[2019.01.27-18.03.37:940][  0]LogStreaming: Display: Took  0.482s to InitEngineTextLocalization.
+[2019.01.27-18.03.37:941][  0]LogInit: Setting process to per monitor DPI aware
+[2019.01.27-18.03.38:044][  0]LogSlate: New Slate User Created.  User Index 0, Is Virtual User: 0
+[2019.01.27-18.03.38:044][  0]LogSlate: Slate User Registered.  User Index 0, Is Virtual User: 0
+[2019.01.27-18.03.38:486][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2019.01.27-18.03.38:486][  0]LogD3D11RHI: D3D11 adapters:
+[2019.01.27-18.03.38:635][  0]LogD3D11RHI:    0. 'NVIDIA GeForce GTX 970M' (Feature Level 11_0)
+[2019.01.27-18.03.38:636][  0]LogD3D11RHI:       3029/0/6076 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:2, VendorId:0x10de
+[2019.01.27-18.03.38:678][  0]LogD3D11RHI:    1. 'Intel(R) HD Graphics 530' (Feature Level 11_0)
+[2019.01.27-18.03.38:678][  0]LogD3D11RHI:       128/0/6076 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x8086
+[2019.01.27-18.03.38:688][  0]LogD3D11RHI:    2. 'Microsoft Basic Render Driver' (Feature Level 11_0)
+[2019.01.27-18.03.38:688][  0]LogD3D11RHI:       0/0/6076 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
+[2019.01.27-18.03.38:688][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
+[2019.01.27-18.03.38:742][  0]LogD3D11RHI: Creating new Direct3DDevice
+[2019.01.27-18.03.38:742][  0]LogD3D11RHI:     GPU DeviceId: 0x13d8 (for the marketing name, search the web for "GPU Device Id")
+[2019.01.27-18.03.38:742][  0]LogWindows: EnumDisplayDevices:
+[2019.01.27-18.03.38:742][  0]LogWindows:    0. 'Intel(R) HD Graphics 530' (P:1 D:1)
+[2019.01.27-18.03.38:743][  0]LogWindows:    1. 'Intel(R) HD Graphics 530' (P:0 D:0)
+[2019.01.27-18.03.38:744][  0]LogWindows:    2. 'Intel(R) HD Graphics 530' (P:0 D:0)
+[2019.01.27-18.03.38:744][  0]LogWindows:    3. 'NVIDIA GeForce GTX 970M' (P:0 D:1)
+[2019.01.27-18.03.38:745][  0]LogWindows: DebugString: PrimaryIsNotTheChoosenAdapter PrimaryIsNotTheChoosenAdapter PrimaryIsNotTheChoosenAdapter 
+[2019.01.27-18.03.38:745][  0]LogD3D11RHI:     Adapter Name: NVIDIA GeForce GTX 970M
+[2019.01.27-18.03.38:745][  0]LogD3D11RHI:   Driver Version: 417.35 (internal:25.21.14.1735, unified:417.35)
+[2019.01.27-18.03.38:745][  0]LogD3D11RHI:      Driver Date: 12-11-2018
+[2019.01.27-18.03.38:745][  0]LogRHI: Texture pool is 2120 MB (70% of 3029 MB)
+[2019.01.27-18.03.38:816][  0]LogD3D11RHI: Async texture creation enabled
+[2019.01.27-18.03.38:835][  0]LogD3D11RHI: GPU Timing Frequency: 1000.000000 (Debug: 2 2)
+[2019.01.27-18.03.39:302][  0]LogTemp: Display: Loaded TP AllDesktopTargetPlatform
+[2019.01.27-18.03.39:327][  0]LogTemp: Display: Loaded TP MacClientTargetPlatform
+[2019.01.27-18.03.39:356][  0]LogTemp: Display: Loaded TP MacNoEditorTargetPlatform
+[2019.01.27-18.03.39:382][  0]LogTemp: Display: Loaded TP MacServerTargetPlatform
+[2019.01.27-18.03.39:405][  0]LogTemp: Display: Loaded TP MacTargetPlatform
+[2019.01.27-18.03.39:428][  0]LogTemp: Display: Loaded TP WindowsClientTargetPlatform
+[2019.01.27-18.03.39:449][  0]LogTemp: Display: Loaded TP WindowsNoEditorTargetPlatform
+[2019.01.27-18.03.39:473][  0]LogTemp: Display: Loaded TP WindowsServerTargetPlatform
+[2019.01.27-18.03.39:488][  0]LogTemp: Display: Loaded TP WindowsTargetPlatform
+[2019.01.27-18.03.39:590][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.01.27-18.03.39:590][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.01.27-18.03.39:590][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.01.27-18.03.39:590][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.01.27-18.03.39:591][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.01.27-18.03.39:591][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.01.27-18.03.39:591][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.01.27-18.03.39:591][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.01.27-18.03.39:591][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.01.27-18.03.39:591][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.01.27-18.03.39:591][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.01.27-18.03.39:592][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.01.27-18.03.39:592][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.01.27-18.03.39:592][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.01.27-18.03.39:592][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.01.27-18.03.39:592][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.01.27-18.03.39:592][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.01.27-18.03.39:592][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.01.27-18.03.39:600][  0]LogTemp: Display: Loaded TP HTML5TargetPlatform
+[2019.01.27-18.03.39:705][  0]LogTemp: Display: Loaded TP IOSTargetPlatform
+[2019.01.27-18.03.39:706][  0]LogTemp: Display: Loaded TP IOSTargetPlatform
+[2019.01.27-18.03.39:748][  0]LogTemp: Display: Loaded TP TVOSTargetPlatform
+[2019.01.27-18.03.39:748][  0]LogTemp: Display: Loaded TP TVOSTargetPlatform
+[2019.01.27-18.03.39:771][  0]LogTemp: Display: Loaded TP LinuxClientTargetPlatform
+[2019.01.27-18.03.39:792][  0]LogTemp: Display: Loaded TP LinuxNoEditorTargetPlatform
+[2019.01.27-18.03.39:816][  0]LogTemp: Display: Loaded TP LinuxServerTargetPlatform
+[2019.01.27-18.03.39:858][  0]LogTemp: Display: Loaded TP LinuxTargetPlatform
+[2019.01.27-18.03.39:920][  0]LogTemp: Display: Loaded TP LuminTargetPlatform
+[2019.01.27-18.03.39:920][  0]LogTemp: Display: Loaded TP LuminTargetPlatform
+[2019.01.27-18.03.39:921][  0]LogTargetPlatformManager: Display: Building Assets For Windows
+[2019.01.27-18.03.40:178][  0]LogShaderCompilers: Guid format shader working directory is -24 characters bigger than the processId version (../../../../../../Users/Juan Pablo/Documents/Unreal Projects/AI/PathSearch/Intermediate/Shaders/WorkingDirectory/13356/).
+[2019.01.27-18.03.40:178][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/Juan Pablo/AppData/Local/Temp/UnrealShaderWorkingDir/0215916E4CA0F3B81AD648BF7A38C0A3/'.
+[2019.01.27-18.03.40:182][  0]LogXGEController: Cleaning working directory: C:/Users/Juan Pablo/AppData/Local/Temp/UnrealXGEWorkingDir/
+[2019.01.27-18.03.40:183][  0]LogXGEController: Cannot use XGE Controller as Incredibuild is not installed on this machine.
+[2019.01.27-18.03.40:183][  0]LogShaderCompilers: Cannot use XGE Shader Compiler as Incredibuild is not installed on this machine.
+[2019.01.27-18.03.40:183][  0]LogShaderCompilers: Display: Using Local Shader Compiler.
+[2019.01.27-18.03.40:844][  0]LogDerivedDataCache: Display: Max Cache Size: 512 MB
+[2019.01.27-18.03.40:915][  0]LogDerivedDataCache: Loaded boot cache 0.07s 71MB C:/Users/Juan Pablo/AppData/Local/UnrealEngine/4.21/DerivedDataCache/Boot.ddc.
+[2019.01.27-18.03.40:915][  0]LogDerivedDataCache: Display: Loaded Boot cache: C:/Users/Juan Pablo/AppData/Local/UnrealEngine/4.21/DerivedDataCache/Boot.ddc
+[2019.01.27-18.03.40:916][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../../Users/Juan Pablo/Documents/Unreal Projects/AI/PathSearch/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2019.01.27-18.03.40:916][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2019.01.27-18.03.40:916][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file ../../../../../../Users/Juan Pablo/Documents/Unreal Projects/AI/PathSearch/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2019.01.27-18.03.40:916][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2019.01.27-18.03.40:934][  0]LogDerivedDataCache: Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2019.01.27-18.03.40:934][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  EnterprisePak pak cache file ../../../Enterprise/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2019.01.27-18.03.40:934][  0]LogDerivedDataCache: Unable to find inner node EnterprisePak for hierarchical cache Hierarchy.
+[2019.01.27-18.03.40:951][  0]LogDerivedDataCache: Using Local data cache path C:/Users/Juan Pablo/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2019.01.27-18.03.40:951][  0]LogDerivedDataCache: Shared data cache path not found in *engine.ini, will not use an Shared cache.
+[2019.01.27-18.03.40:952][  0]LogDerivedDataCache: Unable to find inner node Shared for hierarchical cache Hierarchy.
+[2019.01.27-18.03.40:981][  0]LogMaterial: Verifying Global Shaders for PCD3D_SM5
+[2019.01.27-18.03.40:983][  0]LogSlate: Using FreeType 2.6.0
+[2019.01.27-18.03.40:985][  0]LogSlate: SlateFontServices - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2019.01.27-18.03.41:149][  0]LogAssetRegistry: FAssetRegistry took 0.0428 seconds to start up
+[2019.01.27-18.03.41:597][  0]LogInit: Selected Device Profile: [Windows]
+[2019.01.27-18.03.41:754][  0]LogSimplygon: Simplygon DLL not present - disabling.
+[2019.01.27-18.03.41:773][  0]LogMeshReduction: Using SimplygonSwarm for distributed automatic mesh merging
+[2019.01.27-18.03.41:774][  0]LogMeshReduction: Using ProxyLODMeshReduction for automatic mesh merging
+[2019.01.27-18.03.41:774][  0]LogMeshReduction: Using QuadricMeshReduction for automatic static mesh reduction
+[2019.01.27-18.03.41:774][  0]LogMeshReduction: No automatic skeletal mesh reduction module available
+[2019.01.27-18.03.41:895][  0]LogNetVersion: PathSearch 1.0.0, NetCL: 4541578, EngineNetVer: 5, GameNetVer: 0 (Checksum: 4271065824)
+[2019.01.27-18.03.42:537][  0]LogPackageLocalizationCache: Processed 11 localized package path(s) for 1 prioritized culture(s) in 0.062070 seconds
+[2019.01.27-18.03.42:551][  0]LogUObjectArray: 39775 objects as part of root set at end of initial load.
+[2019.01.27-18.03.42:551][  0]LogUObjectAllocator: 6914656 out of 0 bytes used by permanent object pool.
+[2019.01.27-18.03.42:551][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
+[2019.01.27-18.03.44:355][  0]LogTcpMessaging: Initializing TcpMessaging bridge
+[2019.01.27-18.03.44:377][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2019.01.27-18.03.45:676][  0]SourceControl: Source control is disabled
+[2019.01.27-18.03.45:676][  0]SourceControl: Source control is disabled
+[2019.01.27-18.03.45:685][  0]SourceControl: Source control is disabled
+[2019.01.27-18.03.45:693][  0]SourceControl: Source control is disabled
+[2019.01.27-18.03.46:171][  0]LogAndroidPermission: UAndroidPermissionCallbackProxy::GetInstance
+[2019.01.27-18.03.46:384][  0]LogOcInput: OculusInput pre-init called
+[2019.01.27-18.03.46:619][  0]LogEngine: Initializing Engine...
+[2019.01.27-18.03.46:620][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2019.01.27-18.03.46:622][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: ImportINI prefixes -  0.000 s
+[2019.01.27-18.03.46:622][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
+[2019.01.27-18.03.46:623][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: ImportINI -  0.000 s
+[2019.01.27-18.03.46:623][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
+[2019.01.27-18.03.46:919][  0]LogInit: Initializing FReadOnlyCVARCache
+[2019.01.27-18.03.46:946][  0]LogAIModule: Creating AISystem for world Untitled
+[2019.01.27-18.03.46:971][  0]LogInit: XAudio2 using 'Altavoces (Sound Blaster Recon3Di)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2019.01.27-18.03.47:006][  0]LogInit: FAudioDevice initialized.
+[2019.01.27-18.03.47:006][  0]LogNetVersion: Set ProjectVersion to 1.0.0.0. Version Checksum will be recalculated on next use.
+[2019.01.27-18.03.47:255][  0]LogDerivedDataCache: Saved boot cache 0.25s 71MB C:/Users/Juan Pablo/AppData/Local/UnrealEngine/4.21/DerivedDataCache/Boot.ddc.
+[2019.01.27-18.03.47:257][  0]LogInit: Texture streaming: Enabled
+[2019.01.27-18.03.47:318][  0]LogEngineSessionManager: EngineSessionManager initialized
+[2019.01.27-18.03.47:318][  0]LogEngineSessionManager: EngineSessionManager sent abnormal shutdown report. Type=Debugger, SessionId={EFDFD808-4087-0D70-776B-BFA9E0102683}
+[2019.01.27-18.03.47:318][  0]LogEngineSessionManager: EngineSessionManager sent abnormal shutdown report. Type=Debugger, SessionId={43D3D849-4B9F-9A0A-3329-33BBA29A519D}
+[2019.01.27-18.03.47:338][  0]LogInit: Transaction tracking system initialized
+[2019.01.27-18.03.47:421][  0]BlueprintLog: New page: Editor Load
+[2019.01.27-18.03.47:670][  0]LocalizationService: Localization service is disabled
+[2019.01.27-18.03.48:817][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Juan Pablo/Documents/Unreal Projects/AI/PathSearch/Content/' took 0.02s
+[2019.01.27-18.03.48:818][  0]LogCook: Display: Max memory allowance for cook 16384mb min free memory 0mb
+[2019.01.27-18.03.48:818][  0]LogCook: Display: Mobile HDR setting 1
+[2019.01.27-18.03.48:818][  0]LogGameplayTags: Display: UGameplayTagsManager::DoneAddingNativeTags. DelegateIsBound: 0
+[2019.01.27-18.03.48:818][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: ImportINI prefixes -  0.000 s
+[2019.01.27-18.03.48:818][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
+[2019.01.27-18.03.48:819][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: ImportINI -  0.000 s
+[2019.01.27-18.03.48:819][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
+[2019.01.27-18.03.49:197][  0]SourceControl: Source control is disabled
+[2019.01.27-18.03.49:198][  0]Cmd: MAP LOAD FILE="../../../../../../Users/Juan Pablo/Documents/Unreal Projects/AI/PathSearch/Content/Levels/PathSearch.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2019.01.27-18.03.49:199][  0]LightingResults: New page: Lighting Build
+[2019.01.27-18.03.49:204][  0]MapCheck: New page: Map Check
+[2019.01.27-18.03.49:204][  0]LightingResults: New page: Lighting Build
+[2019.01.27-18.03.49:412][  0]LogAIModule: Creating AISystem for world PathSearch
+[2019.01.27-18.03.49:432][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2019.01.27-18.03.49:460][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2019.01.27-18.03.49:461][  0]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 0.367ms to complete.
+[2019.01.27-18.03.49:461][  0]LogFileHelpers: Loading map 'PathSearch' took 0.264
+[2019.01.27-18.03.49:598][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.01.27-18.03.49:608][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.01.27-18.03.49:616][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.01.27-18.03.49:625][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.01.27-18.03.49:641][  0]LogCollectionManager: Loaded 0 collections in 0.004268 seconds
+[2019.01.27-18.03.49:696][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Juan Pablo/Documents/Unreal Projects/AI/PathSearch/Saved/Collections/' took 0.01s
+[2019.01.27-18.03.49:696][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Juan Pablo/Documents/Unreal Projects/AI/PathSearch/Content/Developers/JuanPablo/Collections/' took 0.02s
+[2019.01.27-18.03.49:697][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Juan Pablo/Documents/Unreal Projects/AI/PathSearch/Content/Collections/' took 0.02s
+[2019.01.27-18.03.49:697][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000000 seconds
+[2019.01.27-18.03.49:707][  0]LogContentBrowser: Native class hierarchy populated in 0.0101 seconds. Added 2662 classes and 625 folders.
+[2019.01.27-18.03.49:717][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0004 seconds. Added 0 classes and 0 folders.
+[2019.01.27-18.03.49:721][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.01.27-18.03.49:722][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.01.27-18.03.49:723][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.01.27-18.03.49:725][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.01.27-18.03.49:726][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.01.27-18.03.49:727][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.01.27-18.03.49:728][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.01.27-18.03.49:729][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.01.27-18.03.49:731][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.01.27-18.03.49:732][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.01.27-18.03.49:733][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.01.27-18.03.49:735][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.01.27-18.03.49:736][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.01.27-18.03.49:738][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.01.27-18.03.49:739][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.01.27-18.03.49:741][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.01.27-18.03.49:742][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.01.27-18.03.49:743][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.01.27-18.03.49:744][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.01.27-18.03.49:746][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.01.27-18.03.49:747][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.01.27-18.03.49:749][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.01.27-18.03.49:750][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.01.27-18.03.49:751][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.01.27-18.03.49:753][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.01.27-18.03.49:754][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.01.27-18.03.49:814][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0006 seconds. Added 0 classes and 0 folders.
+[2019.01.27-18.03.49:905][  0]LogSlate: Took 0.000534 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2019.01.27-18.03.49:914][  0]LogSlate: Took 0.000324 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
+[2019.01.27-18.03.49:921][  0]LogSlate: Took 0.000538 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
+[2019.01.27-18.03.50:047][  0]LogRenderer: Reallocating scene render targets to support 1172x592 Format 9 NumSamples 1 (Frame:1).
+[2019.01.27-18.03.50:111][  0]LogSlate: Took 0.000490 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
+[2019.01.27-18.03.50:277][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0007 seconds. Added 0 classes and 0 folders.
+[2019.01.27-18.03.50:278][  0]LogLoad: (Engine Initialization) Total time: 15.84 seconds
+[2019.01.27-18.03.50:278][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.00 seconds
+[2019.01.27-18.03.50:298][  0]LogWindowsTextInputMethodSystem: Display: IME system now deactivated.
+[2019.01.27-18.03.50:350][  0]LogContentStreaming: Texture pool size now 800 MB
+[2019.01.27-18.03.50:392][  1]LogAssetRegistry: Asset discovery search completed in 9.2725 seconds
+[2019.01.27-18.03.50:394][  1]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000000 seconds (found 0 objects)
+[2019.01.27-18.03.50:394][  1]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000239 seconds (updated 0 objects)
+[2019.01.27-18.04.17:081][215]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.01.27-18.04.17:178][219]Candidate modules for hot reload:
+[2019.01.27-18.04.17:178][219]  PathSearch
+[2019.01.27-18.04.17:178][219]Launching UnrealBuildTool... [C:/Program Files/Epic Games/UE_4.21/Engine/Binaries/DotNET/UnrealBuildTool.exe  -ModuleWithSuffix=PathSearch,1637 Win64 Development -TargetType=Editor -Project="../../../../../../Users/Juan Pablo/Documents/Unreal Projects/AI/PathSearch/PathSearch.uproject" -canskiplink "C:/Users/Juan Pablo/Documents/Unreal Projects/AI/PathSearch/PathSearch.uproject" ]
+[2019.01.27-18.04.17:180][219]Warning: Starting HotReload took  0.0s.
+[2019.01.27-18.04.30:939][358]CompilerResultsLog: New page: Compilation - 27/01/2019 06:04:30
+[2019.01.27-18.04.30:939][358]CompilerResultsLog: Using 'git status' to determine working set for adaptive non-unity build (C:\Users\Juan Pablo\Documents\Unreal Projects\AI).
+[2019.01.27-18.04.30:940][358]CompilerResultsLog: Creating makefile for hot reloading PathSearchEditor (source directory changed)
+[2019.01.27-18.04.30:940][358]CompilerResultsLog: Compiling game modules for hot reload
+[2019.01.27-18.04.30:940][358]CompilerResultsLog: Using Visual Studio 2017 14.16.27023 toolchain (C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.16.27023) and Windows 10.0.16299.0 SDK (C:\Program Files (x86)\Windows Kits\10).
+[2019.01.27-18.04.30:940][358]CompilerResultsLog: Building 3 actions with 8 processes...
+[2019.01.27-18.04.30:940][358]CompilerResultsLog:   [1/3] BranchAndBound.cpp
+[2019.01.27-18.04.30:941][358]CompilerResultsLog:   [2/3] UE4Editor-PathSearch-1637.lib
+[2019.01.27-18.04.30:941][358]CompilerResultsLog:      Creating library C:\Users\Juan Pablo\Documents\Unreal Projects\AI\PathSearch\Intermediate\Build\Win64\UE4Editor\Development\PathSearch\UE4Editor-PathSearch-1637.lib and object C:\Users\Juan Pablo\Documents\Unreal Projects\AI\PathSearch\Intermediate\Build\Win64\UE4Editor\Development\PathSearch\UE4Editor-PathSearch-1637.exp
+[2019.01.27-18.04.30:941][358]CompilerResultsLog:   [3/3] UE4Editor-PathSearch-1637.dll
+[2019.01.27-18.04.30:941][358]CompilerResultsLog:      Creating library C:\Users\Juan Pablo\Documents\Unreal Projects\AI\PathSearch\Intermediate\Build\Win64\UE4Editor\Development\PathSearch\UE4Editor-PathSearch-1637.suppressed.lib and object C:\Users\Juan Pablo\Documents\Unreal Projects\AI\PathSearch\Intermediate\Build\Win64\UE4Editor\Development\PathSearch\UE4Editor-PathSearch-1637.suppressed.exp
+[2019.01.27-18.04.30:941][358]CompilerResultsLog: Total build time: 13.19 seconds (Parallel executor: 3.34 seconds)
+[2019.01.27-18.04.30:942][358]LogMainFrame: MainFrame: Module compiling took 13.767 seconds
+[2019.01.27-18.04.31:034][358]LogContentBrowser: Native class hierarchy updated for 'PathSearch' in 0.0007 seconds. Added 10 classes and 3 folders.
+[2019.01.27-18.04.31:038][358]Display: HotReload successful (9 functions remapped  0 scriptstructs remapped)
+[2019.01.27-18.04.31:210][358]LogContentBrowser: Native class hierarchy populated in 0.0114 seconds. Added 2662 classes and 625 folders.
+[2019.01.27-18.04.31:211][358]Display: HotReload took 14.1s.
+[2019.01.27-18.04.40:576][574]LogTemp: Repeating last play command: Selected Viewport
+[2019.01.27-18.04.40:590][574]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Levels/PathSearch.PathSearch:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/PathSearch.PathSearch:PersistentLevel.PathSearch' with GeneratedClass '/Game/Levels/PathSearch.PathSearch_C' with ClassGeneratedBy '/Game/Levels/PathSearch.PathSearch:PersistentLevel.PathSearch'
+[2019.01.27-18.04.40:590][574]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2019.01.27-18.04.40:590][574]PIE: New page: PIE session: PathSearch (27/01/2019 06:04:40)
+[2019.01.27-18.04.40:606][574]LogPlayLevel: Creating play world package: /Game/Levels/UEDPIE_0_PathSearch
+[2019.01.27-18.04.40:612][574]LogPlayLevel: PIE: StaticDuplicateObject took: (0.004952s)
+[2019.01.27-18.04.40:613][574]LogAIModule: Creating AISystem for world PathSearch
+[2019.01.27-18.04.40:614][574]LogPlayLevel: PIE: World Init took: (0.001456s)
+[2019.01.27-18.04.40:614][574]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/PathSearch.PathSearch to /Game/Levels/UEDPIE_0_PathSearch.PathSearch (0.007383s)
+[2019.01.27-18.04.40:648][574]LogInit: XAudio2 using 'Altavoces (Sound Blaster Recon3Di)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2019.01.27-18.04.40:665][574]LogInit: FAudioDevice initialized.
+[2019.01.27-18.04.40:721][574]LogLoad: Game class is 'BP_GameMode_C'
+[2019.01.27-18.04.40:724][574]LogWorld: Bringing World /Game/Levels/UEDPIE_0_PathSearch.PathSearch up for play (max tick rate 60) at 2019.01.27-12.04.40
+[2019.01.27-18.04.40:725][574]LogWorld: Bringing up level for play took: 0.001048
+[2019.01.27-18.04.40:793][574]LogContentBrowser: Native class hierarchy updated for 'MovieSceneCapture' in 0.0005 seconds. Added 20 classes and 0 folders.
+[2019.01.27-18.04.40:796][574]LogTemp: Warning: Prob: 2
+[2019.01.27-18.04.40:796][574]LogTemp: Warning: Prob: 9
+[2019.01.27-18.04.40:797][574]LogTemp: Warning: Prob: 8
+[2019.01.27-18.04.40:797][574]LogTemp: Warning: Prob: 5
+[2019.01.27-18.04.40:798][574]LogTemp: Warning: Prob: 1
+[2019.01.27-18.04.40:798][574]LogTemp: Warning: Prob: 0
+[2019.01.27-18.04.40:799][574]LogTemp: Warning: Prob: 9
+[2019.01.27-18.04.40:800][574]LogTemp: Warning: Prob: 1
+[2019.01.27-18.04.40:800][574]LogTemp: Warning: Prob: 6
+[2019.01.27-18.04.40:800][574]LogTemp: Warning: Prob: 4
+[2019.01.27-18.04.40:801][574]LogTemp: Warning: Prob: 9
+[2019.01.27-18.04.40:801][574]LogTemp: Warning: Prob: 8
+[2019.01.27-18.04.40:802][574]LogTemp: Warning: Prob: 9
+[2019.01.27-18.04.40:802][574]LogTemp: Warning: Prob: 1
+[2019.01.27-18.04.40:803][574]LogTemp: Warning: Prob: 3
+[2019.01.27-18.04.40:803][574]LogTemp: Warning: Prob: 0
+[2019.01.27-18.04.40:804][574]LogTemp: Warning: Prob: 1
+[2019.01.27-18.04.40:804][574]LogTemp: Warning: Prob: 9
+[2019.01.27-18.04.40:805][574]LogTemp: Warning: Prob: 9
+[2019.01.27-18.04.40:805][574]LogTemp: Warning: Prob: 8
+[2019.01.27-18.04.40:806][574]LogTemp: Warning: Prob: 7
+[2019.01.27-18.04.40:806][574]LogTemp: Warning: Prob: 8
+[2019.01.27-18.04.40:807][574]LogTemp: Warning: Prob: 10
+[2019.01.27-18.04.40:807][574]LogTemp: Warning: Prob: 6
+[2019.01.27-18.04.40:808][574]LogTemp: Warning: Prob: 10
+[2019.01.27-18.04.40:808][574]LogTemp: Warning: Prob: 0
+[2019.01.27-18.04.40:809][574]LogTemp: Warning: Prob: 4
+[2019.01.27-18.04.40:809][574]LogTemp: Warning: Prob: 10
+[2019.01.27-18.04.40:809][574]LogTemp: Warning: Prob: 0
+[2019.01.27-18.04.40:810][574]LogTemp: Warning: Prob: 8
+[2019.01.27-18.04.40:810][574]LogTemp: Warning: Prob: 9
+[2019.01.27-18.04.40:811][574]LogTemp: Warning: Prob: 6
+[2019.01.27-18.04.40:811][574]LogTemp: Warning: Prob: 4
+[2019.01.27-18.04.40:812][574]LogTemp: Warning: Prob: 1
+[2019.01.27-18.04.40:812][574]LogTemp: Warning: Prob: 4
+[2019.01.27-18.04.40:812][574]LogTemp: Warning: Prob: 6
+[2019.01.27-18.04.40:813][574]LogTemp: Warning: Prob: 9
+[2019.01.27-18.04.40:813][574]LogTemp: Warning: Prob: 3
+[2019.01.27-18.04.40:814][574]LogTemp: Warning: Prob: 10
+[2019.01.27-18.04.40:814][574]LogTemp: Warning: Prob: 10
+[2019.01.27-18.04.40:814][574]LogTemp: Warning: Prob: 8
+[2019.01.27-18.04.40:815][574]LogTemp: Warning: Prob: 8
+[2019.01.27-18.04.40:815][574]LogTemp: Warning: Prob: 0
+[2019.01.27-18.04.40:816][574]LogTemp: Warning: Prob: 1
+[2019.01.27-18.04.40:816][574]LogTemp: Warning: Prob: 10
+[2019.01.27-18.04.40:817][574]LogTemp: Warning: Prob: 9
+[2019.01.27-18.04.40:817][574]LogTemp: Warning: Prob: 3
+[2019.01.27-18.04.40:817][574]LogTemp: Warning: Prob: 6
+[2019.01.27-18.04.40:818][574]LogTemp: Warning: Prob: 1
+[2019.01.27-18.04.40:818][574]LogTemp: Warning: Prob: 0
+[2019.01.27-18.04.40:819][574]LogTemp: Warning: Prob: 7
+[2019.01.27-18.04.40:819][574]LogTemp: Warning: Prob: 9
+[2019.01.27-18.04.40:820][574]LogTemp: Warning: Prob: 3
+[2019.01.27-18.04.40:820][574]LogTemp: Warning: Prob: 2
+[2019.01.27-18.04.40:821][574]LogTemp: Warning: Prob: 3
+[2019.01.27-18.04.40:821][574]LogTemp: Warning: Prob: 9
+[2019.01.27-18.04.40:822][574]LogTemp: Warning: Prob: 10
+[2019.01.27-18.04.40:822][574]LogTemp: Warning: Prob: 10
+[2019.01.27-18.04.40:823][574]LogTemp: Warning: Prob: 2
+[2019.01.27-18.04.40:823][574]LogTemp: Warning: Prob: 5
+[2019.01.27-18.04.40:824][574]LogTemp: Warning: Prob: 4
+[2019.01.27-18.04.40:824][574]LogTemp: Warning: Prob: 5
+[2019.01.27-18.04.40:825][574]LogTemp: Warning: Prob: 7
+[2019.01.27-18.04.40:825][574]LogTemp: Warning: Prob: 3
+[2019.01.27-18.04.40:826][574]PIE: Play in editor start time for /Game/Levels/UEDPIE_0_PathSearch -0.589
+[2019.01.27-18.04.40:827][574]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Levels/PathSearch.PathSearch:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/PathSearch.PathSearch:PersistentLevel.PathSearch' with GeneratedClass '/Game/Levels/PathSearch.PathSearch_C' with ClassGeneratedBy '/Game/Levels/PathSearch.PathSearch:PersistentLevel.PathSearch'
+[2019.01.27-18.05.50:300][411]LogUnrealEdMisc: Warning: Heartbeat event firing too frequently (46.712 sec). This should never happen. Something is wrong with the timer delegate!
+[2019.01.27-18.12.45:167][191]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Levels/PathSearch.PathSearch:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/PathSearch.PathSearch:PersistentLevel.PathSearch' with GeneratedClass '/Game/Levels/PathSearch.PathSearch_C' with ClassGeneratedBy '/Game/Levels/PathSearch.PathSearch:PersistentLevel.PathSearch'
+[2019.01.27-18.12.45:168][191]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.01.27-18.12.45:216][191]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2019.01.27-18.12.45:216][191]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Levels/PathSearch.PathSearch:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/PathSearch.PathSearch:PersistentLevel.PathSearch' with GeneratedClass '/Game/Levels/PathSearch.PathSearch_C' with ClassGeneratedBy '/Game/Levels/PathSearch.PathSearch:PersistentLevel.PathSearch'
+[2019.01.27-18.12.45:248][191]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.01.27-18.12.45:271][192]LogPlayLevel: Display: Destroying online subsystem :Context_1
+[2019.01.27-18.12.46:090][241]LogTemp: Repeating last play command: Selected Viewport
+[2019.01.27-18.12.46:104][241]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Levels/PathSearch.PathSearch:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/PathSearch.PathSearch:PersistentLevel.PathSearch' with GeneratedClass '/Game/Levels/PathSearch.PathSearch_C' with ClassGeneratedBy '/Game/Levels/PathSearch.PathSearch:PersistentLevel.PathSearch'
+[2019.01.27-18.12.46:104][241]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2019.01.27-18.12.46:104][241]PIE: New page: PIE session: PathSearch (27/01/2019 06:12:46)
+[2019.01.27-18.12.46:104][241]LogPlayLevel: Creating play world package: /Game/Levels/UEDPIE_0_PathSearch
+[2019.01.27-18.12.46:109][241]LogPlayLevel: PIE: StaticDuplicateObject took: (0.004650s)
+[2019.01.27-18.12.46:110][241]LogAIModule: Creating AISystem for world PathSearch
+[2019.01.27-18.12.46:111][241]LogPlayLevel: PIE: World Init took: (0.001220s)
+[2019.01.27-18.12.46:111][241]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/PathSearch.PathSearch to /Game/Levels/UEDPIE_0_PathSearch.PathSearch (0.006512s)
+[2019.01.27-18.12.46:146][241]LogInit: XAudio2 using 'Altavoces (Sound Blaster Recon3Di)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2019.01.27-18.12.46:165][241]LogInit: FAudioDevice initialized.
+[2019.01.27-18.12.46:207][241]LogLoad: Game class is 'BP_GameMode_C'
+[2019.01.27-18.12.46:209][241]LogWorld: Bringing World /Game/Levels/UEDPIE_0_PathSearch.PathSearch up for play (max tick rate 60) at 2019.01.27-12.12.46
+[2019.01.27-18.12.46:210][241]LogWorld: Bringing up level for play took: 0.000863
+[2019.01.27-18.12.46:229][241]LogTemp: Warning: Prob: 2
+[2019.01.27-18.12.46:229][241]LogTemp: Warning: Prob: 1
+[2019.01.27-18.12.46:229][241]LogTemp: Warning: Prob: 1
+[2019.01.27-18.12.46:230][241]LogTemp: Warning: Prob: 10
+[2019.01.27-18.12.46:230][241]LogTemp: Warning: Prob: 4
+[2019.01.27-18.12.46:231][241]LogTemp: Warning: Prob: 2
+[2019.01.27-18.12.46:231][241]LogTemp: Warning: Prob: 5
+[2019.01.27-18.12.46:232][241]LogTemp: Warning: Prob: 5
+[2019.01.27-18.12.46:232][241]LogTemp: Warning: Prob: 0
+[2019.01.27-18.12.46:232][241]LogTemp: Warning: Prob: 9
+[2019.01.27-18.12.46:233][241]LogTemp: Warning: Prob: 2
+[2019.01.27-18.12.46:233][241]LogTemp: Warning: Prob: 4
+[2019.01.27-18.12.46:234][241]LogTemp: Warning: Prob: 6
+[2019.01.27-18.12.46:234][241]LogTemp: Warning: Prob: 10
+[2019.01.27-18.12.46:235][241]LogTemp: Warning: Prob: 5
+[2019.01.27-18.12.46:235][241]LogTemp: Warning: Prob: 3
+[2019.01.27-18.12.46:236][241]LogTemp: Warning: Prob: 3
+[2019.01.27-18.12.46:236][241]LogTemp: Warning: Prob: 6
+[2019.01.27-18.12.46:237][241]LogTemp: Warning: Prob: 0
+[2019.01.27-18.12.46:237][241]LogTemp: Warning: Prob: 1
+[2019.01.27-18.12.46:238][241]LogTemp: Warning: Prob: 1
+[2019.01.27-18.12.46:238][241]LogTemp: Warning: Prob: 5
+[2019.01.27-18.12.46:238][241]LogTemp: Warning: Prob: 3
+[2019.01.27-18.12.46:239][241]LogTemp: Warning: Prob: 5
+[2019.01.27-18.12.46:239][241]LogTemp: Warning: Prob: 4
+[2019.01.27-18.12.46:240][241]LogTemp: Warning: Prob: 3
+[2019.01.27-18.12.46:240][241]LogTemp: Warning: Prob: 5
+[2019.01.27-18.12.46:241][241]LogTemp: Warning: Prob: 0
+[2019.01.27-18.12.46:241][241]LogTemp: Warning: Prob: 8
+[2019.01.27-18.12.46:242][241]LogTemp: Warning: Prob: 6
+[2019.01.27-18.12.46:242][241]LogTemp: Warning: Prob: 3
+[2019.01.27-18.12.46:243][241]LogTemp: Warning: Prob: 5
+[2019.01.27-18.12.46:243][241]LogTemp: Warning: Prob: 9
+[2019.01.27-18.12.46:243][241]LogTemp: Warning: Prob: 0
+[2019.01.27-18.12.46:244][241]LogTemp: Warning: Prob: 9
+[2019.01.27-18.12.46:244][241]LogTemp: Warning: Prob: 5
+[2019.01.27-18.12.46:245][241]LogTemp: Warning: Prob: 6
+[2019.01.27-18.12.46:245][241]LogTemp: Warning: Prob: 5
+[2019.01.27-18.12.46:246][241]LogTemp: Warning: Prob: 9
+[2019.01.27-18.12.46:246][241]LogTemp: Warning: Prob: 2
+[2019.01.27-18.12.46:247][241]LogTemp: Warning: Prob: 7
+[2019.01.27-18.12.46:247][241]LogTemp: Warning: Prob: 2
+[2019.01.27-18.12.46:248][241]LogTemp: Warning: Prob: 4
+[2019.01.27-18.12.46:248][241]LogTemp: Warning: Prob: 2
+[2019.01.27-18.12.46:249][241]LogTemp: Warning: Prob: 10
+[2019.01.27-18.12.46:249][241]LogTemp: Warning: Prob: 0
+[2019.01.27-18.12.46:250][241]LogTemp: Warning: Prob: 4
+[2019.01.27-18.12.46:250][241]LogTemp: Warning: Prob: 1
+[2019.01.27-18.12.46:251][241]LogTemp: Warning: Prob: 4
+[2019.01.27-18.12.46:251][241]LogTemp: Warning: Prob: 8
+[2019.01.27-18.12.46:251][241]LogTemp: Warning: Prob: 1
+[2019.01.27-18.12.46:252][241]LogTemp: Warning: Prob: 4
+[2019.01.27-18.12.46:252][241]LogTemp: Warning: Prob: 10
+[2019.01.27-18.12.46:253][241]LogTemp: Warning: Prob: 4
+[2019.01.27-18.12.46:253][241]LogTemp: Warning: Prob: 9
+[2019.01.27-18.12.46:254][241]LogTemp: Warning: Prob: 3
+[2019.01.27-18.12.46:254][241]LogTemp: Warning: Prob: 10
+[2019.01.27-18.12.46:255][241]LogTemp: Warning: Prob: 10
+[2019.01.27-18.12.46:255][241]LogTemp: Warning: Prob: 10
+[2019.01.27-18.12.46:256][241]LogTemp: Warning: Prob: 8
+[2019.01.27-18.12.46:256][241]LogTemp: Warning: Prob: 8
+[2019.01.27-18.12.46:257][241]LogTemp: Warning: Prob: 3
+[2019.01.27-18.12.46:257][241]LogTemp: Warning: Prob: 3
+[2019.01.27-18.12.46:258][241]LogTemp: Warning: Prob: 9
+[2019.01.27-18.12.46:259][241]PIE: Play in editor start time for /Game/Levels/UEDPIE_0_PathSearch 0.843
+[2019.01.27-18.12.46:259][241]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Levels/PathSearch.PathSearch:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/PathSearch.PathSearch:PersistentLevel.PathSearch' with GeneratedClass '/Game/Levels/PathSearch.PathSearch_C' with ClassGeneratedBy '/Game/Levels/PathSearch.PathSearch:PersistentLevel.PathSearch'
+[2019.01.27-18.12.47:039][286]LogTemp: Warning: Parents do not contain goal
+[2019.01.27-18.12.50:538][492]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Levels/PathSearch.PathSearch:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/PathSearch.PathSearch:PersistentLevel.PathSearch' with GeneratedClass '/Game/Levels/PathSearch.PathSearch_C' with ClassGeneratedBy '/Game/Levels/PathSearch.PathSearch:PersistentLevel.PathSearch'
+[2019.01.27-18.12.50:538][492]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.01.27-18.12.50:584][492]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2019.01.27-18.12.50:585][492]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Levels/PathSearch.PathSearch:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/PathSearch.PathSearch:PersistentLevel.PathSearch' with GeneratedClass '/Game/Levels/PathSearch.PathSearch_C' with ClassGeneratedBy '/Game/Levels/PathSearch.PathSearch:PersistentLevel.PathSearch'
+[2019.01.27-18.12.50:610][492]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.01.27-18.12.50:631][493]LogPlayLevel: Display: Destroying online subsystem :Context_2
+[2019.01.27-18.12.51:011][516]LogTemp: Repeating last play command: Selected Viewport
+[2019.01.27-18.12.51:025][516]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Levels/PathSearch.PathSearch:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/PathSearch.PathSearch:PersistentLevel.PathSearch' with GeneratedClass '/Game/Levels/PathSearch.PathSearch_C' with ClassGeneratedBy '/Game/Levels/PathSearch.PathSearch:PersistentLevel.PathSearch'
+[2019.01.27-18.12.51:025][516]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2019.01.27-18.12.51:025][516]PIE: New page: PIE session: PathSearch (27/01/2019 06:12:51)
+[2019.01.27-18.12.51:025][516]LogPlayLevel: Creating play world package: /Game/Levels/UEDPIE_0_PathSearch
+[2019.01.27-18.12.51:031][516]LogPlayLevel: PIE: StaticDuplicateObject took: (0.005172s)
+[2019.01.27-18.12.51:031][516]LogAIModule: Creating AISystem for world PathSearch
+[2019.01.27-18.12.51:031][516]LogPlayLevel: PIE: World Init took: (0.000781s)
+[2019.01.27-18.12.51:031][516]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/PathSearch.PathSearch to /Game/Levels/UEDPIE_0_PathSearch.PathSearch (0.006557s)
+[2019.01.27-18.12.51:066][516]LogInit: XAudio2 using 'Altavoces (Sound Blaster Recon3Di)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2019.01.27-18.12.51:081][516]LogInit: FAudioDevice initialized.
+[2019.01.27-18.12.51:126][516]LogLoad: Game class is 'BP_GameMode_C'
+[2019.01.27-18.12.51:128][516]LogWorld: Bringing World /Game/Levels/UEDPIE_0_PathSearch.PathSearch up for play (max tick rate 60) at 2019.01.27-12.12.51
+[2019.01.27-18.12.51:129][516]LogWorld: Bringing up level for play took: 0.001104
+[2019.01.27-18.12.51:147][516]LogTemp: Warning: Prob: 6
+[2019.01.27-18.12.51:147][516]LogTemp: Warning: Prob: 9
+[2019.01.27-18.12.51:148][516]LogTemp: Warning: Prob: 9
+[2019.01.27-18.12.51:148][516]LogTemp: Warning: Prob: 1
+[2019.01.27-18.12.51:149][516]LogTemp: Warning: Prob: 3
+[2019.01.27-18.12.51:150][516]LogTemp: Warning: Prob: 0
+[2019.01.27-18.12.51:150][516]LogTemp: Warning: Prob: 5
+[2019.01.27-18.12.51:151][516]LogTemp: Warning: Prob: 9
+[2019.01.27-18.12.51:151][516]LogTemp: Warning: Prob: 2
+[2019.01.27-18.12.51:152][516]LogTemp: Warning: Prob: 9
+[2019.01.27-18.12.51:153][516]LogTemp: Warning: Prob: 1
+[2019.01.27-18.12.51:153][516]LogTemp: Warning: Prob: 3
+[2019.01.27-18.12.51:154][516]LogTemp: Warning: Prob: 4
+[2019.01.27-18.12.51:154][516]LogTemp: Warning: Prob: 0
+[2019.01.27-18.12.51:155][516]LogTemp: Warning: Prob: 6
+[2019.01.27-18.12.51:155][516]LogTemp: Warning: Prob: 2
+[2019.01.27-18.12.51:156][516]LogTemp: Warning: Prob: 5
+[2019.01.27-18.12.51:157][516]LogTemp: Warning: Prob: 3
+[2019.01.27-18.12.51:157][516]LogTemp: Warning: Prob: 7
+[2019.01.27-18.12.51:158][516]LogTemp: Warning: Prob: 5
+[2019.01.27-18.12.51:158][516]LogTemp: Warning: Prob: 3
+[2019.01.27-18.12.51:159][516]LogTemp: Warning: Prob: 0
+[2019.01.27-18.12.51:159][516]LogTemp: Warning: Prob: 10
+[2019.01.27-18.12.51:160][516]LogTemp: Warning: Prob: 3
+[2019.01.27-18.12.51:161][516]LogTemp: Warning: Prob: 3
+[2019.01.27-18.12.51:161][516]LogTemp: Warning: Prob: 6
+[2019.01.27-18.12.51:162][516]LogTemp: Warning: Prob: 9
+[2019.01.27-18.12.51:162][516]LogTemp: Warning: Prob: 10
+[2019.01.27-18.12.51:163][516]LogTemp: Warning: Prob: 10
+[2019.01.27-18.12.51:164][516]LogTemp: Warning: Prob: 2
+[2019.01.27-18.12.51:164][516]LogTemp: Warning: Prob: 3
+[2019.01.27-18.12.51:165][516]LogTemp: Warning: Prob: 5
+[2019.01.27-18.12.51:165][516]LogTemp: Warning: Prob: 4
+[2019.01.27-18.12.51:166][516]LogTemp: Warning: Prob: 1
+[2019.01.27-18.12.51:167][516]LogTemp: Warning: Prob: 5
+[2019.01.27-18.12.51:167][516]LogTemp: Warning: Prob: 5
+[2019.01.27-18.12.51:168][516]LogTemp: Warning: Prob: 0
+[2019.01.27-18.12.51:169][516]LogTemp: Warning: Prob: 0
+[2019.01.27-18.12.51:169][516]LogTemp: Warning: Prob: 0
+[2019.01.27-18.12.51:170][516]LogTemp: Warning: Prob: 9
+[2019.01.27-18.12.51:170][516]LogTemp: Warning: Prob: 9
+[2019.01.27-18.12.51:171][516]LogTemp: Warning: Prob: 0
+[2019.01.27-18.12.51:171][516]LogTemp: Warning: Prob: 5
+[2019.01.27-18.12.51:172][516]LogTemp: Warning: Prob: 5
+[2019.01.27-18.12.51:172][516]LogTemp: Warning: Prob: 8
+[2019.01.27-18.12.51:173][516]LogTemp: Warning: Prob: 0
+[2019.01.27-18.12.51:174][516]LogTemp: Warning: Prob: 8
+[2019.01.27-18.12.51:174][516]LogTemp: Warning: Prob: 7
+[2019.01.27-18.12.51:175][516]LogTemp: Warning: Prob: 2
+[2019.01.27-18.12.51:176][516]LogTemp: Warning: Prob: 8
+[2019.01.27-18.12.51:177][516]LogTemp: Warning: Prob: 2
+[2019.01.27-18.12.51:177][516]LogTemp: Warning: Prob: 2
+[2019.01.27-18.12.51:177][516]LogTemp: Warning: Prob: 0
+[2019.01.27-18.12.51:178][516]LogTemp: Warning: Prob: 8
+[2019.01.27-18.12.51:179][516]LogTemp: Warning: Prob: 7
+[2019.01.27-18.12.51:179][516]LogTemp: Warning: Prob: 2
+[2019.01.27-18.12.51:180][516]LogTemp: Warning: Prob: 8
+[2019.01.27-18.12.51:180][516]LogTemp: Warning: Prob: 7
+[2019.01.27-18.12.51:181][516]LogTemp: Warning: Prob: 3
+[2019.01.27-18.12.51:182][516]LogTemp: Warning: Prob: 7
+[2019.01.27-18.12.51:182][516]LogTemp: Warning: Prob: 9
+[2019.01.27-18.12.51:183][516]LogTemp: Warning: Prob: 0
+[2019.01.27-18.12.51:184][516]LogTemp: Warning: Prob: 2
+[2019.01.27-18.12.51:184][516]LogTemp: Warning: Prob: 10
+[2019.01.27-18.12.51:185][516]PIE: Play in editor start time for /Game/Levels/UEDPIE_0_PathSearch -0.231
+[2019.01.27-18.12.51:185][516]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Levels/PathSearch.PathSearch:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/PathSearch.PathSearch:PersistentLevel.PathSearch' with GeneratedClass '/Game/Levels/PathSearch.PathSearch_C' with ClassGeneratedBy '/Game/Levels/PathSearch.PathSearch:PersistentLevel.PathSearch'
+[2019.01.27-18.14.02:017][348]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Levels/PathSearch.PathSearch:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/PathSearch.PathSearch:PersistentLevel.PathSearch' with GeneratedClass '/Game/Levels/PathSearch.PathSearch_C' with ClassGeneratedBy '/Game/Levels/PathSearch.PathSearch:PersistentLevel.PathSearch'
+[2019.01.27-18.14.02:018][348]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.01.27-18.14.02:065][348]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2019.01.27-18.14.02:066][348]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Levels/PathSearch.PathSearch:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/PathSearch.PathSearch:PersistentLevel.PathSearch' with GeneratedClass '/Game/Levels/PathSearch.PathSearch_C' with ClassGeneratedBy '/Game/Levels/PathSearch.PathSearch:PersistentLevel.PathSearch'
+[2019.01.27-18.14.02:125][348]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.01.27-18.14.02:156][349]LogPlayLevel: Display: Destroying online subsystem :Context_3
+[2019.01.27-18.15.07:121][649]LogTemp: Repeating last play command: Selected Viewport
+[2019.01.27-18.15.07:136][649]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Levels/PathSearch.PathSearch:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/PathSearch.PathSearch:PersistentLevel.PathSearch' with GeneratedClass '/Game/Levels/PathSearch.PathSearch_C' with ClassGeneratedBy '/Game/Levels/PathSearch.PathSearch:PersistentLevel.PathSearch'
+[2019.01.27-18.15.07:136][649]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2019.01.27-18.15.07:136][649]PIE: New page: PIE session: PathSearch (27/01/2019 06:15:07)
+[2019.01.27-18.15.07:137][649]LogPlayLevel: Creating play world package: /Game/Levels/UEDPIE_0_PathSearch
+[2019.01.27-18.15.07:141][649]LogPlayLevel: PIE: StaticDuplicateObject took: (0.004172s)
+[2019.01.27-18.15.07:142][649]LogAIModule: Creating AISystem for world PathSearch
+[2019.01.27-18.15.07:143][649]LogPlayLevel: PIE: World Init took: (0.001282s)
+[2019.01.27-18.15.07:143][649]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/PathSearch.PathSearch to /Game/Levels/UEDPIE_0_PathSearch.PathSearch (0.006219s)
+[2019.01.27-18.15.07:175][649]LogInit: XAudio2 using 'Altavoces (Sound Blaster Recon3Di)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2019.01.27-18.15.07:194][649]LogInit: FAudioDevice initialized.
+[2019.01.27-18.15.07:237][649]LogLoad: Game class is 'BP_GameMode_C'
+[2019.01.27-18.15.07:239][649]LogWorld: Bringing World /Game/Levels/UEDPIE_0_PathSearch.PathSearch up for play (max tick rate 60) at 2019.01.27-12.15.07
+[2019.01.27-18.15.07:240][649]LogWorld: Bringing up level for play took: 0.001246
+[2019.01.27-18.15.07:257][649]LogTemp: Warning: Prob: 4
+[2019.01.27-18.15.07:258][649]LogTemp: Warning: Prob: 6
+[2019.01.27-18.15.07:259][649]LogTemp: Warning: Prob: 4
+[2019.01.27-18.15.07:259][649]LogTemp: Warning: Prob: 7
+[2019.01.27-18.15.07:260][649]LogTemp: Warning: Prob: 6
+[2019.01.27-18.15.07:261][649]LogTemp: Warning: Prob: 0
+[2019.01.27-18.15.07:261][649]LogTemp: Warning: Prob: 1
+[2019.01.27-18.15.07:262][649]LogTemp: Warning: Prob: 0
+[2019.01.27-18.15.07:263][649]LogTemp: Warning: Prob: 1
+[2019.01.27-18.15.07:263][649]LogTemp: Warning: Prob: 4
+[2019.01.27-18.15.07:264][649]LogTemp: Warning: Prob: 3
+[2019.01.27-18.15.07:264][649]LogTemp: Warning: Prob: 4
+[2019.01.27-18.15.07:265][649]LogTemp: Warning: Prob: 10
+[2019.01.27-18.15.07:266][649]LogTemp: Warning: Prob: 5
+[2019.01.27-18.15.07:266][649]LogTemp: Warning: Prob: 0
+[2019.01.27-18.15.07:267][649]LogTemp: Warning: Prob: 8
+[2019.01.27-18.15.07:267][649]LogTemp: Warning: Prob: 4
+[2019.01.27-18.15.07:268][649]LogTemp: Warning: Prob: 6
+[2019.01.27-18.15.07:268][649]LogTemp: Warning: Prob: 8
+[2019.01.27-18.15.07:269][649]LogTemp: Warning: Prob: 5
+[2019.01.27-18.15.07:269][649]LogTemp: Warning: Prob: 7
+[2019.01.27-18.15.07:270][649]LogTemp: Warning: Prob: 2
+[2019.01.27-18.15.07:271][649]LogTemp: Warning: Prob: 6
+[2019.01.27-18.15.07:271][649]LogTemp: Warning: Prob: 1
+[2019.01.27-18.15.07:272][649]LogTemp: Warning: Prob: 1
+[2019.01.27-18.15.07:272][649]LogTemp: Warning: Prob: 2
+[2019.01.27-18.15.07:273][649]LogTemp: Warning: Prob: 9
+[2019.01.27-18.15.07:274][649]LogTemp: Warning: Prob: 3
+[2019.01.27-18.15.07:275][649]LogTemp: Warning: Prob: 10
+[2019.01.27-18.15.07:275][649]LogTemp: Warning: Prob: 10
+[2019.01.27-18.15.07:276][649]LogTemp: Warning: Prob: 0
+[2019.01.27-18.15.07:276][649]LogTemp: Warning: Prob: 7
+[2019.01.27-18.15.07:277][649]LogTemp: Warning: Prob: 4
+[2019.01.27-18.15.07:278][649]LogTemp: Warning: Prob: 2
+[2019.01.27-18.15.07:278][649]LogTemp: Warning: Prob: 0
+[2019.01.27-18.15.07:279][649]LogTemp: Warning: Prob: 6
+[2019.01.27-18.15.07:279][649]LogTemp: Warning: Prob: 3
+[2019.01.27-18.15.07:280][649]LogTemp: Warning: Prob: 9
+[2019.01.27-18.15.07:280][649]LogTemp: Warning: Prob: 9
+[2019.01.27-18.15.07:281][649]LogTemp: Warning: Prob: 0
+[2019.01.27-18.15.07:281][649]LogTemp: Warning: Prob: 8
+[2019.01.27-18.15.07:282][649]LogTemp: Warning: Prob: 7
+[2019.01.27-18.15.07:283][649]LogTemp: Warning: Prob: 1
+[2019.01.27-18.15.07:283][649]LogTemp: Warning: Prob: 9
+[2019.01.27-18.15.07:284][649]LogTemp: Warning: Prob: 0
+[2019.01.27-18.15.07:284][649]LogTemp: Warning: Prob: 0
+[2019.01.27-18.15.07:285][649]LogTemp: Warning: Prob: 5
+[2019.01.27-18.15.07:285][649]LogTemp: Warning: Prob: 6
+[2019.01.27-18.15.07:286][649]LogTemp: Warning: Prob: 6
+[2019.01.27-18.15.07:287][649]LogTemp: Warning: Prob: 9
+[2019.01.27-18.15.07:288][649]LogTemp: Warning: Prob: 2
+[2019.01.27-18.15.07:288][649]LogTemp: Warning: Prob: 3
+[2019.01.27-18.15.07:289][649]LogTemp: Warning: Prob: 6
+[2019.01.27-18.15.07:290][649]LogTemp: Warning: Prob: 3
+[2019.01.27-18.15.07:290][649]LogTemp: Warning: Prob: 1
+[2019.01.27-18.15.07:291][649]LogTemp: Warning: Prob: 9
+[2019.01.27-18.15.07:292][649]LogTemp: Warning: Prob: 4
+[2019.01.27-18.15.07:293][649]LogTemp: Warning: Prob: 4
+[2019.01.27-18.15.07:294][649]LogTemp: Warning: Prob: 9
+[2019.01.27-18.15.07:294][649]LogTemp: Warning: Prob: 3
+[2019.01.27-18.15.07:295][649]LogTemp: Warning: Prob: 3
+[2019.01.27-18.15.07:296][649]LogTemp: Warning: Prob: 3
+[2019.01.27-18.15.07:296][649]LogTemp: Warning: Prob: 0
+[2019.01.27-18.15.07:297][649]LogTemp: Warning: Prob: 1
+[2019.01.27-18.15.07:298][649]PIE: Play in editor start time for /Game/Levels/UEDPIE_0_PathSearch -0.118
+[2019.01.27-18.15.07:298][649]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Levels/PathSearch.PathSearch:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/PathSearch.PathSearch:PersistentLevel.PathSearch' with GeneratedClass '/Game/Levels/PathSearch.PathSearch_C' with ClassGeneratedBy '/Game/Levels/PathSearch.PathSearch:PersistentLevel.PathSearch'
+[2019.01.27-18.15.19:559][690]Set new viewmode: ShaderComplexity
+[2019.01.27-18.15.22:067][782]Set new viewmode: Lit_DetailLighting
+[2019.01.27-18.15.22:900][832]Set new viewmode: Lit
+[2019.01.27-18.15.24:939][954]Set new viewmode: Unlit
+[2019.01.27-18.15.25:878][  9]Set new viewmode: Wireframe
+[2019.01.27-18.15.27:095][ 82]Set new viewmode: Lit
+[2019.01.27-18.15.28:158][145]Set new viewmode: Lit_DetailLighting
+[2019.01.27-18.15.28:583][171]Set new viewmode: Lit
+[2019.01.27-18.15.30:495][285]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Levels/PathSearch.PathSearch:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/PathSearch.PathSearch:PersistentLevel.PathSearch' with GeneratedClass '/Game/Levels/PathSearch.PathSearch_C' with ClassGeneratedBy '/Game/Levels/PathSearch.PathSearch:PersistentLevel.PathSearch'
+[2019.01.27-18.15.30:496][285]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.01.27-18.15.30:541][285]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2019.01.27-18.15.30:542][285]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Levels/PathSearch.PathSearch:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/PathSearch.PathSearch:PersistentLevel.PathSearch' with GeneratedClass '/Game/Levels/PathSearch.PathSearch_C' with ClassGeneratedBy '/Game/Levels/PathSearch.PathSearch:PersistentLevel.PathSearch'
+[2019.01.27-18.15.30:571][285]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.01.27-18.15.30:606][287]LogPlayLevel: Display: Destroying online subsystem :Context_4
+[2019.01.27-18.16.42:680][597]Candidate modules for hot reload:
+[2019.01.27-18.16.42:680][597]  PathSearch
+[2019.01.27-18.16.42:685][597]Launching UnrealBuildTool... [C:/Program Files/Epic Games/UE_4.21/Engine/Binaries/DotNET/UnrealBuildTool.exe  -ModuleWithSuffix=PathSearch,3316 Win64 Development -TargetType=Editor -Project="../../../../../../Users/Juan Pablo/Documents/Unreal Projects/AI/PathSearch/PathSearch.uproject" -canskiplink "C:/Users/Juan Pablo/Documents/Unreal Projects/AI/PathSearch/PathSearch.uproject" ]
+[2019.01.27-18.16.42:688][597]Warning: Starting HotReload took  0.0s.
+[2019.01.27-18.16.55:954][708]CompilerResultsLog: New page: Compilation - 27/01/2019 06:16:55
+[2019.01.27-18.16.55:954][708]CompilerResultsLog: Using 'git status' to determine working set for adaptive non-unity build (C:\Users\Juan Pablo\Documents\Unreal Projects\AI).
+[2019.01.27-18.16.55:955][708]CompilerResultsLog: Creating makefile for hot reloading PathSearchEditor (source directory changed)
+[2019.01.27-18.16.55:955][708]CompilerResultsLog: Compiling game modules for hot reload
+[2019.01.27-18.16.55:955][708]CompilerResultsLog: Using Visual Studio 2017 14.16.27023 toolchain (C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.16.27023) and Windows 10.0.16299.0 SDK (C:\Program Files (x86)\Windows Kits\10).
+[2019.01.27-18.16.55:955][708]CompilerResultsLog: Building 3 actions with 8 processes...
+[2019.01.27-18.16.55:955][708]CompilerResultsLog:   [1/3] BranchAndBound.cpp
+[2019.01.27-18.16.55:956][708]CompilerResultsLog:   [2/3] UE4Editor-PathSearch-3316.lib
+[2019.01.27-18.16.55:956][708]CompilerResultsLog:      Creating library C:\Users\Juan Pablo\Documents\Unreal Projects\AI\PathSearch\Intermediate\Build\Win64\UE4Editor\Development\PathSearch\UE4Editor-PathSearch-3316.lib and object C:\Users\Juan Pablo\Documents\Unreal Projects\AI\PathSearch\Intermediate\Build\Win64\UE4Editor\Development\PathSearch\UE4Editor-PathSearch-3316.exp
+[2019.01.27-18.16.55:956][708]CompilerResultsLog:   [3/3] UE4Editor-PathSearch-3316.dll
+[2019.01.27-18.16.55:956][708]CompilerResultsLog:      Creating library C:\Users\Juan Pablo\Documents\Unreal Projects\AI\PathSearch\Intermediate\Build\Win64\UE4Editor\Development\PathSearch\UE4Editor-PathSearch-3316.suppressed.lib and object C:\Users\Juan Pablo\Documents\Unreal Projects\AI\PathSearch\Intermediate\Build\Win64\UE4Editor\Development\PathSearch\UE4Editor-PathSearch-3316.suppressed.exp
+[2019.01.27-18.16.55:956][708]CompilerResultsLog: Total build time: 12.79 seconds (Parallel executor: 3.04 seconds)
+[2019.01.27-18.16.55:956][708]LogMainFrame: MainFrame: Module compiling took 13.281 seconds
+[2019.01.27-18.16.56:042][708]LogContentBrowser: Native class hierarchy updated for 'PathSearch' in 0.0006 seconds. Added 10 classes and 3 folders.
+[2019.01.27-18.16.56:045][708]Display: HotReload successful (9 functions remapped  0 scriptstructs remapped)
+[2019.01.27-18.16.56:117][708]LogContentBrowser: Native class hierarchy populated in 0.0112 seconds. Added 2662 classes and 625 folders.
+[2019.01.27-18.16.56:118][708]Display: HotReload took 13.5s.
+[2019.01.27-18.17.00:183][866]LogTemp: Repeating last play command: Selected Viewport
+[2019.01.27-18.17.00:198][866]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Levels/PathSearch.PathSearch:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/PathSearch.PathSearch:PersistentLevel.PathSearch' with GeneratedClass '/Game/Levels/PathSearch.PathSearch_C' with ClassGeneratedBy '/Game/Levels/PathSearch.PathSearch:PersistentLevel.PathSearch'
+[2019.01.27-18.17.00:198][866]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2019.01.27-18.17.00:199][866]PIE: New page: PIE session: PathSearch (27/01/2019 06:17:00)
+[2019.01.27-18.17.00:199][866]LogPlayLevel: Creating play world package: /Game/Levels/UEDPIE_0_PathSearch
+[2019.01.27-18.17.00:205][866]LogPlayLevel: PIE: StaticDuplicateObject took: (0.005710s)
+[2019.01.27-18.17.00:206][866]LogAIModule: Creating AISystem for world PathSearch
+[2019.01.27-18.17.00:206][866]LogPlayLevel: PIE: World Init took: (0.001302s)
+[2019.01.27-18.17.00:206][866]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/PathSearch.PathSearch to /Game/Levels/UEDPIE_0_PathSearch.PathSearch (0.007550s)
+[2019.01.27-18.17.00:240][866]LogInit: XAudio2 using 'Altavoces (Sound Blaster Recon3Di)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2019.01.27-18.17.00:257][866]LogInit: FAudioDevice initialized.
+[2019.01.27-18.17.00:302][866]LogLoad: Game class is 'BP_GameMode_C'
+[2019.01.27-18.17.00:304][866]LogWorld: Bringing World /Game/Levels/UEDPIE_0_PathSearch.PathSearch up for play (max tick rate 60) at 2019.01.27-12.17.00
+[2019.01.27-18.17.00:305][866]LogWorld: Bringing up level for play took: 0.001336
+[2019.01.27-18.17.00:323][866]LogTemp: Warning: Prob: 3
+[2019.01.27-18.17.00:323][866]LogTemp: Warning: Prob: 6
+[2019.01.27-18.17.00:324][866]LogTemp: Warning: Prob: 0
+[2019.01.27-18.17.00:325][866]LogTemp: Warning: Prob: 7
+[2019.01.27-18.17.00:325][866]LogTemp: Warning: Prob: 5
+[2019.01.27-18.17.00:326][866]LogTemp: Warning: Prob: 2
+[2019.01.27-18.17.00:326][866]LogTemp: Warning: Prob: 8
+[2019.01.27-18.17.00:327][866]LogTemp: Warning: Prob: 1
+[2019.01.27-18.17.00:327][866]LogTemp: Warning: Prob: 1
+[2019.01.27-18.17.00:328][866]LogTemp: Warning: Prob: 0
+[2019.01.27-18.17.00:329][866]LogTemp: Warning: Prob: 8
+[2019.01.27-18.17.00:329][866]LogTemp: Warning: Prob: 6
+[2019.01.27-18.17.00:330][866]LogTemp: Warning: Prob: 9
+[2019.01.27-18.17.00:331][866]LogTemp: Warning: Prob: 2
+[2019.01.27-18.17.00:331][866]LogTemp: Warning: Prob: 6
+[2019.01.27-18.17.00:332][866]LogTemp: Warning: Prob: 5
+[2019.01.27-18.17.00:332][866]LogTemp: Warning: Prob: 6
+[2019.01.27-18.17.00:333][866]LogTemp: Warning: Prob: 10
+[2019.01.27-18.17.00:333][866]LogTemp: Warning: Prob: 6
+[2019.01.27-18.17.00:334][866]LogTemp: Warning: Prob: 1
+[2019.01.27-18.17.00:334][866]LogTemp: Warning: Prob: 2
+[2019.01.27-18.17.00:335][866]LogTemp: Warning: Prob: 9
+[2019.01.27-18.17.00:335][866]LogTemp: Warning: Prob: 6
+[2019.01.27-18.17.00:336][866]LogTemp: Warning: Prob: 0
+[2019.01.27-18.17.00:336][866]LogTemp: Warning: Prob: 10
+[2019.01.27-18.17.00:337][866]LogTemp: Warning: Prob: 3
+[2019.01.27-18.17.00:338][866]LogTemp: Warning: Prob: 9
+[2019.01.27-18.17.00:338][866]LogTemp: Warning: Prob: 3
+[2019.01.27-18.17.00:339][866]LogTemp: Warning: Prob: 6
+[2019.01.27-18.17.00:339][866]LogTemp: Warning: Prob: 4
+[2019.01.27-18.17.00:340][866]LogTemp: Warning: Prob: 8
+[2019.01.27-18.17.00:340][866]LogTemp: Warning: Prob: 9
+[2019.01.27-18.17.00:341][866]LogTemp: Warning: Prob: 6
+[2019.01.27-18.17.00:341][866]LogTemp: Warning: Prob: 7
+[2019.01.27-18.17.00:342][866]LogTemp: Warning: Prob: 0
+[2019.01.27-18.17.00:342][866]LogTemp: Warning: Prob: 9
+[2019.01.27-18.17.00:343][866]LogTemp: Warning: Prob: 2
+[2019.01.27-18.17.00:343][866]LogTemp: Warning: Prob: 6
+[2019.01.27-18.17.00:344][866]LogTemp: Warning: Prob: 7
+[2019.01.27-18.17.00:344][866]LogTemp: Warning: Prob: 10
+[2019.01.27-18.17.00:345][866]LogTemp: Warning: Prob: 10
+[2019.01.27-18.17.00:345][866]LogTemp: Warning: Prob: 9
+[2019.01.27-18.17.00:346][866]LogTemp: Warning: Prob: 10
+[2019.01.27-18.17.00:347][866]LogTemp: Warning: Prob: 2
+[2019.01.27-18.17.00:347][866]LogTemp: Warning: Prob: 1
+[2019.01.27-18.17.00:348][866]LogTemp: Warning: Prob: 8
+[2019.01.27-18.17.00:348][866]LogTemp: Warning: Prob: 7
+[2019.01.27-18.17.00:348][866]LogTemp: Warning: Prob: 1
+[2019.01.27-18.17.00:349][866]LogTemp: Warning: Prob: 5
+[2019.01.27-18.17.00:349][866]LogTemp: Warning: Prob: 0
+[2019.01.27-18.17.00:350][866]LogTemp: Warning: Prob: 3
+[2019.01.27-18.17.00:350][866]LogTemp: Warning: Prob: 5
+[2019.01.27-18.17.00:351][866]LogTemp: Warning: Prob: 4
+[2019.01.27-18.17.00:351][866]LogTemp: Warning: Prob: 8
+[2019.01.27-18.17.00:352][866]LogTemp: Warning: Prob: 1
+[2019.01.27-18.17.00:352][866]LogTemp: Warning: Prob: 10
+[2019.01.27-18.17.00:353][866]LogTemp: Warning: Prob: 2
+[2019.01.27-18.17.00:353][866]LogTemp: Warning: Prob: 8
+[2019.01.27-18.17.00:354][866]LogTemp: Warning: Prob: 3
+[2019.01.27-18.17.00:355][866]LogTemp: Warning: Prob: 0
+[2019.01.27-18.17.00:355][866]LogTemp: Warning: Prob: 9
+[2019.01.27-18.17.00:356][866]LogTemp: Warning: Prob: 7
+[2019.01.27-18.17.00:356][866]LogTemp: Warning: Prob: 2
+[2019.01.27-18.17.00:357][866]LogTemp: Warning: Prob: 7
+[2019.01.27-18.17.00:358][866]PIE: Play in editor start time for /Game/Levels/UEDPIE_0_PathSearch 0.942
+[2019.01.27-18.17.00:358][866]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Levels/PathSearch.PathSearch:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/PathSearch.PathSearch:PersistentLevel.PathSearch' with GeneratedClass '/Game/Levels/PathSearch.PathSearch_C' with ClassGeneratedBy '/Game/Levels/PathSearch.PathSearch:PersistentLevel.PathSearch'
+[2019.01.27-18.17.05:567][176]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Levels/PathSearch.PathSearch:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/PathSearch.PathSearch:PersistentLevel.PathSearch' with GeneratedClass '/Game/Levels/PathSearch.PathSearch_C' with ClassGeneratedBy '/Game/Levels/PathSearch.PathSearch:PersistentLevel.PathSearch'
+[2019.01.27-18.17.05:568][176]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.01.27-18.17.05:612][176]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2019.01.27-18.17.05:613][176]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Levels/PathSearch.PathSearch:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/PathSearch.PathSearch:PersistentLevel.PathSearch' with GeneratedClass '/Game/Levels/PathSearch.PathSearch_C' with ClassGeneratedBy '/Game/Levels/PathSearch.PathSearch:PersistentLevel.PathSearch'
+[2019.01.27-18.17.05:642][176]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.01.27-18.17.05:680][178]LogPlayLevel: Display: Destroying online subsystem :Context_5
+[2019.01.27-18.17.06:146][206]LogTemp: Repeating last play command: Selected Viewport
+[2019.01.27-18.17.06:162][206]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Levels/PathSearch.PathSearch:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/PathSearch.PathSearch:PersistentLevel.PathSearch' with GeneratedClass '/Game/Levels/PathSearch.PathSearch_C' with ClassGeneratedBy '/Game/Levels/PathSearch.PathSearch:PersistentLevel.PathSearch'
+[2019.01.27-18.17.06:163][206]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2019.01.27-18.17.06:163][206]PIE: New page: PIE session: PathSearch (27/01/2019 06:17:06)
+[2019.01.27-18.17.06:164][206]LogPlayLevel: Creating play world package: /Game/Levels/UEDPIE_0_PathSearch
+[2019.01.27-18.17.06:170][206]LogPlayLevel: PIE: StaticDuplicateObject took: (0.005895s)
+[2019.01.27-18.17.06:171][206]LogAIModule: Creating AISystem for world PathSearch
+[2019.01.27-18.17.06:171][206]LogPlayLevel: PIE: World Init took: (0.001097s)
+[2019.01.27-18.17.06:171][206]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/PathSearch.PathSearch to /Game/Levels/UEDPIE_0_PathSearch.PathSearch (0.007696s)
+[2019.01.27-18.17.06:210][206]LogInit: XAudio2 using 'Altavoces (Sound Blaster Recon3Di)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2019.01.27-18.17.06:229][206]LogInit: FAudioDevice initialized.
+[2019.01.27-18.17.06:276][206]LogLoad: Game class is 'BP_GameMode_C'
+[2019.01.27-18.17.06:277][206]LogWorld: Bringing World /Game/Levels/UEDPIE_0_PathSearch.PathSearch up for play (max tick rate 60) at 2019.01.27-12.17.06
+[2019.01.27-18.17.06:278][206]LogWorld: Bringing up level for play took: 0.000773
+[2019.01.27-18.17.06:295][206]LogTemp: Warning: Prob: 6
+[2019.01.27-18.17.06:296][206]LogTemp: Warning: Prob: 9
+[2019.01.27-18.17.06:297][206]LogTemp: Warning: Prob: 8
+[2019.01.27-18.17.06:297][206]LogTemp: Warning: Prob: 2
+[2019.01.27-18.17.06:298][206]LogTemp: Warning: Prob: 7
+[2019.01.27-18.17.06:298][206]LogTemp: Warning: Prob: 1
+[2019.01.27-18.17.06:299][206]LogTemp: Warning: Prob: 9
+[2019.01.27-18.17.06:300][206]LogTemp: Warning: Prob: 3
+[2019.01.27-18.17.06:300][206]LogTemp: Warning: Prob: 1
+[2019.01.27-18.17.06:301][206]LogTemp: Warning: Prob: 0
+[2019.01.27-18.17.06:301][206]LogTemp: Warning: Prob: 3
+[2019.01.27-18.17.06:301][206]LogTemp: Warning: Prob: 7
+[2019.01.27-18.17.06:302][206]LogTemp: Warning: Prob: 4
+[2019.01.27-18.17.06:302][206]LogTemp: Warning: Prob: 7
+[2019.01.27-18.17.06:303][206]LogTemp: Warning: Prob: 6
+[2019.01.27-18.17.06:304][206]LogTemp: Warning: Prob: 3
+[2019.01.27-18.17.06:304][206]LogTemp: Warning: Prob: 10
+[2019.01.27-18.17.06:305][206]LogTemp: Warning: Prob: 2
+[2019.01.27-18.17.06:305][206]LogTemp: Warning: Prob: 6
+[2019.01.27-18.17.06:306][206]LogTemp: Warning: Prob: 0
+[2019.01.27-18.17.06:306][206]LogTemp: Warning: Prob: 6
+[2019.01.27-18.17.06:307][206]LogTemp: Warning: Prob: 7
+[2019.01.27-18.17.06:307][206]LogTemp: Warning: Prob: 8
+[2019.01.27-18.17.06:308][206]LogTemp: Warning: Prob: 5
+[2019.01.27-18.17.06:308][206]LogTemp: Warning: Prob: 8
+[2019.01.27-18.17.06:309][206]LogTemp: Warning: Prob: 7
+[2019.01.27-18.17.06:309][206]LogTemp: Warning: Prob: 2
+[2019.01.27-18.17.06:310][206]LogTemp: Warning: Prob: 5
+[2019.01.27-18.17.06:310][206]LogTemp: Warning: Prob: 3
+[2019.01.27-18.17.06:311][206]LogTemp: Warning: Prob: 6
+[2019.01.27-18.17.06:311][206]LogTemp: Warning: Prob: 0
+[2019.01.27-18.17.06:312][206]LogTemp: Warning: Prob: 0
+[2019.01.27-18.17.06:313][206]LogTemp: Warning: Prob: 9
+[2019.01.27-18.17.06:313][206]LogTemp: Warning: Prob: 1
+[2019.01.27-18.17.06:314][206]LogTemp: Warning: Prob: 0
+[2019.01.27-18.17.06:315][206]LogTemp: Warning: Prob: 9
+[2019.01.27-18.17.06:316][206]LogTemp: Warning: Prob: 9
+[2019.01.27-18.17.06:316][206]LogTemp: Warning: Prob: 7
+[2019.01.27-18.17.06:317][206]LogTemp: Warning: Prob: 9
+[2019.01.27-18.17.06:318][206]LogTemp: Warning: Prob: 7
+[2019.01.27-18.17.06:318][206]LogTemp: Warning: Prob: 2
+[2019.01.27-18.17.06:319][206]LogTemp: Warning: Prob: 7
+[2019.01.27-18.17.06:320][206]LogTemp: Warning: Prob: 9
+[2019.01.27-18.17.06:320][206]LogTemp: Warning: Prob: 3
+[2019.01.27-18.17.06:321][206]LogTemp: Warning: Prob: 6
+[2019.01.27-18.17.06:322][206]LogTemp: Warning: Prob: 6
+[2019.01.27-18.17.06:322][206]LogTemp: Warning: Prob: 3
+[2019.01.27-18.17.06:323][206]LogTemp: Warning: Prob: 9
+[2019.01.27-18.17.06:324][206]LogTemp: Warning: Prob: 4
+[2019.01.27-18.17.06:325][206]LogTemp: Warning: Prob: 9
+[2019.01.27-18.17.06:325][206]LogTemp: Warning: Prob: 5
+[2019.01.27-18.17.06:325][206]LogTemp: Warning: Prob: 7
+[2019.01.27-18.17.06:326][206]LogTemp: Warning: Prob: 10
+[2019.01.27-18.17.06:326][206]LogTemp: Warning: Prob: 9
+[2019.01.27-18.17.06:327][206]LogTemp: Warning: Prob: 4
+[2019.01.27-18.17.06:327][206]LogTemp: Warning: Prob: 4
+[2019.01.27-18.17.06:328][206]LogTemp: Warning: Prob: 6
+[2019.01.27-18.17.06:328][206]LogTemp: Warning: Prob: 7
+[2019.01.27-18.17.06:329][206]LogTemp: Warning: Prob: 0
+[2019.01.27-18.17.06:329][206]LogTemp: Warning: Prob: 5
+[2019.01.27-18.17.06:330][206]LogTemp: Warning: Prob: 4
+[2019.01.27-18.17.06:330][206]LogTemp: Warning: Prob: 8
+[2019.01.27-18.17.06:331][206]LogTemp: Warning: Prob: 8
+[2019.01.27-18.17.06:331][206]LogTemp: Warning: Prob: 9
+[2019.01.27-18.17.06:332][206]PIE: Play in editor start time for /Game/Levels/UEDPIE_0_PathSearch 0.916
+[2019.01.27-18.17.06:333][206]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Levels/PathSearch.PathSearch:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/PathSearch.PathSearch:PersistentLevel.PathSearch' with GeneratedClass '/Game/Levels/PathSearch.PathSearch_C' with ClassGeneratedBy '/Game/Levels/PathSearch.PathSearch:PersistentLevel.PathSearch'

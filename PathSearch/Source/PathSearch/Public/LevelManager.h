@@ -74,6 +74,16 @@ protected:
 	UPROPERTY(EditDefaultsOnly, BlueprintReadWrite, Category = "Path")
 		class AGraph * HillClim;
 
+	UPROPERTY(EditDefaultsOnly, BlueprintReadWrite, Category = "Path")
+		class AGraph * BestFirst;
+
+	UPROPERTY(EditDefaultsOnly, BlueprintReadWrite, Category = "Path")
+		class AGraph * BeamSearch;
+
+	UPROPERTY(EditDefaultsOnly, BlueprintReadWrite, Category = "Path")
+		class AGraph * BranchAndBound;
+
+
 	virtual void DrawLevel();
 
 
@@ -97,5 +107,14 @@ public:
 
 	UFUNCTION(BlueprintCallable)
 		void DrawPathHill();
+
+	UFUNCTION(BlueprintCallable)
+		void DrawPathBestFirst();
+
+	UFUNCTION(BlueprintCallable)
+		void DrawPathBeamSearch();
+
+	UFUNCTION(BlueprintCallable)
+		void DrawPathBranchAndBound();
 
 };

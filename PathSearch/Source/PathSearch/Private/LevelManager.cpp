@@ -191,3 +191,69 @@ void ALevelManager::DrawPathHill()
 	}
 }
 
+void ALevelManager::DrawPathBestFirst()
+{
+	//Destroy the previous path
+	while (GarbageCollector.Num() != 0)
+	{
+		AActor* item = GarbageCollector.Pop(true);
+		item->Destroy();
+	}
+
+	if (BestFirst && !GetWorld()->GetTimerManager().IsTimerActive(DrawTimerHandle))
+	{
+		TArray<FVector> Path;
+		BestFirst->GetPath(Path);
+		FTimerDelegate DrawTimerDelegate;
+		DrawTimerDelegate.BindUFunction(this, FName("DrawPath"), Path, SpawnParams);
+
+		//Draw the path every .3 seconds
+		TimerCount = Path.Num();
+		GetWorld()->GetTimerManager().SetTimer(DrawTimerHandle, DrawTimerDelegate, 0.3f, true);
+	}
+}
+
+void ALevelManager::DrawPathBeamSearch()
+{
+	//Destroy the previous path
+	while (GarbageCollector.Num() != 0)
+	{
+		AActor* item = GarbageCollector.Pop(true);
+		item->Destroy();
+	}
+
+	if (BeamSearch && !GetWorld()->GetTimerManager().IsTimerActive(DrawTimerHandle))
+	{
+		TArray<FVector> Path;
+		BeamSearch->GetPath(Path);
+		FTimerDelegate DrawTimerDelegate;
+		DrawTimerDelegate.BindUFunction(this, FName("DrawPath"), Path, SpawnParams);
+
+		//Draw the path every .3 seconds
+		TimerCount = Path.Num();
+		GetWorld()->GetTimerManager().SetTimer(DrawTimerHandle, DrawTimerDelegate, 0.3f, true);
+	}
+}
+
+void ALevelManager::DrawPathBranchAndBound()
+{
+	//Destroy the previous path
+	while (GarbageCollector.Num() != 0)
+	{
+		AActor* item = GarbageCollector.Pop(true);
+		item->Destroy();
+	}
+
+	if (BranchAndBound && !GetWorld()->GetTimerManager().IsTimerActive(DrawTimerHandle))
+	{
+		TArray<FVector> Path;
+		BranchAndBound->GetPath(Path);
+		FTimerDelegate DrawTimerDelegate;
+		DrawTimerDelegate.BindUFunction(this, FName("DrawPath"), Path, SpawnParams);
+
+		//Draw the path every .3 seconds
+		TimerCount = Path.Num();
+		GetWorld()->GetTimerManager().SetTimer(DrawTimerHandle, DrawTimerDelegate, 0.3f, true);
+	}
+}
+
