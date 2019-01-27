@@ -1,0 +1,81 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <None Include="..\..\PathSearch.uproject" />
+    <Filter Include="Source">
+      <UniqueIdentifier>{8F70A33F-8195-45C2-BDFF-C7E050A9331E}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Source\PathSearch.Target.cs">
+      <Filter>Source</Filter>
+    </None>
+    <None Include="..\..\Source\PathSearchEditor.Target.cs">
+      <Filter>Source</Filter>
+    </None>
+    <Filter Include="Config">
+      <UniqueIdentifier>{540FBB17-B39D-4A5F-B60D-A826AFCC1301}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Config\DefaultEditor.ini">
+      <Filter>Config</Filter>
+    </None>
+    <None Include="..\..\Config\DefaultEngine.ini">
+      <Filter>Config</Filter>
+    </None>
+    <None Include="..\..\Config\DefaultGame.ini">
+      <Filter>Config</Filter>
+    </None>
+    <Filter Include="Source\PathSearch">
+      <UniqueIdentifier>{5DA0C1FA-C504-42F8-9062-A1D027777F38}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Source\PathSearch\PathSearch.Build.cs">
+      <Filter>Source\PathSearch</Filter>
+    </None>
+    <ClCompile Include="..\..\Source\PathSearch\PathSearch.cpp">
+      <Filter>Source\PathSearch</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\PathSearch\PathSearch.h">
+      <Filter>Source\PathSearch</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\PathSearch\PathSearchGameModeBase.cpp">
+      <Filter>Source\PathSearch</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\PathSearch\PathSearchGameModeBase.h">
+      <Filter>Source\PathSearch</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Source\PathSearch\Public">
+      <UniqueIdentifier>{0d2fd7cf-b2cb-434c-b898-6c5d4d261fe4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\PathSearch\Private">
+      <UniqueIdentifier>{238beaf7-1168-4616-85fa-bc0db61893e5}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\..\Source\PathSearch\Public\LevelManager.h">
+      <Filter>Source\PathSearch\Public</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\PathSearch\Public\Graph.h">
+      <Filter>Source\PathSearch\Public</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\PathSearch\Public\BFS.h">
+      <Filter>Source\PathSearch\Public</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\PathSearch\Public\DFS.h">
+      <Filter>Source\PathSearch\Public</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\..\Source\PathSearch\Private\LevelManager.cpp">
+      <Filter>Source\PathSearch\Private</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\PathSearch\Private\Graph.cpp">
+      <Filter>Source\PathSearch\Private</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\PathSearch\Private\BFS.cpp">
+      <Filter>Source\PathSearch\Private</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\PathSearch\Private\DFS.cpp">
+      <Filter>Source\PathSearch\Private</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>

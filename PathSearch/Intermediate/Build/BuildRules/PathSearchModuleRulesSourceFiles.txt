@@ -1,0 +1,3 @@
+C:\Users\Juan Pablo\Documents\Unreal Projects\AI\PathSearch\Source\PathSearch\PathSearch.Build.cs
+C:\Users\Juan Pablo\Documents\Unreal Projects\AI\PathSearch\Source\PathSearch.Target.cs
+C:\Users\Juan Pablo\Documents\Unreal Projects\AI\PathSearch\Source\PathSearchEditor.Target.cs
