@@ -16,6 +16,22 @@ struct FVector;
 
 #define PathSearch_Source_PathSearch_Public_LevelManager_h_16_RPC_WRAPPERS \
  \
+	DECLARE_FUNCTION(execDrawPathIDDS) \
+	{ \
+		P_FINISH; \
+		P_NATIVE_BEGIN; \
+		P_THIS->DrawPathIDDS(); \
+		P_NATIVE_END; \
+	} \
+ \
+	DECLARE_FUNCTION(execDrawPathDLFS) \
+	{ \
+		P_FINISH; \
+		P_NATIVE_BEGIN; \
+		P_THIS->DrawPathDLFS(); \
+		P_NATIVE_END; \
+	} \
+ \
 	DECLARE_FUNCTION(execDrawPathDFS) \
 	{ \
 		P_FINISH; \
@@ -43,6 +59,22 @@ struct FVector;
 
 
 #define PathSearch_Source_PathSearch_Public_LevelManager_h_16_RPC_WRAPPERS_NO_PURE_DECLS \
+ \
+	DECLARE_FUNCTION(execDrawPathIDDS) \
+	{ \
+		P_FINISH; \
+		P_NATIVE_BEGIN; \
+		P_THIS->DrawPathIDDS(); \
+		P_NATIVE_END; \
+	} \
+ \
+	DECLARE_FUNCTION(execDrawPathDLFS) \
+	{ \
+		P_FINISH; \
+		P_NATIVE_BEGIN; \
+		P_THIS->DrawPathDLFS(); \
+		P_NATIVE_END; \
+	} \
  \
 	DECLARE_FUNCTION(execDrawPathDFS) \
 	{ \
@@ -126,7 +158,8 @@ DEFINE_VTABLE_PTR_HELPER_CTOR_CALLER(ALevelManager); \
 	FORCEINLINE static uint32 __PPO__WallClass() { return STRUCT_OFFSET(ALevelManager, WallClass); } \
 	FORCEINLINE static uint32 __PPO__Camera() { return STRUCT_OFFSET(ALevelManager, Camera); } \
 	FORCEINLINE static uint32 __PPO__BFS() { return STRUCT_OFFSET(ALevelManager, BFS); } \
-	FORCEINLINE static uint32 __PPO__DFS() { return STRUCT_OFFSET(ALevelManager, DFS); }
+	FORCEINLINE static uint32 __PPO__DFS() { return STRUCT_OFFSET(ALevelManager, DFS); } \
+	FORCEINLINE static uint32 __PPO__DLFS() { return STRUCT_OFFSET(ALevelManager, DLFS); }
 
 
 #define PathSearch_Source_PathSearch_Public_LevelManager_h_13_PROLOG

@@ -15,17 +15,21 @@ class PATHSEARCH_API ALevelManager : public ALevelScriptActor
 {
 	GENERATED_BODY()
 private:
+	//We create an array to store the path and then delete it 
 	TArray<AActor*> GarbageCollector;
 	
+	//Variables to draw the path slowly 
 	FTimerHandle DrawTimerHandle;
 	int32 TimerCount;
 	
+	//Spawn parameters for the path
 	FActorSpawnParameters SpawnParams;
 
 	UFUNCTION()
 		void DrawPath(const TArray<FVector>& Path);
 protected:
 
+	//Information to create the level...
 	UPROPERTY(EditDefaultsOnly, Category="Level design")
 		int ColumNum;
 
@@ -56,11 +60,16 @@ protected:
 	UPROPERTY(EditDefaultsOnly, BlueprintReadWrite, Category = "Level design")
 		AActor * Camera;
 
-	UPROPERTY(EditDefaultsOnly, BlueprintReadWrite, Category = "Level design")
+
+	//Objects responsible for their own type of path search
+	UPROPERTY(EditDefaultsOnly, BlueprintReadWrite, Category = "Path")
 		class AGraph * BFS;
 
-	UPROPERTY(EditDefaultsOnly, BlueprintReadWrite, Category = "Level design")
+	UPROPERTY(EditDefaultsOnly, BlueprintReadWrite, Category = "Path")
 		class AGraph * DFS;
+
+	UPROPERTY(EditDefaultsOnly, BlueprintReadWrite, Category = "Path")
+		class ADLFS * DLFS;
 
 	virtual void DrawLevel();
 
@@ -69,10 +78,18 @@ public:
 
 	virtual void BeginPlay() override;
 
+
+	//Functions to be called by the UI 
 	UFUNCTION(BlueprintCallable)
 		void DrawPathBFS();
 
 	UFUNCTION(BlueprintCallable)
 		void DrawPathDFS();
+
+	UFUNCTION(BlueprintCallable)
+		void DrawPathDLFS();
+
+	UFUNCTION(BlueprintCallable)
+		void DrawPathIDDS();
 
 };

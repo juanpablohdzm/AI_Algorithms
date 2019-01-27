@@ -85,20 +85,20 @@ void AGraph::CheckAdjacency(const FVector& Position, TArray<FVector>& WalkableNo
 	
 }
 
-FVector AGraph::Search()
+bool AGraph::Search(FVector& CurrentPosition)
 {
-	return FVector::ZeroVector;
+	CurrentPosition = FVector::ZeroVector;
+	return false;
 }
 
 
 
-TArray<FVector> AGraph::GetPath()
+bool AGraph::GetPath(TArray<FVector>& Path)
 {
-	TArray<FVector> Path;
-
 	//Do a backtracking of the parents until we reach the player's position
-	FVector Goal = Search();
-	if (!Parents.Contains(Goal)) { UE_LOG(LogTemp, Warning, TEXT("Parents do not contain goal")); return Path; }
+	FVector Goal;
+	bool Result =Search(Goal);
+	if (!Parents.Contains(Goal)) { UE_LOG(LogTemp, Warning, TEXT("Parents do not contain goal")); return false; }
 	FVector Temp = Parents[Goal];
 	Path.Add(Temp);
 
@@ -108,7 +108,7 @@ TArray<FVector> AGraph::GetPath()
 		Temp = Parents[Temp];
 		Path.Add(Temp);
 	}
-	return Path;
+	return Result;
 }
 
 

@@ -15,6 +15,6 @@ class PATHSEARCH_API ADFS : public AGraph
 	GENERATED_BODY()
 
 protected:
-	virtual FVector Search() override;
+	virtual bool Search(FVector& CurrentPosition) override;
 	
 };

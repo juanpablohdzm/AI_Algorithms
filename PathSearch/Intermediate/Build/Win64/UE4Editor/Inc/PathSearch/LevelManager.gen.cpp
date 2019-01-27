@@ -21,6 +21,9 @@ void EmptyLinkFunctionForGeneratedCodeLevelManager() {}
 	COREUOBJECT_API UScriptStruct* Z_Construct_UScriptStruct_FVector();
 	PATHSEARCH_API UFunction* Z_Construct_UFunction_ALevelManager_DrawPathBFS();
 	PATHSEARCH_API UFunction* Z_Construct_UFunction_ALevelManager_DrawPathDFS();
+	PATHSEARCH_API UFunction* Z_Construct_UFunction_ALevelManager_DrawPathDLFS();
+	PATHSEARCH_API UFunction* Z_Construct_UFunction_ALevelManager_DrawPathIDDS();
+	PATHSEARCH_API UClass* Z_Construct_UClass_ADLFS_NoRegister();
 	PATHSEARCH_API UClass* Z_Construct_UClass_AGraph_NoRegister();
 	ENGINE_API UClass* Z_Construct_UClass_AActor_NoRegister();
 	COREUOBJECT_API UClass* Z_Construct_UClass_UClass();
@@ -32,6 +35,8 @@ void EmptyLinkFunctionForGeneratedCodeLevelManager() {}
 			{ "DrawPath", &ALevelManager::execDrawPath },
 			{ "DrawPathBFS", &ALevelManager::execDrawPathBFS },
 			{ "DrawPathDFS", &ALevelManager::execDrawPathDFS },
+			{ "DrawPathDLFS", &ALevelManager::execDrawPathDLFS },
+			{ "DrawPathIDDS", &ALevelManager::execDrawPathIDDS },
 		};
 		FNativeFunctionRegistrar::RegisterFunctions(Class, Funcs, ARRAY_COUNT(Funcs));
 	}
@@ -88,6 +93,7 @@ void EmptyLinkFunctionForGeneratedCodeLevelManager() {}
 #if WITH_METADATA
 	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UFunction_ALevelManager_DrawPathBFS_Statics::Function_MetaDataParams[] = {
 		{ "ModuleRelativePath", "Public/LevelManager.h" },
+		{ "ToolTip", "Functions to be called by the UI" },
 	};
 #endif
 	const UE4CodeGen_Private::FFunctionParams Z_Construct_UFunction_ALevelManager_DrawPathBFS_Statics::FuncParams = { (UObject*(*)())Z_Construct_UClass_ALevelManager, "DrawPathBFS", RF_Public|RF_Transient|RF_MarkAsNative, nullptr, (EFunctionFlags)0x04020401, 0, nullptr, 0, 0, 0, METADATA_PARAMS(Z_Construct_UFunction_ALevelManager_DrawPathBFS_Statics::Function_MetaDataParams, ARRAY_COUNT(Z_Construct_UFunction_ALevelManager_DrawPathBFS_Statics::Function_MetaDataParams)) };
@@ -122,6 +128,50 @@ void EmptyLinkFunctionForGeneratedCodeLevelManager() {}
 		}
 		return ReturnFunction;
 	}
+	struct Z_Construct_UFunction_ALevelManager_DrawPathDLFS_Statics
+	{
+#if WITH_METADATA
+		static const UE4CodeGen_Private::FMetaDataPairParam Function_MetaDataParams[];
+#endif
+		static const UE4CodeGen_Private::FFunctionParams FuncParams;
+	};
+#if WITH_METADATA
+	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UFunction_ALevelManager_DrawPathDLFS_Statics::Function_MetaDataParams[] = {
+		{ "ModuleRelativePath", "Public/LevelManager.h" },
+	};
+#endif
+	const UE4CodeGen_Private::FFunctionParams Z_Construct_UFunction_ALevelManager_DrawPathDLFS_Statics::FuncParams = { (UObject*(*)())Z_Construct_UClass_ALevelManager, "DrawPathDLFS", RF_Public|RF_Transient|RF_MarkAsNative, nullptr, (EFunctionFlags)0x04020401, 0, nullptr, 0, 0, 0, METADATA_PARAMS(Z_Construct_UFunction_ALevelManager_DrawPathDLFS_Statics::Function_MetaDataParams, ARRAY_COUNT(Z_Construct_UFunction_ALevelManager_DrawPathDLFS_Statics::Function_MetaDataParams)) };
+	UFunction* Z_Construct_UFunction_ALevelManager_DrawPathDLFS()
+	{
+		static UFunction* ReturnFunction = nullptr;
+		if (!ReturnFunction)
+		{
+			UE4CodeGen_Private::ConstructUFunction(ReturnFunction, Z_Construct_UFunction_ALevelManager_DrawPathDLFS_Statics::FuncParams);
+		}
+		return ReturnFunction;
+	}
+	struct Z_Construct_UFunction_ALevelManager_DrawPathIDDS_Statics
+	{
+#if WITH_METADATA
+		static const UE4CodeGen_Private::FMetaDataPairParam Function_MetaDataParams[];
+#endif
+		static const UE4CodeGen_Private::FFunctionParams FuncParams;
+	};
+#if WITH_METADATA
+	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UFunction_ALevelManager_DrawPathIDDS_Statics::Function_MetaDataParams[] = {
+		{ "ModuleRelativePath", "Public/LevelManager.h" },
+	};
+#endif
+	const UE4CodeGen_Private::FFunctionParams Z_Construct_UFunction_ALevelManager_DrawPathIDDS_Statics::FuncParams = { (UObject*(*)())Z_Construct_UClass_ALevelManager, "DrawPathIDDS", RF_Public|RF_Transient|RF_MarkAsNative, nullptr, (EFunctionFlags)0x04020401, 0, nullptr, 0, 0, 0, METADATA_PARAMS(Z_Construct_UFunction_ALevelManager_DrawPathIDDS_Statics::Function_MetaDataParams, ARRAY_COUNT(Z_Construct_UFunction_ALevelManager_DrawPathIDDS_Statics::Function_MetaDataParams)) };
+	UFunction* Z_Construct_UFunction_ALevelManager_DrawPathIDDS()
+	{
+		static UFunction* ReturnFunction = nullptr;
+		if (!ReturnFunction)
+		{
+			UE4CodeGen_Private::ConstructUFunction(ReturnFunction, Z_Construct_UFunction_ALevelManager_DrawPathIDDS_Statics::FuncParams);
+		}
+		return ReturnFunction;
+	}
 	UClass* Z_Construct_UClass_ALevelManager_NoRegister()
 	{
 		return ALevelManager::StaticClass();
@@ -133,6 +183,10 @@ void EmptyLinkFunctionForGeneratedCodeLevelManager() {}
 #if WITH_METADATA
 		static const UE4CodeGen_Private::FMetaDataPairParam Class_MetaDataParams[];
 #endif
+#if WITH_METADATA
+		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_DLFS_MetaData[];
+#endif
+		static const UE4CodeGen_Private::FObjectPropertyParams NewProp_DLFS;
 #if WITH_METADATA
 		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_DFS_MetaData[];
 #endif
@@ -191,8 +245,10 @@ void EmptyLinkFunctionForGeneratedCodeLevelManager() {}
 	};
 	const FClassFunctionLinkInfo Z_Construct_UClass_ALevelManager_Statics::FuncInfo[] = {
 		{ &Z_Construct_UFunction_ALevelManager_DrawPath, "DrawPath" }, // 2312655139
-		{ &Z_Construct_UFunction_ALevelManager_DrawPathBFS, "DrawPathBFS" }, // 3293527675
+		{ &Z_Construct_UFunction_ALevelManager_DrawPathBFS, "DrawPathBFS" }, // 2620909523
 		{ &Z_Construct_UFunction_ALevelManager_DrawPathDFS, "DrawPathDFS" }, // 2704597552
+		{ &Z_Construct_UFunction_ALevelManager_DrawPathDLFS, "DrawPathDLFS" }, // 424042741
+		{ &Z_Construct_UFunction_ALevelManager_DrawPathIDDS, "DrawPathIDDS" }, // 3689500145
 	};
 #if WITH_METADATA
 	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_ALevelManager_Statics::Class_MetaDataParams[] = {
@@ -202,16 +258,24 @@ void EmptyLinkFunctionForGeneratedCodeLevelManager() {}
 	};
 #endif
 #if WITH_METADATA
+	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_ALevelManager_Statics::NewProp_DLFS_MetaData[] = {
+		{ "Category", "Path" },
+		{ "ModuleRelativePath", "Public/LevelManager.h" },
+	};
+#endif
+	const UE4CodeGen_Private::FObjectPropertyParams Z_Construct_UClass_ALevelManager_Statics::NewProp_DLFS = { UE4CodeGen_Private::EPropertyClass::Object, "DLFS", RF_Public|RF_Transient|RF_MarkAsNative, (EPropertyFlags)0x0020080000010005, 1, nullptr, STRUCT_OFFSET(ALevelManager, DLFS), Z_Construct_UClass_ADLFS_NoRegister, METADATA_PARAMS(Z_Construct_UClass_ALevelManager_Statics::NewProp_DLFS_MetaData, ARRAY_COUNT(Z_Construct_UClass_ALevelManager_Statics::NewProp_DLFS_MetaData)) };
+#if WITH_METADATA
 	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_ALevelManager_Statics::NewProp_DFS_MetaData[] = {
-		{ "Category", "Level design" },
+		{ "Category", "Path" },
 		{ "ModuleRelativePath", "Public/LevelManager.h" },
 	};
 #endif
 	const UE4CodeGen_Private::FObjectPropertyParams Z_Construct_UClass_ALevelManager_Statics::NewProp_DFS = { UE4CodeGen_Private::EPropertyClass::Object, "DFS", RF_Public|RF_Transient|RF_MarkAsNative, (EPropertyFlags)0x0020080000010005, 1, nullptr, STRUCT_OFFSET(ALevelManager, DFS), Z_Construct_UClass_AGraph_NoRegister, METADATA_PARAMS(Z_Construct_UClass_ALevelManager_Statics::NewProp_DFS_MetaData, ARRAY_COUNT(Z_Construct_UClass_ALevelManager_Statics::NewProp_DFS_MetaData)) };
 #if WITH_METADATA
 	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_ALevelManager_Statics::NewProp_BFS_MetaData[] = {
-		{ "Category", "Level design" },
+		{ "Category", "Path" },
 		{ "ModuleRelativePath", "Public/LevelManager.h" },
+		{ "ToolTip", "Objects responsible for their own type of path search" },
 	};
 #endif
 	const UE4CodeGen_Private::FObjectPropertyParams Z_Construct_UClass_ALevelManager_Statics::NewProp_BFS = { UE4CodeGen_Private::EPropertyClass::Object, "BFS", RF_Public|RF_Transient|RF_MarkAsNative, (EPropertyFlags)0x0020080000010005, 1, nullptr, STRUCT_OFFSET(ALevelManager, BFS), Z_Construct_UClass_AGraph_NoRegister, METADATA_PARAMS(Z_Construct_UClass_ALevelManager_Statics::NewProp_BFS_MetaData, ARRAY_COUNT(Z_Construct_UClass_ALevelManager_Statics::NewProp_BFS_MetaData)) };
@@ -282,10 +346,12 @@ void EmptyLinkFunctionForGeneratedCodeLevelManager() {}
 	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_ALevelManager_Statics::NewProp_ColumNum_MetaData[] = {
 		{ "Category", "Level design" },
 		{ "ModuleRelativePath", "Public/LevelManager.h" },
+		{ "ToolTip", "Information to create the level..." },
 	};
 #endif
 	const UE4CodeGen_Private::FUnsizedIntPropertyParams Z_Construct_UClass_ALevelManager_Statics::NewProp_ColumNum = { UE4CodeGen_Private::EPropertyClass::Int, "ColumNum", RF_Public|RF_Transient|RF_MarkAsNative, (EPropertyFlags)0x0020080000010001, 1, nullptr, STRUCT_OFFSET(ALevelManager, ColumNum), METADATA_PARAMS(Z_Construct_UClass_ALevelManager_Statics::NewProp_ColumNum_MetaData, ARRAY_COUNT(Z_Construct_UClass_ALevelManager_Statics::NewProp_ColumNum_MetaData)) };
 	const UE4CodeGen_Private::FPropertyParamsBase* const Z_Construct_UClass_ALevelManager_Statics::PropPointers[] = {
+		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_ALevelManager_Statics::NewProp_DLFS,
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_ALevelManager_Statics::NewProp_DFS,
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_ALevelManager_Statics::NewProp_BFS,
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_ALevelManager_Statics::NewProp_Camera,
@@ -322,7 +388,7 @@ void EmptyLinkFunctionForGeneratedCodeLevelManager() {}
 		}
 		return OuterClass;
 	}
-	IMPLEMENT_CLASS(ALevelManager, 1822427227);
+	IMPLEMENT_CLASS(ALevelManager, 1174408161);
 	static FCompiledInDefer Z_CompiledInDefer_UClass_ALevelManager(Z_Construct_UClass_ALevelManager, &ALevelManager::StaticClass, TEXT("/Script/PathSearch"), TEXT("ALevelManager"), false, nullptr, nullptr, nullptr);
 	DEFINE_VTABLE_PTR_HELPER_CTOR(ALevelManager);
 PRAGMA_ENABLE_DEPRECATION_WARNINGS

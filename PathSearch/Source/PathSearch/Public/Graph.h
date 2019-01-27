@@ -50,10 +50,10 @@ protected:
 	virtual void Init();
 	virtual void CheckAdjacency(const FVector& Position, TArray<FVector>& WalkableNodes);
 	virtual bool IsWalkable(const FVector& Position);
-	virtual FVector Search();
+	virtual bool Search(FVector& CurrentPosition);
 
 
 public:
-	virtual TArray<FVector> GetPath();
+	virtual bool GetPath(TArray<FVector>& Path);
 
 };

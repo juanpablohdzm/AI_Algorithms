@@ -2,7 +2,7 @@
 
 #include "Public/DFS.h"
 
-FVector ADFS::Search()
+bool ADFS::Search(FVector& CurrentPosition)
 {
 	Init();
 	//Keep track of visited position
@@ -11,7 +11,7 @@ FVector ADFS::Search()
 	//Create a queue for BFS
 	TArray<FVector> Stack;
 
-	FVector CurrentPosition = Player->GetActorLocation();
+	CurrentPosition = Player->GetActorLocation();
 	FVector GoalPosition = Goal->GetActorLocation();
 
 	//Mark the star position as visited and enqueue it
@@ -24,7 +24,7 @@ FVector ADFS::Search()
 		Stack.RemoveAt(0);
 
 		if (CurrentPosition == GoalPosition)
-			return CurrentPosition;
+			return true;
 
 		//Get the neighbors that are not a wall
 		TArray<FVector> WalkablePos;
@@ -43,5 +43,6 @@ FVector ADFS::Search()
 		}
 	}
 
-	return FVector(-100.0f, -100.0f, -100.0f);
+	CurrentPosition= FVector(-100.0f, -100.0f, -100.0f);
+	return false;
 }
