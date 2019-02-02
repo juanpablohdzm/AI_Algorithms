@@ -35,7 +35,7 @@ public: \
 
 #define PathSearch_Source_PathSearch_Public_AStar_h_15_STANDARD_CONSTRUCTORS \
 	/** Standard constructor, called after all reflected properties have been initialized */ \
-	NO_API AAStar(const FObjectInitializer& ObjectInitializer = FObjectInitializer::Get()); \
+	NO_API AAStar(const FObjectInitializer& ObjectInitializer); \
 	DEFINE_DEFAULT_OBJECT_INITIALIZER_CONSTRUCTOR_CALL(AAStar) \
 	DECLARE_VTABLE_PTR_HELPER_CTOR(NO_API, AAStar); \
 DEFINE_VTABLE_PTR_HELPER_CTOR_CALLER(AAStar); \
@@ -47,8 +47,6 @@ public:
 
 
 #define PathSearch_Source_PathSearch_Public_AStar_h_15_ENHANCED_CONSTRUCTORS \
-	/** Standard constructor, called after all reflected properties have been initialized */ \
-	NO_API AAStar() { }; \
 private: \
 	/** Private move- and copy-constructors, should never be used */ \
 	NO_API AAStar(AAStar&&); \
@@ -59,7 +57,10 @@ DEFINE_VTABLE_PTR_HELPER_CTOR_CALLER(AAStar); \
 	DEFINE_DEFAULT_CONSTRUCTOR_CALL(AAStar)
 
 
-#define PathSearch_Source_PathSearch_Public_AStar_h_15_PRIVATE_PROPERTY_OFFSET
+#define PathSearch_Source_PathSearch_Public_AStar_h_15_PRIVATE_PROPERTY_OFFSET \
+	FORCEINLINE static uint32 __PPO__HeuristicPorcentage() { return STRUCT_OFFSET(AAStar, HeuristicPorcentage); }
+
+
 #define PathSearch_Source_PathSearch_Public_AStar_h_12_PROLOG
 #define PathSearch_Source_PathSearch_Public_AStar_h_15_GENERATED_BODY_LEGACY \
 PRAGMA_DISABLE_DEPRECATION_WARNINGS \

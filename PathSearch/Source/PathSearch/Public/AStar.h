@@ -13,8 +13,14 @@ UCLASS()
 class PATHSEARCH_API AAStar : public AGraph
 {
 	GENERATED_BODY()
+
+public:
+	AAStar();
 	
 protected:
+
+	UPROPERTY(EditDefaultsOnly, Category="Path Finding")
+		float HeuristicPorcentage;
 
 	virtual void BeginPlay() override;
 

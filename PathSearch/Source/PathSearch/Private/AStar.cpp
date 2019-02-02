@@ -3,6 +3,11 @@
 #include "AStar.h"
 #include "Public/Point.h"
 
+AAStar::AAStar()
+{
+	HeuristicPorcentage = 0.5f;
+}
+
 void AAStar::BeginPlay()
 {
 	Super::BeginPlay();
@@ -11,16 +16,19 @@ void AAStar::BeginPlay()
 void AAStar::Sort_BestFirst(TArray<FVector>& List)
 {
 	TMap<FVector, APoint*> Temp = Points;
-	FVector GoalLocation = Goal->GetActorLocation();
+	float Porcentage = HeuristicPorcentage;
 
 	//The  vector with the lowest cost is placed at the front
-	List.Sort([Temp, GoalLocation](const FVector& LHS, const FVector& RHS)
+	List.Sort([Temp, Porcentage](const FVector& LHS, const FVector& RHS)
 	{
+		int NormalCost= Temp[LHS]->GetCost();
+		int AccumulateCost= Temp[LHS]->GetAccumulateCost();
+		int Cost1 =AccumulateCost+Porcentage*(AccumulateCost/ (NormalCost+1));
 
-		int Cost1 = Temp[LHS]->GetAccumulateCost();
-		Cost1 += (int)FVector::Dist(LHS, GoalLocation);
-		int Cost2 = Temp[RHS]->GetAccumulateCost();
-		Cost2+= (int)FVector::Dist(RHS, GoalLocation);
+		NormalCost = Temp[RHS]->GetCost();
+		AccumulateCost = Temp[RHS]->GetAccumulateCost();
+		int Cost2 = AccumulateCost + Porcentage * (AccumulateCost / (NormalCost+1));
+
 		if (Cost1 > Cost2)
 			return false;
 		else
@@ -59,7 +67,7 @@ bool AAStar::Search(FVector& CurrentPosition)
 			bool IsTheLowestCost = true;
 			int CurrentPositionCost = Points[CurrentPosition]->GetAccumulateCost();
 
-			for (const FVector& Node : List)
+			for (const FVector& Node: List)
 			{
 				int Cost = Points[Node]->GetAccumulateCost();
 

@@ -31,6 +31,11 @@ void EmptyLinkFunctionForGeneratedCodeAStar() {}
 #if WITH_METADATA
 		static const UE4CodeGen_Private::FMetaDataPairParam Class_MetaDataParams[];
 #endif
+#if WITH_METADATA
+		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_HeuristicPorcentage_MetaData[];
+#endif
+		static const UE4CodeGen_Private::FFloatPropertyParams NewProp_HeuristicPorcentage;
+		static const UE4CodeGen_Private::FPropertyParamsBase* const PropPointers[];
 		static const FCppClassTypeInfoStatic StaticCppClassTypeInfo;
 		static const UE4CodeGen_Private::FClassParams ClassParams;
 	};
@@ -44,6 +49,16 @@ void EmptyLinkFunctionForGeneratedCodeAStar() {}
 		{ "ModuleRelativePath", "Public/AStar.h" },
 	};
 #endif
+#if WITH_METADATA
+	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_AAStar_Statics::NewProp_HeuristicPorcentage_MetaData[] = {
+		{ "Category", "Path Finding" },
+		{ "ModuleRelativePath", "Public/AStar.h" },
+	};
+#endif
+	const UE4CodeGen_Private::FFloatPropertyParams Z_Construct_UClass_AAStar_Statics::NewProp_HeuristicPorcentage = { UE4CodeGen_Private::EPropertyClass::Float, "HeuristicPorcentage", RF_Public|RF_Transient|RF_MarkAsNative, (EPropertyFlags)0x0020080000010001, 1, nullptr, STRUCT_OFFSET(AAStar, HeuristicPorcentage), METADATA_PARAMS(Z_Construct_UClass_AAStar_Statics::NewProp_HeuristicPorcentage_MetaData, ARRAY_COUNT(Z_Construct_UClass_AAStar_Statics::NewProp_HeuristicPorcentage_MetaData)) };
+	const UE4CodeGen_Private::FPropertyParamsBase* const Z_Construct_UClass_AAStar_Statics::PropPointers[] = {
+		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_AAStar_Statics::NewProp_HeuristicPorcentage,
+	};
 	const FCppClassTypeInfoStatic Z_Construct_UClass_AAStar_Statics::StaticCppClassTypeInfo = {
 		TCppClassTypeTraits<AAStar>::IsAbstract,
 	};
@@ -52,7 +67,7 @@ void EmptyLinkFunctionForGeneratedCodeAStar() {}
 		DependentSingletons, ARRAY_COUNT(DependentSingletons),
 		0x009000A0u,
 		nullptr, 0,
-		nullptr, 0,
+		Z_Construct_UClass_AAStar_Statics::PropPointers, ARRAY_COUNT(Z_Construct_UClass_AAStar_Statics::PropPointers),
 		nullptr,
 		&StaticCppClassTypeInfo,
 		nullptr, 0,
@@ -67,7 +82,7 @@ void EmptyLinkFunctionForGeneratedCodeAStar() {}
 		}
 		return OuterClass;
 	}
-	IMPLEMENT_CLASS(AAStar, 336741534);
+	IMPLEMENT_CLASS(AAStar, 1122780633);
 	static FCompiledInDefer Z_CompiledInDefer_UClass_AAStar(Z_Construct_UClass_AAStar, &AAStar::StaticClass, TEXT("/Script/PathSearch"), TEXT("AAStar"), false, nullptr, nullptr, nullptr);
 	DEFINE_VTABLE_PTR_HELPER_CTOR(AAStar);
 PRAGMA_ENABLE_DEPRECATION_WARNINGS
