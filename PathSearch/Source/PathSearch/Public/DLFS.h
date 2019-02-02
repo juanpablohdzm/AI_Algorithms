@@ -16,6 +16,8 @@ class PATHSEARCH_API ADLFS : public ADFS
 
 protected:
 
+	virtual void BeginPlay() override;
+
 	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = "Graph")
 		int DepthLimit;
 

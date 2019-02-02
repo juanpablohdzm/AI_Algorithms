@@ -67,7 +67,7 @@ void EmptyLinkFunctionForGeneratedCodeHillClimbing() {}
 		}
 		return OuterClass;
 	}
-	IMPLEMENT_CLASS(AHillClimbing, 704034764);
+	IMPLEMENT_CLASS(AHillClimbing, 1335756651);
 	static FCompiledInDefer Z_CompiledInDefer_UClass_AHillClimbing(Z_Construct_UClass_AHillClimbing, &AHillClimbing::StaticClass, TEXT("/Script/PathSearch"), TEXT("AHillClimbing"), false, nullptr, nullptr, nullptr);
 	DEFINE_VTABLE_PTR_HELPER_CTOR(AHillClimbing);
 PRAGMA_ENABLE_DEPRECATION_WARNINGS

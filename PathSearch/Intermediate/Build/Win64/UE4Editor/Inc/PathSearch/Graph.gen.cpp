@@ -19,6 +19,7 @@ void EmptyLinkFunctionForGeneratedCodeGraph() {}
 	UPackage* Z_Construct_UPackage__Script_PathSearch();
 	COREUOBJECT_API UClass* Z_Construct_UClass_UClass();
 	ENGINE_API UClass* Z_Construct_UClass_AActor_NoRegister();
+	PATHSEARCH_API UClass* Z_Construct_UClass_APoint_NoRegister();
 // End Cross Module References
 	void AGraph::StaticRegisterNativesAGraph()
 	{
@@ -76,7 +77,7 @@ void EmptyLinkFunctionForGeneratedCodeGraph() {}
 		{ "ModuleRelativePath", "Public/Graph.h" },
 	};
 #endif
-	const UE4CodeGen_Private::FClassPropertyParams Z_Construct_UClass_AGraph_Statics::NewProp_PointClass = { UE4CodeGen_Private::EPropertyClass::Class, "PointClass", RF_Public|RF_Transient|RF_MarkAsNative, (EPropertyFlags)0x0024080000010001, 1, nullptr, STRUCT_OFFSET(AGraph, PointClass), Z_Construct_UClass_AActor_NoRegister, Z_Construct_UClass_UClass, METADATA_PARAMS(Z_Construct_UClass_AGraph_Statics::NewProp_PointClass_MetaData, ARRAY_COUNT(Z_Construct_UClass_AGraph_Statics::NewProp_PointClass_MetaData)) };
+	const UE4CodeGen_Private::FClassPropertyParams Z_Construct_UClass_AGraph_Statics::NewProp_PointClass = { UE4CodeGen_Private::EPropertyClass::Class, "PointClass", RF_Public|RF_Transient|RF_MarkAsNative, (EPropertyFlags)0x0024080000010001, 1, nullptr, STRUCT_OFFSET(AGraph, PointClass), Z_Construct_UClass_APoint_NoRegister, Z_Construct_UClass_UClass, METADATA_PARAMS(Z_Construct_UClass_AGraph_Statics::NewProp_PointClass_MetaData, ARRAY_COUNT(Z_Construct_UClass_AGraph_Statics::NewProp_PointClass_MetaData)) };
 #if WITH_METADATA
 	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_AGraph_Statics::NewProp_GoalClass_MetaData[] = {
 		{ "Category", "Path design" },
@@ -120,7 +121,7 @@ void EmptyLinkFunctionForGeneratedCodeGraph() {}
 		}
 		return OuterClass;
 	}
-	IMPLEMENT_CLASS(AGraph, 549338801);
+	IMPLEMENT_CLASS(AGraph, 425628572);
 	static FCompiledInDefer Z_CompiledInDefer_UClass_AGraph(Z_Construct_UClass_AGraph, &AGraph::StaticClass, TEXT("/Script/PathSearch"), TEXT("AGraph"), false, nullptr, nullptr, nullptr);
 	DEFINE_VTABLE_PTR_HELPER_CTOR(AGraph);
 PRAGMA_ENABLE_DEPRECATION_WARNINGS

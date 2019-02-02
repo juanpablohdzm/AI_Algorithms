@@ -2,6 +2,7 @@
 
 #include "Public/Graph.h"
 #include <Kismet/GameplayStatics.h>
+#include "Public/Point.h"
 #include <EngineUtils.h>
 
 // Sets default values
@@ -16,6 +17,7 @@ AGraph::AGraph()
 void AGraph::BeginPlay()
 {
 	Super::BeginPlay();
+	Init();
 	
 }
 
@@ -28,6 +30,8 @@ void AGraph::Tick(float DeltaTime)
 
 void AGraph::Init()
 {
+	UE_LOG(LogTemp, Warning, TEXT("Init called"));
+
 	TArray<AActor*> Objects;
 	//Get the player
 	UWorld* World = GetWorld();
@@ -44,10 +48,11 @@ void AGraph::Init()
 	}
 	if (!Goal) { UE_LOG(LogTemp, Warning, TEXT("Couldn't find goal")); return; }
 
-	for (TActorIterator<AActor> It(World, PointClass); It; ++It)
+	for (TActorIterator<APoint> It(World, PointClass); It; ++It)
 	{
-		AActor * Obj = *It;
+		APoint * Obj = *It;
 		WalkablePositions.Add(Obj->GetActorLocation(), true);
+		Points.Add(Obj->GetActorLocation(), Obj);
 	}
 
 	for (TActorIterator<AActor> It(World, WallClass); It; ++It)
@@ -79,19 +84,15 @@ void AGraph::CheckAdjacency(const FVector& Position, TArray<FVector>& WalkableNo
 	for (const FVector& Node : PossibleNeighbors)
 	{
 		if (IsWalkable(Node))
+		{
 			WalkableNodes.Add(Node);
+			//Add the accumulate cost of the current node to the adjacent ones. 
+			Points[Node]->AddCost(Points[Position]->GetAccumulateCost());
+		}
 	}
 
 	
 }
-
-bool AGraph::Search(FVector& CurrentPosition)
-{
-	CurrentPosition = FVector::ZeroVector;
-	return false;
-}
-
-
 
 bool AGraph::GetPath(TArray<FVector>& Path)
 {
@@ -109,6 +110,38 @@ bool AGraph::GetPath(TArray<FVector>& Path)
 		Path.Add(Temp);
 	}
 	return Result;
+}
+
+void AGraph::Sort_BestFirst(TArray<FVector>& List)
+{
+	TMap<FVector, APoint*> Temp = Points;
+
+	//The  vector with the lowest cost is placed at the front
+	List.Sort([Temp](const FVector& LHS, const FVector& RHS)
+	{
+
+		int Cost1 = Temp[LHS]->GetAccumulateCost();
+		int Cost2 = Temp[RHS]->GetAccumulateCost();
+		if (Cost1 > Cost2)
+			return false;
+		else
+			return true;
+	});
+}
+
+void AGraph::ResetPointsCost()
+{
+	for (TActorIterator<APoint> It(GetWorld(), PointClass); It; ++It)
+	{
+		APoint * Obj = *It;
+		Obj->ResetAccumulateCost();
+	}
+}
+
+bool AGraph::Search(FVector& CurrentPosition)
+{
+	CurrentPosition = FVector::ZeroVector;
+	return false;
 }
 
 

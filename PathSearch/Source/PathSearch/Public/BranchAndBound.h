@@ -13,9 +13,11 @@ UCLASS()
 class PATHSEARCH_API ABranchAndBound : public AGraph
 {
 	GENERATED_BODY()
-private:
-	virtual float CostCount(FVector Node);
+
 protected:
-	virtual void Sort_BestFirst(TArray<FVector>& List);
+
+	virtual void BeginPlay() override;
+
+	virtual void Sort_BestFirst(TArray<FVector>& List) override;
 	virtual bool Search(FVector& CurrentPosition) override;
 };

@@ -3,7 +3,7 @@
   <ItemGroup>
     <None Include="..\..\PathSearch.uproject" />
     <Filter Include="Source">
-      <UniqueIdentifier>{8F70A33F-8195-45C2-BDFF-C7E050A9331E}</UniqueIdentifier>
+      <UniqueIdentifier>{A12164A9-194E-4502-BC33-470B485C1A8D}</UniqueIdentifier>
     </Filter>
     <None Include="..\..\Source\PathSearch.Target.cs">
       <Filter>Source</Filter>
@@ -12,7 +12,7 @@
       <Filter>Source</Filter>
     </None>
     <Filter Include="Config">
-      <UniqueIdentifier>{540FBB17-B39D-4A5F-B60D-A826AFCC1301}</UniqueIdentifier>
+      <UniqueIdentifier>{3DD59DCD-3C65-495A-8E75-6B981F1CAE21}</UniqueIdentifier>
     </Filter>
     <None Include="..\..\Config\DefaultEditor.ini">
       <Filter>Config</Filter>
@@ -24,7 +24,7 @@
       <Filter>Config</Filter>
     </None>
     <Filter Include="Source\PathSearch">
-      <UniqueIdentifier>{5DA0C1FA-C504-42F8-9062-A1D027777F38}</UniqueIdentifier>
+      <UniqueIdentifier>{C7898426-643A-4402-A35B-2595925835E6}</UniqueIdentifier>
     </Filter>
     <None Include="..\..\Source\PathSearch\PathSearch.Build.cs">
       <Filter>Source\PathSearch</Filter>
@@ -41,52 +41,19 @@
     <ClInclude Include="..\..\Source\PathSearch\PathSearchGameModeBase.h">
       <Filter>Source\PathSearch</Filter>
     </ClInclude>
-  </ItemGroup>
-  <ItemGroup>
-    <Filter Include="Source\PathSearch\Public">
-      <UniqueIdentifier>{0d2fd7cf-b2cb-434c-b898-6c5d4d261fe4}</UniqueIdentifier>
-    </Filter>
     <Filter Include="Source\PathSearch\Private">
-      <UniqueIdentifier>{238beaf7-1168-4616-85fa-bc0db61893e5}</UniqueIdentifier>
+      <UniqueIdentifier>{7FD552E1-95E6-40CE-AC63-DC19C3EEFB4A}</UniqueIdentifier>
     </Filter>
-  </ItemGroup>
-  <ItemGroup>
-    <ClInclude Include="..\..\Source\PathSearch\Public\LevelManager.h">
-      <Filter>Source\PathSearch\Public</Filter>
-    </ClInclude>
-    <ClInclude Include="..\..\Source\PathSearch\Public\Graph.h">
-      <Filter>Source\PathSearch\Public</Filter>
-    </ClInclude>
-    <ClInclude Include="..\..\Source\PathSearch\Public\BFS.h">
-      <Filter>Source\PathSearch\Public</Filter>
-    </ClInclude>
-    <ClInclude Include="..\..\Source\PathSearch\Public\DFS.h">
-      <Filter>Source\PathSearch\Public</Filter>
-    </ClInclude>
-    <ClInclude Include="..\..\Source\PathSearch\Public\DLFS.h">
-      <Filter>Source\PathSearch\Public</Filter>
-    </ClInclude>
-    <ClInclude Include="..\..\Source\PathSearch\Public\HillClimbing.h">
-      <Filter>Source\PathSearch\Public</Filter>
-    </ClInclude>
-    <ClInclude Include="..\..\Source\PathSearch\Public\BestFirst.h">
-      <Filter>Source\PathSearch\Public</Filter>
-    </ClInclude>
-    <ClInclude Include="..\..\Source\PathSearch\Public\BeamSearch.h">
-      <Filter>Source\PathSearch\Public</Filter>
-    </ClInclude>
-    <ClInclude Include="..\..\Source\PathSearch\Public\BranchAndBound.h">
-      <Filter>Source\PathSearch\Public</Filter>
-    </ClInclude>
-  </ItemGroup>
-  <ItemGroup>
-    <ClCompile Include="..\..\Source\PathSearch\Private\LevelManager.cpp">
+    <ClCompile Include="..\..\Source\PathSearch\Private\BeamSearch.cpp">
       <Filter>Source\PathSearch\Private</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\Source\PathSearch\Private\Graph.cpp">
+    <ClCompile Include="..\..\Source\PathSearch\Private\BestFirst.cpp">
       <Filter>Source\PathSearch\Private</Filter>
     </ClCompile>
     <ClCompile Include="..\..\Source\PathSearch\Private\BFS.cpp">
+      <Filter>Source\PathSearch\Private</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\PathSearch\Private\BranchAndBound.cpp">
       <Filter>Source\PathSearch\Private</Filter>
     </ClCompile>
     <ClCompile Include="..\..\Source\PathSearch\Private\DFS.cpp">
@@ -95,16 +62,59 @@
     <ClCompile Include="..\..\Source\PathSearch\Private\DLFS.cpp">
       <Filter>Source\PathSearch\Private</Filter>
     </ClCompile>
+    <ClCompile Include="..\..\Source\PathSearch\Private\Graph.cpp">
+      <Filter>Source\PathSearch\Private</Filter>
+    </ClCompile>
     <ClCompile Include="..\..\Source\PathSearch\Private\HillClimbing.cpp">
       <Filter>Source\PathSearch\Private</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\Source\PathSearch\Private\BestFirst.cpp">
+    <ClCompile Include="..\..\Source\PathSearch\Private\LevelManager.cpp">
       <Filter>Source\PathSearch\Private</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\Source\PathSearch\Private\BeamSearch.cpp">
+    <ClCompile Include="..\..\Source\PathSearch\Private\Point.cpp">
       <Filter>Source\PathSearch\Private</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\Source\PathSearch\Private\BranchAndBound.cpp">
+    <Filter Include="Source\PathSearch\Public">
+      <UniqueIdentifier>{B3514CD8-95B6-4630-8FDF-02DEE81A3BD1}</UniqueIdentifier>
+    </Filter>
+    <ClInclude Include="..\..\Source\PathSearch\Public\BeamSearch.h">
+      <Filter>Source\PathSearch\Public</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\PathSearch\Public\BestFirst.h">
+      <Filter>Source\PathSearch\Public</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\PathSearch\Public\BFS.h">
+      <Filter>Source\PathSearch\Public</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\PathSearch\Public\BranchAndBound.h">
+      <Filter>Source\PathSearch\Public</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\PathSearch\Public\DFS.h">
+      <Filter>Source\PathSearch\Public</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\PathSearch\Public\DLFS.h">
+      <Filter>Source\PathSearch\Public</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\PathSearch\Public\Graph.h">
+      <Filter>Source\PathSearch\Public</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\PathSearch\Public\HillClimbing.h">
+      <Filter>Source\PathSearch\Public</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\PathSearch\Public\LevelManager.h">
+      <Filter>Source\PathSearch\Public</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\PathSearch\Public\Point.h">
+      <Filter>Source\PathSearch\Public</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\..\Source\PathSearch\Public\AStar.h">
+      <Filter>Source\PathSearch\Public</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\..\Source\PathSearch\Private\AStar.cpp">
       <Filter>Source\PathSearch\Private</Filter>
     </ClCompile>
   </ItemGroup>

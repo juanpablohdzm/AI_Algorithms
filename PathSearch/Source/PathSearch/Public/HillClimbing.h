@@ -15,7 +15,10 @@ class PATHSEARCH_API AHillClimbing : public AGraph
 	GENERATED_BODY()
 
 protected:
-	virtual void BestSelection(TArray<FVector>& List);
+
+	virtual void BeginPlay() override;
+
 	virtual bool Search(FVector& CurrentPosition) override;
+	virtual void Sort_BestFirst(TArray<FVector>& List) override;
 	
 };

@@ -1,21 +1,20 @@
 // Fill out your copyright notice in the Description page of Project Settings.
 
 #include "Public/HillClimbing.h"
+#include "Public/Point.h"
 
-void AHillClimbing::BestSelection(TArray<FVector>& List)
+
+void AHillClimbing::BeginPlay()
 {
-	FVector GoalLocation = Goal->GetActorLocation();
+	Super::BeginPlay();
+}
 
-	//The nearest vector to the goal is placed at the front
-	List.Sort([GoalLocation](const FVector& LHS, const FVector& RHS) 
-	{
-		float Dist1 = FVector::Dist(LHS, GoalLocation);
-		float Dist2 = FVector::Dist(RHS, GoalLocation);
-		if (Dist1 > Dist2)
-			return false;
-		else
-			return true;
-	});
+
+
+void AHillClimbing::Sort_BestFirst(TArray<FVector>& List)
+{
+
+	Super::Sort_BestFirst(List);
 	
 	List.SetNum(1, true);
 }
@@ -23,6 +22,9 @@ void AHillClimbing::BestSelection(TArray<FVector>& List)
 bool AHillClimbing::Search(FVector& CurrentPosition)
 {
 	Init();
+
+	ResetPointsCost();
+
 	//Keep track of visited position
 	TArray<FVector> Visisted;
 
@@ -60,7 +62,7 @@ bool AHillClimbing::Search(FVector& CurrentPosition)
 			}
 		}
 		if(List.Num())
-			BestSelection(List);
+			Sort_BestFirst(List);
 	}
 
 	//CurrentPosition = FVector(-100.0f, -100.0f, -100.0f);

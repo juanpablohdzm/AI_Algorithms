@@ -16,6 +16,14 @@ struct FVector;
 
 #define PathSearch_Source_PathSearch_Public_LevelManager_h_16_RPC_WRAPPERS \
  \
+	DECLARE_FUNCTION(execDrawPathAStar) \
+	{ \
+		P_FINISH; \
+		P_NATIVE_BEGIN; \
+		P_THIS->DrawPathAStar(); \
+		P_NATIVE_END; \
+	} \
+ \
 	DECLARE_FUNCTION(execDrawPathBranchAndBound) \
 	{ \
 		P_FINISH; \
@@ -91,6 +99,14 @@ struct FVector;
 
 
 #define PathSearch_Source_PathSearch_Public_LevelManager_h_16_RPC_WRAPPERS_NO_PURE_DECLS \
+ \
+	DECLARE_FUNCTION(execDrawPathAStar) \
+	{ \
+		P_FINISH; \
+		P_NATIVE_BEGIN; \
+		P_THIS->DrawPathAStar(); \
+		P_NATIVE_END; \
+	} \
  \
 	DECLARE_FUNCTION(execDrawPathBranchAndBound) \
 	{ \
@@ -227,7 +243,8 @@ DEFINE_VTABLE_PTR_HELPER_CTOR_CALLER(ALevelManager); \
 	FORCEINLINE static uint32 __PPO__HillClim() { return STRUCT_OFFSET(ALevelManager, HillClim); } \
 	FORCEINLINE static uint32 __PPO__BestFirst() { return STRUCT_OFFSET(ALevelManager, BestFirst); } \
 	FORCEINLINE static uint32 __PPO__BeamSearch() { return STRUCT_OFFSET(ALevelManager, BeamSearch); } \
-	FORCEINLINE static uint32 __PPO__BranchAndBound() { return STRUCT_OFFSET(ALevelManager, BranchAndBound); }
+	FORCEINLINE static uint32 __PPO__BranchAndBound() { return STRUCT_OFFSET(ALevelManager, BranchAndBound); } \
+	FORCEINLINE static uint32 __PPO__AStar() { return STRUCT_OFFSET(ALevelManager, AStar); }
 
 
 #define PathSearch_Source_PathSearch_Public_LevelManager_h_13_PROLOG

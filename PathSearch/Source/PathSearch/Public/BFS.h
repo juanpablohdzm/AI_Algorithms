@@ -15,5 +15,8 @@ class PATHSEARCH_API ABFS : public AGraph
 	GENERATED_BODY()
 	
 protected:
+
+	virtual void BeginPlay() override;
+
 	virtual bool Search(FVector& CurrentPosition) override;
 };

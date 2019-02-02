@@ -82,7 +82,7 @@ void EmptyLinkFunctionForGeneratedCodeBeamSearch() {}
 		}
 		return OuterClass;
 	}
-	IMPLEMENT_CLASS(ABeamSearch, 2875963959);
+	IMPLEMENT_CLASS(ABeamSearch, 3439528592);
 	static FCompiledInDefer Z_CompiledInDefer_UClass_ABeamSearch(Z_Construct_UClass_ABeamSearch, &ABeamSearch::StaticClass, TEXT("/Script/PathSearch"), TEXT("ABeamSearch"), false, nullptr, nullptr, nullptr);
 	DEFINE_VTABLE_PTR_HELPER_CTOR(ABeamSearch);
 PRAGMA_ENABLE_DEPRECATION_WARNINGS

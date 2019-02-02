@@ -2,9 +2,15 @@
 
 #include "Public/DFS.h"
 
+void ADFS::BeginPlay()
+{
+	Super::BeginPlay();
+}
+
 bool ADFS::Search(FVector& CurrentPosition)
 {
 	Init();
+
 	//Keep track of visited position
 	TArray<FVector> Visisted;
 

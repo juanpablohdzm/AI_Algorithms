@@ -3,9 +3,15 @@
 #include "Public/BFS.h"
 #include <Queue.h>
 
+void ABFS::BeginPlay()
+{
+	Super::BeginPlay();
+}
+
 bool ABFS::Search(FVector& CurrentPosition)
 {
 	Init();
+
 	//Keep track of visited position
 	TArray<FVector> Visisted;
 

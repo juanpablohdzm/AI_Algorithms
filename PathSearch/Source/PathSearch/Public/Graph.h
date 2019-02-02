@@ -36,7 +36,7 @@ protected:
 		TSubclassOf<class AActor> GoalClass;
 
 	UPROPERTY(EditDefaultsOnly, Category = "Path design")
-		TSubclassOf<class AActor> PointClass;
+		TSubclassOf<class APoint> PointClass;
 
 	UPROPERTY(EditDefaultsOnly, Category = "Path design")
 		TSubclassOf<class AActor> WallClass;
@@ -46,11 +46,25 @@ protected:
 	AActor* Player;
 	AActor* Goal;
 
+	TMap<FVector, class APoint*> Points;
 
+	//Initialize player, goal and walkable positions
 	virtual void Init();
+	
+	//Check if the position neighbors are walkable
 	virtual void CheckAdjacency(const FVector& Position, TArray<FVector>& WalkableNodes);
+
+	//....helper for checkAdjacency
 	virtual bool IsWalkable(const FVector& Position);
+
+	//...Implementation for every graph inherited class 
 	virtual bool Search(FVector& CurrentPosition);
+
+	//...Arrange the list from the lowest to the most expensive. 
+	virtual void Sort_BestFirst(TArray<FVector>& List);
+
+	//...Reset the accumulate cost of all the points
+	virtual void ResetPointsCost();
 
 
 public:

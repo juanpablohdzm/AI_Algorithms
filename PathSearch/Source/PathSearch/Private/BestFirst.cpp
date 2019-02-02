@@ -1,26 +1,25 @@
 // Fill out your copyright notice in the Description page of Project Settings.
 
 #include "Public/BestFirst.h"
+#include "Public/Point.h"
+
+void ABestFirst::BeginPlay()
+{
+	Super::BeginPlay();
+}
 
 void ABestFirst::Sort_BestFirst(TArray<FVector>& List)
 {
-	FVector GoalLocation = Goal->GetActorLocation();
-
-	//The nearest vector to the goal is placed at the front
-	List.Sort([GoalLocation](const FVector& LHS, const FVector& RHS)
-	{
-		float Dist1 = FVector::Dist(LHS, GoalLocation);
-		float Dist2 = FVector::Dist(RHS, GoalLocation);
-		if (Dist1 > Dist2)
-			return false;
-		else
-			return true;
-	});
+	Super::Sort_BestFirst(List);
 }
+
 
 bool ABestFirst::Search(FVector& CurrentPosition)
 {
 	Init();
+
+	ResetPointsCost();
+
 	//Keep track of visited position
 	TArray<FVector> Visisted;
 

@@ -52,7 +52,7 @@ protected:
 		TSubclassOf<class AActor> PathClass;
 
 	UPROPERTY(EditDefaultsOnly,  Category = "Level design")
-		TSubclassOf<class AActor> PointClass;
+		TSubclassOf<class APoint> PointClass;
 
 	UPROPERTY(EditDefaultsOnly, Category = "Level design")
 		TSubclassOf<class AActor> WallClass;
@@ -83,8 +83,12 @@ protected:
 	UPROPERTY(EditDefaultsOnly, BlueprintReadWrite, Category = "Path")
 		class AGraph * BranchAndBound;
 
+	UPROPERTY(EditDefaultsOnly, BlueprintReadWrite, Category = "Path")
+		class AGraph * AStar;
+
 
 	virtual void DrawLevel();
+	virtual void CleanLevel();
 
 
 public:
@@ -116,5 +120,8 @@ public:
 
 	UFUNCTION(BlueprintCallable)
 		void DrawPathBranchAndBound();
+
+	UFUNCTION(BlueprintCallable)
+		void DrawPathAStar();
 
 };

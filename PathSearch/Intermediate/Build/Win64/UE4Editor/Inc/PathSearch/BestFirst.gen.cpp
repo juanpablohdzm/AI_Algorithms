@@ -67,7 +67,7 @@ void EmptyLinkFunctionForGeneratedCodeBestFirst() {}
 		}
 		return OuterClass;
 	}
-	IMPLEMENT_CLASS(ABestFirst, 424178257);
+	IMPLEMENT_CLASS(ABestFirst, 2132853494);
 	static FCompiledInDefer Z_CompiledInDefer_UClass_ABestFirst(Z_Construct_UClass_ABestFirst, &ABestFirst::StaticClass, TEXT("/Script/PathSearch"), TEXT("ABestFirst"), false, nullptr, nullptr, nullptr);
 	DEFINE_VTABLE_PTR_HELPER_CTOR(ABestFirst);
 PRAGMA_ENABLE_DEPRECATION_WARNINGS

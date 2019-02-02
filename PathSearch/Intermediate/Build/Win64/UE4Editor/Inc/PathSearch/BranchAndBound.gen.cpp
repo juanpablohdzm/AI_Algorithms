@@ -67,7 +67,7 @@ void EmptyLinkFunctionForGeneratedCodeBranchAndBound() {}
 		}
 		return OuterClass;
 	}
-	IMPLEMENT_CLASS(ABranchAndBound, 2367914338);
+	IMPLEMENT_CLASS(ABranchAndBound, 3947573701);
 	static FCompiledInDefer Z_CompiledInDefer_UClass_ABranchAndBound(Z_Construct_UClass_ABranchAndBound, &ABranchAndBound::StaticClass, TEXT("/Script/PathSearch"), TEXT("ABranchAndBound"), false, nullptr, nullptr, nullptr);
 	DEFINE_VTABLE_PTR_HELPER_CTOR(ABranchAndBound);
 PRAGMA_ENABLE_DEPRECATION_WARNINGS

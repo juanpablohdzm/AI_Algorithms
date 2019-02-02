@@ -16,10 +16,12 @@ class PATHSEARCH_API ABeamSearch : public AGraph
 
 protected:
 
+	virtual void BeginPlay() override;
+
 	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = "Path")
 		int NumNodes;
 
-	virtual void BestSelection(TArray<FVector>& List);
 	virtual bool Search(FVector& CurrentPosition) override;
+	virtual void Sort_BestFirst(TArray<FVector>& List) override;
 	
 };

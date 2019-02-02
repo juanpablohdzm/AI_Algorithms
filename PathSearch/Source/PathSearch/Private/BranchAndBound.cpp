@@ -1,39 +1,26 @@
 // Fill out your copyright notice in the Description page of Project Settings.
 
 #include "Public/BranchAndBound.h"
+#include "Public/Point.h"
+
+void ABranchAndBound::BeginPlay()
+{
+	Super::BeginPlay();
+}
 
 void ABranchAndBound::Sort_BestFirst(TArray<FVector>& List)
 {
-	FVector GoalLocation = Goal->GetActorLocation();
-
-	//The nearest vector to the goal is placed at the front
-	List.Sort([GoalLocation](const FVector& LHS, const FVector& RHS)
-	{
-		float Dist1 = FVector::Dist(LHS, GoalLocation);
-		float Dist2 = FVector::Dist(RHS, GoalLocation);
-		if (Dist1 > Dist2)
-			return false;
-		else
-			return true;
-	});
+	Super::Sort_BestFirst(List);
 }
 
-float ABranchAndBound::CostCount(FVector Node)
-{
-	FVector count = Node;
-	while (Node != Player->GetActorLocation())
-	{
-		if (!Parents.Contains(Node)) { UE_LOG(LogTemp, Warning, TEXT("Parents do not contain: %s in depth count"), *Node.ToString()); break; }
-		Node = Parents[Node];
-		count+=Node;
-	}
 
-	return count.Size();
-}
 
 bool ABranchAndBound::Search(FVector& CurrentPosition)
 {
 	Init();
+
+	ResetPointsCost();
+
 	//Keep track of visited position
 	TArray<FVector> Visisted;
 
@@ -56,12 +43,11 @@ bool ABranchAndBound::Search(FVector& CurrentPosition)
 		{
 			//Suppose the current path is the one with lowest cost...
 			bool IsTheLowestCost = true;
-			float CurrentPositionCost = CostCount(CurrentPosition);
+			int CurrentPositionCost = Points[CurrentPosition]->GetAccumulateCost();
 
 			for (const FVector& Node: List)
 			{
-				float Cost = CostCount(Node);
-				Cost += CurrentPosition.Size();
+				int Cost = Points[Node]->GetAccumulateCost();
 
 				if (Cost < CurrentPositionCost)
 				{

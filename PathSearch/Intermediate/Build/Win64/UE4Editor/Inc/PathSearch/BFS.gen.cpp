@@ -67,7 +67,7 @@ void EmptyLinkFunctionForGeneratedCodeBFS() {}
 		}
 		return OuterClass;
 	}
-	IMPLEMENT_CLASS(ABFS, 2925270503);
+	IMPLEMENT_CLASS(ABFS, 3358893376);
 	static FCompiledInDefer Z_CompiledInDefer_UClass_ABFS(Z_Construct_UClass_ABFS, &ABFS::StaticClass, TEXT("/Script/PathSearch"), TEXT("ABFS"), false, nullptr, nullptr, nullptr);
 	DEFINE_VTABLE_PTR_HELPER_CTOR(ABFS);
 PRAGMA_ENABLE_DEPRECATION_WARNINGS

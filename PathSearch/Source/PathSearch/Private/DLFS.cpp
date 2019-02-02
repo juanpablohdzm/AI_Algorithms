@@ -2,6 +2,11 @@
 
 #include "Public/DLFS.h"
 
+void ADLFS::BeginPlay()
+{
+	Super::BeginPlay();
+}
+
 int ADLFS::DepthCount(FVector Node)
 {
 	int count = 0;
@@ -18,6 +23,7 @@ int ADLFS::DepthCount(FVector Node)
 bool ADLFS::Search(FVector& CurrentPosition)
 {
 	Init();
+
 	//Keep track of visited position
 	TArray<FVector> Visisted;
 

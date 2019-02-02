@@ -19,8 +19,8 @@ void EmptyLinkFunctionForGeneratedCodePathSearch_init() {}
 			static const UE4CodeGen_Private::FPackageParams PackageParams = {
 				"/Script/PathSearch",
 				PKG_CompiledIn | 0x00000000,
-				0x6427EA3D,
-				0xDF06352B,
+				0x574079B7,
+				0x89F71658,
 				nullptr, 0,
 				METADATA_PARAMS(nullptr, 0)
 			};
