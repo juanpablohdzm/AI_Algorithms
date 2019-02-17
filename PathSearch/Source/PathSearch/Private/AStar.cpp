@@ -62,25 +62,7 @@ bool AAStar::Search(FVector& CurrentPosition)
 		List.RemoveAt(0);
 
 		if (CurrentPosition == GoalPosition)
-		{
-			//Suppose the current path is the one with lowest cost...
-			bool IsTheLowestCost = true;
-			int CurrentPositionCost = Points[CurrentPosition]->GetAccumulateCost();
-
-			for (const FVector& Node: List)
-			{
-				int Cost = Points[Node]->GetAccumulateCost();
-
-				if (Cost < CurrentPositionCost)
-				{
-					//...you are wrong!
-					IsTheLowestCost = false;
-					break;
-				}
-			}
-			if (IsTheLowestCost)
 				return true;
-		}
 
 		//Get the neighbors that are not a wall
 		TArray<FVector> WalkablePos;

@@ -1,0 +1,1319 @@
+﻿Log file open, 02/17/19 07:22:49
+LogWindows: Failed to load 'aqProf.dll' (GetLastError=126)
+LogWindows: File 'aqProf.dll' does not exist
+LogWindows: Failed to load 'VtuneApi.dll' (GetLastError=126)
+LogWindows: File 'VtuneApi.dll' does not exist
+LogWindows: Failed to load 'VtuneApi32e.dll' (GetLastError=126)
+LogWindows: File 'VtuneApi32e.dll' does not exist
+LogConsoleResponse: Display: Failed to find resolution value strings in scalability ini. Falling back to default.
+LogInit: Display: Running engine for game: PathSearch
+LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+LogPlatformFile: Not using cached read wrapper
+LogTaskGraph: Started task graph with 5 named threads and 23 total threads with 3 sets of task threads.
+LogStats: Stats thread started at 1.916112
+LogD3D11RHI: Loaded GFSDK_Aftermath_Lib.x64.dll
+LogICUInternationalization: ICU TimeZone Detection - Raw Offset: -6:00, Platform Override: ''
+LogPluginManager: Mounting plugin Paper2D
+LogPluginManager: Mounting plugin AISupport
+LogPluginManager: Mounting plugin LightPropagationVolume
+LogPluginManager: Mounting plugin ActorLayerUtilities
+LogPluginManager: Mounting plugin CLionSourceCodeAccess
+LogPluginManager: Mounting plugin CodeLiteSourceCodeAccess
+LogPluginManager: Mounting plugin GitSourceControl
+LogPluginManager: Mounting plugin KDevelopSourceCodeAccess
+LogPluginManager: Mounting plugin NullSourceCodeAccess
+LogPluginManager: Mounting plugin PerforceSourceControl
+LogPluginManager: Mounting plugin SubversionSourceControl
+LogPluginManager: Mounting plugin UObjectPlugin
+LogPluginManager: Mounting plugin VisualStudioCodeSourceCodeAccess
+LogPluginManager: Mounting plugin VisualStudioSourceCodeAccess
+LogPluginManager: Mounting plugin XCodeSourceCodeAccess
+LogPluginManager: Mounting plugin AssetManagerEditor
+LogPluginManager: Mounting plugin CryptoKeys
+LogPluginManager: Mounting plugin DataValidation
+LogPluginManager: Mounting plugin FacialAnimation
+LogPluginManager: Mounting plugin GameplayTagsEditor
+LogPluginManager: Mounting plugin MacGraphicsSwitching
+LogPluginManager: Mounting plugin MeshEditor
+LogPluginManager: Mounting plugin MobileLauncherProfileWizard
+LogPluginManager: Mounting plugin PluginBrowser
+LogPluginManager: Mounting plugin SpeedTreeImporter
+LogPluginManager: Mounting plugin DatasmithContent
+LogPluginManager: Mounting plugin VariantManagerContent
+LogPluginManager: Mounting plugin AlembicImporter
+LogPluginManager: Mounting plugin AppleImageUtils
+LogPluginManager: Mounting plugin AppleVision
+LogPluginManager: Mounting plugin BackChannel
+LogPluginManager: Mounting plugin CharacterAI
+LogPluginManager: Mounting plugin GeometryCache
+LogPluginManager: Mounting plugin HTML5Networking
+LogPluginManager: Mounting plugin ProxyLODPlugin
+LogPluginManager: Mounting plugin MagicLeap
+LogPluginManager: Mounting plugin MagicLeapMedia
+LogPluginManager: Mounting plugin AndroidMedia
+LogPluginManager: Mounting plugin AvfMedia
+LogPluginManager: Mounting plugin ImgMedia
+LogPluginManager: Mounting plugin LinearTimecode
+LogPluginManager: Mounting plugin MediaCompositing
+LogPluginManager: Mounting plugin MediaPlayerEditor
+LogPluginManager: Mounting plugin WebMMedia
+LogPluginManager: Mounting plugin WmfMedia
+LogPluginManager: Mounting plugin TcpMessaging
+LogPluginManager: Mounting plugin UdpMessaging
+LogPluginManager: Mounting plugin ActorSequence
+LogPluginManager: Mounting plugin LevelSequenceEditor
+LogPluginManager: Mounting plugin MatineeToLevelSequence
+LogPluginManager: Mounting plugin NetcodeUnitTest
+LogPluginManager: Mounting plugin NUTUnrealEngine4
+LogPluginManager: Mounting plugin OnlineSubsystemGooglePlay
+LogPluginManager: Mounting plugin OnlineSubsystemIOS
+LogPluginManager: Mounting plugin OnlineSubsystem
+LogPluginManager: Mounting plugin OnlineSubsystemNull
+LogPluginManager: Mounting plugin OnlineSubsystemUtils
+LogPluginManager: Mounting plugin LauncherChunkInstaller
+LogPluginManager: Mounting plugin AndroidDeviceProfileSelector
+LogPluginManager: Mounting plugin AndroidMoviePlayer
+LogPluginManager: Mounting plugin AndroidPermission
+LogPluginManager: Mounting plugin AppleMoviePlayer
+LogPluginManager: Mounting plugin ArchVisCharacter
+LogPluginManager: Mounting plugin AudioCapture
+LogPluginManager: Mounting plugin CableComponent
+LogPluginManager: Mounting plugin CustomMeshComponent
+LogPluginManager: Mounting plugin EditableMesh
+LogPluginManager: Mounting plugin ExampleDeviceProfileSelector
+LogPluginManager: Mounting plugin Firebase
+LogPluginManager: Mounting plugin GoogleCloudMessaging
+LogPluginManager: Mounting plugin IOSDeviceProfileSelector
+LogPluginManager: Mounting plugin LinuxDeviceProfileSelector
+LogPluginManager: Mounting plugin LocationServicesBPLibrary
+LogPluginManager: Mounting plugin MobilePatchingUtils
+LogPluginManager: Mounting plugin OculusVR
+LogPluginManager: Mounting plugin PhysXVehicles
+LogPluginManager: Mounting plugin ProceduralMeshComponent
+LogPluginManager: Mounting plugin RuntimePhysXCooking
+LogPluginManager: Mounting plugin SteamVR
+LogPluginManager: Mounting plugin WebMMoviePlayer
+LogPluginManager: Mounting plugin WindowsMoviePlayer
+LogStreaming: Display: Took  0.397s to configure plugins.
+LogInit: Using libcurl 7.55.1-DEV
+LogInit:  - built for x86_64-pc-win32
+LogInit:  - supports SSL with OpenSSL/1.0.2h
+LogInit:  - supports HTTP deflate (compression) using libz 1.2.8
+LogInit:  - other features:
+LogInit:      CURL_VERSION_SSL
+LogInit:      CURL_VERSION_LIBZ
+LogInit:      CURL_VERSION_IPV6
+LogInit:      CURL_VERSION_ASYNCHDNS
+LogInit:      CURL_VERSION_LARGEFILE
+LogInit:      CURL_VERSION_IDN
+LogInit:  CurlRequestOptions (configurable via config and command line):
+LogInit:  - bVerifyPeer = true  - Libcurl will verify peer certificate
+LogInit:  - bUseHttpProxy = false  - Libcurl will NOT use HTTP proxy
+LogInit:  - bDontReuseConnections = false  - Libcurl will reuse connections
+LogInit:  - MaxHostConnections = 16  - Libcurl will limit the number of connections to a host
+LogInit:  - LocalHostAddr = Default
+LogInit:  - BufferSize = 65536
+LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+LogHMD: Failed initializing OVRPlugin 1.28.0
+LogInit: Build: ++UE4+Release-4.21-CL-4753647
+LogInit: Engine Version: 4.21.2-4753647+++UE4+Release-4.21
+LogInit: Compatible Engine Version: 4.21.0-4541578+++UE4+Release-4.21
+LogInit: Net CL: 4541578
+LogInit: OS: Windows 10 (), CPU: Intel(R) Core(TM) i7-6700HQ CPU @ 2.60GHz, GPU: Intel(R) HD Graphics 530
+LogInit: Compiled (64-bit): Jan 19 2019 02:07:31
+LogInit: Compiled with Visual C++: 19.13.26129.00
+LogInit: Build Configuration: Development
+LogInit: Branch Name: ++UE4+Release-4.21
+LogInit: Command Line: 
+LogInit: Base Directory: C:/Program Files/Epic Games/UE_4.21/Engine/Binaries/Win64/
+LogInit: Installed Engine Build: 1
+LogDevObjectVersion: Number of dev versions registered: 22
+LogDevObjectVersion:   Dev-Blueprints (B0D832E4-1F89-4F0D-ACCF-7EB736FD4AA2): 10
+LogDevObjectVersion:   Dev-Build (E1C64328-A22C-4D53-A36C-8E866417BD8C): 0
+LogDevObjectVersion:   Dev-Core (375EC13C-06E4-48FB-B500-84F0262A717E): 2
+LogDevObjectVersion:   Dev-Editor (E4B068ED-F494-42E9-A231-DA0B2E46BB41): 26
+LogDevObjectVersion:   Dev-Framework (CFFC743F-43B0-4480-9391-14DF171D2073): 34
+LogDevObjectVersion:   Dev-Mobile (B02B49B5-BB20-44E9-A304-32B752E40360): 2
+LogDevObjectVersion:   Dev-Networking (A4E4105C-59A1-49B5-A7C5-40C4547EDFEE): 0
+LogDevObjectVersion:   Dev-Online (39C831C9-5AE6-47DC-9A44-9C173E1C8E7C): 0
+LogDevObjectVersion:   Dev-Physics (78F01B33-EBEA-4F98-B9B4-84EACCB95AA2): 0
+LogDevObjectVersion:   Dev-Platform (6631380F-2D4D-43E0-8009-CF276956A95A): 0
+LogDevObjectVersion:   Dev-Rendering (12F88B9F-8875-4AFC-A67C-D90C383ABD29): 27
+LogDevObjectVersion:   Dev-Sequencer (7B5AE74C-D270-4C10-A958-57980B212A5A): 9
+LogDevObjectVersion:   Dev-VR (D7296918-1DD6-4BDD-9DE2-64A83CC13884): 2
+LogDevObjectVersion:   Dev-LoadTimes (C2A15278-BFE7-4AFE-6C17-90FF531DF755): 1
+LogDevObjectVersion:   Private-Geometry (6EACA3D4-40EC-4CC1-B786-8BED09428FC5): 3
+LogDevObjectVersion:   Dev-AnimPhys (29E575DD-E0A3-4627-9D10-D276232CDCEA): 17
+LogDevObjectVersion:   Dev-Anim (AF43A65D-7FD3-4947-9873-3E8ED9C1BB05): 2
+LogDevObjectVersion:   Dev-ReflectionCapture (6B266CEC-1EC7-4B8F-A30B-E4D90942FC07): 1
+LogDevObjectVersion:   Dev-Automation (0DF73D61-A23F-47EA-B727-89E90C41499A): 1
+LogDevObjectVersion:   FortniteMain (601D1886-AC64-4F84-AA16-D3DE0DEAC7D6): 17
+LogDevObjectVersion:   Dev-Enterprise (9DFFBCD6-494F-0158-E221-12823C92A888): 4
+LogDevObjectVersion:   Dev-Niagara (F2AED0AC-9AFE-416F-8664-AA7FFA26D6FC): 1
+LogStreaming: Display: Took  0.002s to delete old logs.
+LogInit: Presizing for max 8388607 objects, including 0 objects not considered by GC, pre-allocating 0 bytes for permanent pool.
+LogInit: Object subsystem initialized
+LogConfig: Setting CVar [[con.DebugEarlyDefault:1]]
+LogConfig: Setting CVar [[r.setres:1280x720]]
+[2019.02.17-13.22.52:792][  0]LogConfig: Setting CVar [[r.VSync:0]]
+[2019.02.17-13.22.52:792][  0]LogConfig: Setting CVar [[r.RHICmdBypass:0]]
+[2019.02.17-13.22.52:792][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.RendererSettings] File [C:/Users/Juan Pablo/Documents/Unreal Projects/AI/PathSearch/Saved/Config/Windows/Engine.ini]
+[2019.02.17-13.22.52:792][  0]LogConfig: Setting CVar [[r.GPUCrashDebugging:0]]
+[2019.02.17-13.22.52:792][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.RendererOverrideSettings] File [C:/Users/Juan Pablo/Documents/Unreal Projects/AI/PathSearch/Saved/Config/Windows/Engine.ini]
+[2019.02.17-13.22.52:792][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.StreamingSettings] File [C:/Users/Juan Pablo/Documents/Unreal Projects/AI/PathSearch/Saved/Config/Windows/Engine.ini]
+[2019.02.17-13.22.52:792][  0]LogConfig: Setting CVar [[s.MinBulkDataSizeForAsyncLoading:131072]]
+[2019.02.17-13.22.52:792][  0]LogConfig: Setting CVar [[s.AsyncLoadingThreadEnabled:0]]
+[2019.02.17-13.22.52:792][  0]LogConfig: Setting CVar [[s.EventDrivenLoaderEnabled:1]]
+[2019.02.17-13.22.52:792][  0]LogConfig: Setting CVar [[s.WarnIfTimeLimitExceeded:0]]
+[2019.02.17-13.22.52:792][  0]LogConfig: Setting CVar [[s.TimeLimitExceededMultiplier:1.5]]
+[2019.02.17-13.22.52:792][  0]LogConfig: Setting CVar [[s.TimeLimitExceededMinTime:0.005]]
+[2019.02.17-13.22.52:792][  0]LogConfig: Setting CVar [[s.UseBackgroundLevelStreaming:1]]
+[2019.02.17-13.22.52:792][  0]LogConfig: Setting CVar [[s.PriorityAsyncLoadingExtraTime:15.0]]
+[2019.02.17-13.22.52:792][  0]LogConfig: Setting CVar [[s.LevelStreamingActorsUpdateTimeLimit:5.0]]
+[2019.02.17-13.22.52:792][  0]LogConfig: Setting CVar [[s.PriorityLevelStreamingActorsUpdateExtraTime:5.0]]
+[2019.02.17-13.22.52:792][  0]LogConfig: Setting CVar [[s.LevelStreamingComponentsRegistrationGranularity:10]]
+[2019.02.17-13.22.52:792][  0]LogConfig: Setting CVar [[s.UnregisterComponentsTimeLimit:1.0]]
+[2019.02.17-13.22.52:792][  0]LogConfig: Setting CVar [[s.LevelStreamingComponentsUnregistrationGranularity:5]]
+[2019.02.17-13.22.52:793][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.GarbageCollectionSettings] File [C:/Users/Juan Pablo/Documents/Unreal Projects/AI/PathSearch/Saved/Config/Windows/Engine.ini]
+[2019.02.17-13.22.52:793][  0]LogConfig: Setting CVar [[gc.MaxObjectsNotConsideredByGC:1]]
+[2019.02.17-13.22.52:793][  0]LogConfig: Setting CVar [[gc.SizeOfPermanentObjectPool:0]]
+[2019.02.17-13.22.52:793][  0]LogConfig: Setting CVar [[gc.FlushStreamingOnGC:0]]
+[2019.02.17-13.22.52:793][  0]LogConfig: Setting CVar [[gc.NumRetriesBeforeForcingGC:10]]
+[2019.02.17-13.22.52:793][  0]LogConfig: Setting CVar [[gc.AllowParallelGC:1]]
+[2019.02.17-13.22.52:793][  0]LogConfig: Setting CVar [[gc.TimeBetweenPurgingPendingKillObjects:61.1]]
+[2019.02.17-13.22.52:793][  0]LogConfig: Setting CVar [[gc.MaxObjectsInEditor:8388607]]
+[2019.02.17-13.22.52:793][  0]LogConfig: Setting CVar [[gc.IncrementalBeginDestroyEnabled:1]]
+[2019.02.17-13.22.52:793][  0]LogConfig: Setting CVar [[gc.CreateGCClusters:1]]
+[2019.02.17-13.22.52:793][  0]LogConfig: Setting CVar [[gc.MergeGCClusters:0]]
+[2019.02.17-13.22.52:793][  0]LogConfig: Setting CVar [[gc.MinGCClusterSize:5]]
+[2019.02.17-13.22.52:793][  0]LogConfig: Setting CVar [[gc.ActorClusteringEnabled:0]]
+[2019.02.17-13.22.52:793][  0]LogConfig: Setting CVar [[gc.BlueprintClusteringEnabled:0]]
+[2019.02.17-13.22.52:793][  0]LogConfig: Setting CVar [[gc.UseDisregardForGCOnDedicatedServers:0]]
+[2019.02.17-13.22.52:793][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.NetworkSettings] File [C:/Users/Juan Pablo/Documents/Unreal Projects/AI/PathSearch/Saved/Config/Windows/Engine.ini]
+[2019.02.17-13.22.52:793][  0]LogConfig: Applying CVar settings from Section [/Script/UnrealEd.CookerSettings] File [C:/Users/Juan Pablo/Documents/Unreal Projects/AI/PathSearch/Saved/Config/Windows/Engine.ini]
+[2019.02.17-13.22.52:800][  0]LogConfig: Applying CVar settings from Section [ViewDistanceQuality@3] File [C:/Users/Juan Pablo/Documents/Unreal Projects/AI/PathSearch/Saved/Config/Windows/Scalability.ini]
+[2019.02.17-13.22.52:800][  0]LogConfig: Setting CVar [[r.SkeletalMeshLODBias:0]]
+[2019.02.17-13.22.52:800][  0]LogConfig: Setting CVar [[r.ViewDistanceScale:1.0]]
+[2019.02.17-13.22.52:800][  0]LogConfig: Applying CVar settings from Section [AntiAliasingQuality@3] File [C:/Users/Juan Pablo/Documents/Unreal Projects/AI/PathSearch/Saved/Config/Windows/Scalability.ini]
+[2019.02.17-13.22.52:800][  0]LogConfig: Setting CVar [[r.PostProcessAAQuality:4]]
+[2019.02.17-13.22.52:800][  0]LogConfig: Applying CVar settings from Section [ShadowQuality@3] File [C:/Users/Juan Pablo/Documents/Unreal Projects/AI/PathSearch/Saved/Config/Windows/Scalability.ini]
+[2019.02.17-13.22.52:800][  0]LogConfig: Setting CVar [[r.LightFunctionQuality:1]]
+[2019.02.17-13.22.52:800][  0]LogConfig: Setting CVar [[r.ShadowQuality:5]]
+[2019.02.17-13.22.52:800][  0]LogConfig: Setting CVar [[r.Shadow.CSM.MaxCascades:10]]
+[2019.02.17-13.22.52:800][  0]LogConfig: Setting CVar [[r.Shadow.MaxResolution:2048]]
+[2019.02.17-13.22.52:800][  0]LogConfig: Setting CVar [[r.Shadow.MaxCSMResolution:2048]]
+[2019.02.17-13.22.52:800][  0]LogConfig: Setting CVar [[r.Shadow.RadiusThreshold:0.01]]
+[2019.02.17-13.22.52:800][  0]LogConfig: Setting CVar [[r.Shadow.DistanceScale:1.0]]
+[2019.02.17-13.22.52:800][  0]LogConfig: Setting CVar [[r.Shadow.CSM.TransitionScale:1.0]]
+[2019.02.17-13.22.52:800][  0]LogConfig: Setting CVar [[r.Shadow.PreShadowResolutionFactor:1.0]]
+[2019.02.17-13.22.52:800][  0]LogConfig: Setting CVar [[r.DistanceFieldShadowing:1]]
+[2019.02.17-13.22.52:800][  0]LogConfig: Setting CVar [[r.DistanceFieldAO:1]]
+[2019.02.17-13.22.52:800][  0]LogConfig: Setting CVar [[r.AOQuality:2]]
+[2019.02.17-13.22.52:800][  0]LogConfig: Setting CVar [[r.VolumetricFog:1]]
+[2019.02.17-13.22.52:800][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridPixelSize:8]]
+[2019.02.17-13.22.52:800][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridSizeZ:128]]
+[2019.02.17-13.22.52:800][  0]LogConfig: Setting CVar [[r.VolumetricFog.HistoryMissSupersampleCount:4]]
+[2019.02.17-13.22.52:800][  0]LogConfig: Setting CVar [[r.LightMaxDrawDistanceScale:1]]
+[2019.02.17-13.22.52:800][  0]LogConfig: Setting CVar [[r.CapsuleShadows:1]]
+[2019.02.17-13.22.52:800][  0]LogConfig: Applying CVar settings from Section [PostProcessQuality@3] File [C:/Users/Juan Pablo/Documents/Unreal Projects/AI/PathSearch/Saved/Config/Windows/Scalability.ini]
+[2019.02.17-13.22.52:800][  0]LogConfig: Setting CVar [[r.MotionBlurQuality:4]]
+[2019.02.17-13.22.52:800][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMipLevelFactor:0.4]]
+[2019.02.17-13.22.52:800][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMaxQuality:100]]
+[2019.02.17-13.22.52:800][  0]LogConfig: Setting CVar [[r.AmbientOcclusionLevels:-1]]
+[2019.02.17-13.22.52:800][  0]LogConfig: Setting CVar [[r.AmbientOcclusionRadiusScale:1.0]]
+[2019.02.17-13.22.52:800][  0]LogConfig: Setting CVar [[r.DepthOfFieldQuality:2]]
+[2019.02.17-13.22.52:800][  0]LogConfig: Setting CVar [[r.RenderTargetPoolMin:400]]
+[2019.02.17-13.22.52:800][  0]LogConfig: Setting CVar [[r.LensFlareQuality:2]]
+[2019.02.17-13.22.52:800][  0]LogConfig: Setting CVar [[r.SceneColorFringeQuality:1]]
+[2019.02.17-13.22.52:800][  0]LogConfig: Setting CVar [[r.EyeAdaptationQuality:2]]
+[2019.02.17-13.22.52:800][  0]LogConfig: Setting CVar [[r.BloomQuality:5]]
+[2019.02.17-13.22.52:800][  0]LogConfig: Setting CVar [[r.FastBlurThreshold:100]]
+[2019.02.17-13.22.52:800][  0]LogConfig: Setting CVar [[r.Upscale.Quality:3]]
+[2019.02.17-13.22.52:801][  0]LogConfig: Setting CVar [[r.Tonemapper.GrainQuantization:1]]
+[2019.02.17-13.22.52:801][  0]LogConfig: Setting CVar [[r.LightShaftQuality:1]]
+[2019.02.17-13.22.52:801][  0]LogConfig: Setting CVar [[r.Filter.SizeScale:1]]
+[2019.02.17-13.22.52:801][  0]LogConfig: Setting CVar [[r.Tonemapper.Quality:5]]
+[2019.02.17-13.22.52:801][  0]LogConfig: Setting CVar [[r.DOF.Gather.AccumulatorQuality:1        ; higher gathering accumulator quality]]
+[2019.02.17-13.22.52:801][  0]LogConfig: Setting CVar [[r.DOF.Gather.PostfilterMethod:1          ; Median3x3 postfilering method]]
+[2019.02.17-13.22.52:801][  0]LogConfig: Setting CVar [[r.DOF.Gather.EnableBokehSettings:0       ; no bokeh simulation when gathering]]
+[2019.02.17-13.22.52:801][  0]LogConfig: Setting CVar [[r.DOF.Gather.RingCount:4                 ; medium number of samples when gathering]]
+[2019.02.17-13.22.52:801][  0]LogConfig: Setting CVar [[r.DOF.Scatter.ForegroundCompositing:1    ; additive foreground scattering]]
+[2019.02.17-13.22.52:801][  0]LogConfig: Setting CVar [[r.DOF.Scatter.BackgroundCompositing:2    ; additive background scattering]]
+[2019.02.17-13.22.52:801][  0]LogConfig: Setting CVar [[r.DOF.Scatter.EnableBokehSettings:1      ; bokeh simulation when scattering]]
+[2019.02.17-13.22.52:801][  0]LogConfig: Setting CVar [[r.DOF.Scatter.MaxSpriteRatio:0.1         ; only a maximum of 10% of scattered bokeh]]
+[2019.02.17-13.22.52:801][  0]LogConfig: Setting CVar [[r.DOF.Recombine.Quality:1                ; cheap slight out of focus]]
+[2019.02.17-13.22.52:801][  0]LogConfig: Setting CVar [[r.DOF.Recombine.EnableBokehSettings:0    ; no bokeh simulation on slight out of focus]]
+[2019.02.17-13.22.52:801][  0]LogConfig: Setting CVar [[r.DOF.TemporalAAQuality:1                ; more stable temporal accumulation]]
+[2019.02.17-13.22.52:801][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxForegroundRadius:0.025]]
+[2019.02.17-13.22.52:801][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxBackgroundRadius:0.025]]
+[2019.02.17-13.22.52:801][  0]LogConfig: Applying CVar settings from Section [TextureQuality@3] File [C:/Users/Juan Pablo/Documents/Unreal Projects/AI/PathSearch/Saved/Config/Windows/Scalability.ini]
+[2019.02.17-13.22.52:801][  0]LogConfig: Setting CVar [[r.Streaming.MipBias:0]]
+[2019.02.17-13.22.52:801][  0]LogConfig: Setting CVar [[r.Streaming.AmortizeCPUToGPUCopy:0]]
+[2019.02.17-13.22.52:801][  0]LogConfig: Setting CVar [[r.Streaming.MaxNumTexturesToStreamPerFrame:0]]
+[2019.02.17-13.22.52:801][  0]LogConfig: Setting CVar [[r.Streaming.Boost:1]]
+[2019.02.17-13.22.52:801][  0]LogConfig: Setting CVar [[r.MaxAnisotropy:8]]
+[2019.02.17-13.22.52:801][  0]LogConfig: Setting CVar [[r.Streaming.LimitPoolSizeToVRAM:0]]
+[2019.02.17-13.22.52:801][  0]LogConfig: Setting CVar [[r.Streaming.PoolSize:1000]]
+[2019.02.17-13.22.52:801][  0]LogConfig: Setting CVar [[r.Streaming.MaxEffectiveScreenSize:0]]
+[2019.02.17-13.22.52:801][  0]LogConfig: Applying CVar settings from Section [EffectsQuality@3] File [C:/Users/Juan Pablo/Documents/Unreal Projects/AI/PathSearch/Saved/Config/Windows/Scalability.ini]
+[2019.02.17-13.22.52:801][  0]LogConfig: Setting CVar [[r.TranslucencyLightingVolumeDim:64]]
+[2019.02.17-13.22.52:801][  0]LogConfig: Setting CVar [[r.RefractionQuality:2]]
+[2019.02.17-13.22.52:801][  0]LogConfig: Setting CVar [[r.SSR.Quality:3]]
+[2019.02.17-13.22.52:801][  0]LogConfig: Setting CVar [[r.SceneColorFormat:4]]
+[2019.02.17-13.22.52:801][  0]LogConfig: Setting CVar [[r.DetailMode:2]]
+[2019.02.17-13.22.52:801][  0]LogConfig: Setting CVar [[r.TranslucencyVolumeBlur:1]]
+[2019.02.17-13.22.52:801][  0]LogConfig: Setting CVar [[r.MaterialQualityLevel:1 ; High quality]]
+[2019.02.17-13.22.52:801][  0]LogConfig: Setting CVar [[r.SSS.Scale:1]]
+[2019.02.17-13.22.52:801][  0]LogConfig: Setting CVar [[r.SSS.SampleSet:2]]
+[2019.02.17-13.22.52:801][  0]LogConfig: Setting CVar [[r.SSS.Quality:1]]
+[2019.02.17-13.22.52:801][  0]LogConfig: Setting CVar [[r.SSS.HalfRes:1]]
+[2019.02.17-13.22.52:801][  0]LogConfig: Setting CVar [[r.EmitterSpawnRateScale:1.0]]
+[2019.02.17-13.22.52:801][  0]LogConfig: Setting CVar [[r.ParticleLightQuality:2]]
+[2019.02.17-13.22.52:801][  0]LogConfig: Applying CVar settings from Section [FoliageQuality@3] File [C:/Users/Juan Pablo/Documents/Unreal Projects/AI/PathSearch/Saved/Config/Windows/Scalability.ini]
+[2019.02.17-13.22.52:801][  0]LogConfig: Setting CVar [[foliage.DensityScale:1.0]]
+[2019.02.17-13.22.52:801][  0]LogConfig: Setting CVar [[grass.DensityScale:1.0]]
+[2019.02.17-13.22.52:802][  0]LogInit: Selected Device Profile: [Windows]
+[2019.02.17-13.22.52:802][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2019.02.17-13.22.52:872][  0]LogHAL: Display: Platform has ~ 12 GB [12744183808 / 17179869184 / 12], which maps to Larger [LargestMinGB=32, LargerMinGB=12, DefaultMinGB=8, SmallerMinGB=6, SmallestMinGB=0)
+[2019.02.17-13.22.52:872][  0]LogConfig: Setting CVar [[r.Vulkan.UseRealUBs:1]]
+[2019.02.17-13.22.52:872][  0]LogInit: Going up to parent DeviceProfile []
+[2019.02.17-13.22.52:872][  0]LogConfig: Applying CVar settings from Section [ViewDistanceQuality@2] File [C:/Users/Juan Pablo/Documents/Unreal Projects/AI/PathSearch/Saved/Config/Windows/Scalability.ini]
+[2019.02.17-13.22.52:872][  0]LogConfig: Setting CVar [[r.SkeletalMeshLODBias:0]]
+[2019.02.17-13.22.52:872][  0]LogConfig: Setting CVar [[r.ViewDistanceScale:0.8]]
+[2019.02.17-13.22.52:872][  0]LogConfig: Applying CVar settings from Section [AntiAliasingQuality@2] File [C:/Users/Juan Pablo/Documents/Unreal Projects/AI/PathSearch/Saved/Config/Windows/Scalability.ini]
+[2019.02.17-13.22.52:872][  0]LogConfig: Setting CVar [[r.PostProcessAAQuality:3]]
+[2019.02.17-13.22.52:872][  0]LogConfig: Applying CVar settings from Section [ShadowQuality@2] File [C:/Users/Juan Pablo/Documents/Unreal Projects/AI/PathSearch/Saved/Config/Windows/Scalability.ini]
+[2019.02.17-13.22.52:872][  0]LogConfig: Setting CVar [[r.LightFunctionQuality:1]]
+[2019.02.17-13.22.52:872][  0]LogConfig: Setting CVar [[r.ShadowQuality:5]]
+[2019.02.17-13.22.52:872][  0]LogConfig: Setting CVar [[r.Shadow.CSM.MaxCascades:4]]
+[2019.02.17-13.22.52:873][  0]LogConfig: Setting CVar [[r.Shadow.MaxResolution:1024]]
+[2019.02.17-13.22.52:873][  0]LogConfig: Setting CVar [[r.Shadow.MaxCSMResolution:2048]]
+[2019.02.17-13.22.52:873][  0]LogConfig: Setting CVar [[r.Shadow.RadiusThreshold:0.04]]
+[2019.02.17-13.22.52:873][  0]LogConfig: Setting CVar [[r.Shadow.DistanceScale:0.85]]
+[2019.02.17-13.22.52:873][  0]LogConfig: Setting CVar [[r.Shadow.CSM.TransitionScale:0.8]]
+[2019.02.17-13.22.52:873][  0]LogConfig: Setting CVar [[r.Shadow.PreShadowResolutionFactor:0.5]]
+[2019.02.17-13.22.52:873][  0]LogConfig: Setting CVar [[r.DistanceFieldShadowing:1]]
+[2019.02.17-13.22.52:873][  0]LogConfig: Setting CVar [[r.DistanceFieldAO:1]]
+[2019.02.17-13.22.52:873][  0]LogConfig: Setting CVar [[r.AOQuality:1]]
+[2019.02.17-13.22.52:873][  0]LogConfig: Setting CVar [[r.VolumetricFog:1]]
+[2019.02.17-13.22.52:873][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridPixelSize:16]]
+[2019.02.17-13.22.52:873][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridSizeZ:64]]
+[2019.02.17-13.22.52:873][  0]LogConfig: Setting CVar [[r.VolumetricFog.HistoryMissSupersampleCount:4]]
+[2019.02.17-13.22.52:873][  0]LogConfig: Setting CVar [[r.LightMaxDrawDistanceScale:1]]
+[2019.02.17-13.22.52:873][  0]LogConfig: Setting CVar [[r.CapsuleShadows:1]]
+[2019.02.17-13.22.52:873][  0]LogConfig: Applying CVar settings from Section [PostProcessQuality@2] File [C:/Users/Juan Pablo/Documents/Unreal Projects/AI/PathSearch/Saved/Config/Windows/Scalability.ini]
+[2019.02.17-13.22.52:873][  0]LogConfig: Setting CVar [[r.MotionBlurQuality:3]]
+[2019.02.17-13.22.52:873][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMipLevelFactor:0.6]]
+[2019.02.17-13.22.52:873][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMaxQuality:100]]
+[2019.02.17-13.22.52:873][  0]LogConfig: Setting CVar [[r.AmbientOcclusionLevels:-1]]
+[2019.02.17-13.22.52:873][  0]LogConfig: Setting CVar [[r.AmbientOcclusionRadiusScale:1.5]]
+[2019.02.17-13.22.52:873][  0]LogConfig: Setting CVar [[r.DepthOfFieldQuality:2]]
+[2019.02.17-13.22.52:873][  0]LogConfig: Setting CVar [[r.RenderTargetPoolMin:400]]
+[2019.02.17-13.22.52:873][  0]LogConfig: Setting CVar [[r.LensFlareQuality:2]]
+[2019.02.17-13.22.52:873][  0]LogConfig: Setting CVar [[r.SceneColorFringeQuality:1]]
+[2019.02.17-13.22.52:873][  0]LogConfig: Setting CVar [[r.EyeAdaptationQuality:2]]
+[2019.02.17-13.22.52:873][  0]LogConfig: Setting CVar [[r.BloomQuality:5]]
+[2019.02.17-13.22.52:873][  0]LogConfig: Setting CVar [[r.FastBlurThreshold:3]]
+[2019.02.17-13.22.52:873][  0]LogConfig: Setting CVar [[r.Upscale.Quality:2]]
+[2019.02.17-13.22.52:873][  0]LogConfig: Setting CVar [[r.Tonemapper.GrainQuantization:1]]
+[2019.02.17-13.22.52:873][  0]LogConfig: Setting CVar [[r.LightShaftQuality:1]]
+[2019.02.17-13.22.52:873][  0]LogConfig: Setting CVar [[r.Filter.SizeScale:0.8]]
+[2019.02.17-13.22.52:873][  0]LogConfig: Setting CVar [[r.Tonemapper.Quality:5]]
+[2019.02.17-13.22.52:873][  0]LogConfig: Setting CVar [[r.DOF.Gather.AccumulatorQuality:0        ; lower gathering accumulator quality]]
+[2019.02.17-13.22.52:873][  0]LogConfig: Setting CVar [[r.DOF.Gather.PostfilterMethod:2          ; Max3x3 postfilering method]]
+[2019.02.17-13.22.52:873][  0]LogConfig: Setting CVar [[r.DOF.Gather.EnableBokehSettings:0       ; no bokeh simulation when gathering]]
+[2019.02.17-13.22.52:873][  0]LogConfig: Setting CVar [[r.DOF.Gather.RingCount:4                 ; medium number of samples when gathering]]
+[2019.02.17-13.22.52:873][  0]LogConfig: Setting CVar [[r.DOF.Scatter.ForegroundCompositing:1    ; additive foreground scattering]]
+[2019.02.17-13.22.52:873][  0]LogConfig: Setting CVar [[r.DOF.Scatter.BackgroundCompositing:1    ; no background occlusion]]
+[2019.02.17-13.22.52:873][  0]LogConfig: Setting CVar [[r.DOF.Scatter.EnableBokehSettings:0      ; no bokeh simulation when scattering]]
+[2019.02.17-13.22.52:873][  0]LogConfig: Setting CVar [[r.DOF.Scatter.MaxSpriteRatio:0.04        ; only a maximum of 4% of scattered bokeh]]
+[2019.02.17-13.22.52:873][  0]LogConfig: Setting CVar [[r.DOF.Recombine.Quality:0                ; no slight out of focus]]
+[2019.02.17-13.22.52:873][  0]LogConfig: Setting CVar [[r.DOF.TemporalAAQuality:0                ; faster temporal accumulation]]
+[2019.02.17-13.22.52:874][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxForegroundRadius:0.012   ; required because of AccumulatorQuality=0]]
+[2019.02.17-13.22.52:874][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxBackgroundRadius:0.012   ; required because of AccumulatorQuality=0]]
+[2019.02.17-13.22.52:874][  0]LogConfig: Applying CVar settings from Section [TextureQuality@2] File [C:/Users/Juan Pablo/Documents/Unreal Projects/AI/PathSearch/Saved/Config/Windows/Scalability.ini]
+[2019.02.17-13.22.52:874][  0]LogConfig: Setting CVar [[r.Streaming.MipBias:0]]
+[2019.02.17-13.22.52:874][  0]LogConfig: Setting CVar [[r.Streaming.AmortizeCPUToGPUCopy:0]]
+[2019.02.17-13.22.52:874][  0]LogConfig: Setting CVar [[r.Streaming.MaxNumTexturesToStreamPerFrame:0]]
+[2019.02.17-13.22.52:874][  0]LogConfig: Setting CVar [[r.Streaming.Boost:1]]
+[2019.02.17-13.22.52:874][  0]LogConfig: Setting CVar [[r.MaxAnisotropy:4]]
+[2019.02.17-13.22.52:874][  0]LogConfig: Setting CVar [[r.Streaming.LimitPoolSizeToVRAM:1]]
+[2019.02.17-13.22.52:874][  0]LogConfig: Setting CVar [[r.Streaming.PoolSize:800]]
+[2019.02.17-13.22.52:874][  0]LogConfig: Setting CVar [[r.Streaming.MaxEffectiveScreenSize:0]]
+[2019.02.17-13.22.52:874][  0]LogConfig: Applying CVar settings from Section [EffectsQuality@2] File [C:/Users/Juan Pablo/Documents/Unreal Projects/AI/PathSearch/Saved/Config/Windows/Scalability.ini]
+[2019.02.17-13.22.52:874][  0]LogConfig: Setting CVar [[r.TranslucencyLightingVolumeDim:48]]
+[2019.02.17-13.22.52:874][  0]LogConfig: Setting CVar [[r.RefractionQuality:2]]
+[2019.02.17-13.22.52:874][  0]LogConfig: Setting CVar [[r.SSR.Quality:2]]
+[2019.02.17-13.22.52:874][  0]LogConfig: Setting CVar [[r.SceneColorFormat:3]]
+[2019.02.17-13.22.52:874][  0]LogConfig: Setting CVar [[r.DetailMode:1]]
+[2019.02.17-13.22.52:874][  0]LogConfig: Setting CVar [[r.TranslucencyVolumeBlur:1]]
+[2019.02.17-13.22.52:874][  0]LogConfig: Setting CVar [[r.MaterialQualityLevel:1 ; High quality]]
+[2019.02.17-13.22.52:874][  0]LogConfig: Setting CVar [[r.SSS.Scale:1]]
+[2019.02.17-13.22.52:874][  0]LogConfig: Setting CVar [[r.SSS.SampleSet:1]]
+[2019.02.17-13.22.52:874][  0]LogConfig: Setting CVar [[r.SSS.Quality:-1]]
+[2019.02.17-13.22.52:874][  0]LogConfig: Setting CVar [[r.SSS.HalfRes:1]]
+[2019.02.17-13.22.52:874][  0]LogConfig: Setting CVar [[r.EmitterSpawnRateScale:0.5]]
+[2019.02.17-13.22.52:874][  0]LogConfig: Setting CVar [[r.ParticleLightQuality:1]]
+[2019.02.17-13.22.52:874][  0]LogConfig: Applying CVar settings from Section [FoliageQuality@2] File [C:/Users/Juan Pablo/Documents/Unreal Projects/AI/PathSearch/Saved/Config/Windows/Scalability.ini]
+[2019.02.17-13.22.52:874][  0]LogConfig: Setting CVar [[foliage.DensityScale:0.8]]
+[2019.02.17-13.22.52:874][  0]LogConfig: Setting CVar [[grass.DensityScale:0.8]]
+[2019.02.17-13.22.52:874][  0]LogConfig: Applying CVar settings from Section [Startup] File [../../../Engine/Config/ConsoleVariables.ini]
+[2019.02.17-13.22.52:911][  0]LogConfig: Setting CVar [[net.UseAdaptiveNetUpdateFrequency:0]]
+[2019.02.17-13.22.52:911][  0]LogConfig: Applying CVar settings from Section [ConsoleVariables] File [C:/Users/Juan Pablo/Documents/Unreal Projects/AI/PathSearch/Saved/Config/Windows/Engine.ini]
+[2019.02.17-13.22.52:947][  0]LogInit: Computer: DESKTOP-1MK8LI7
+[2019.02.17-13.22.52:947][  0]LogInit: User: JuanPablo
+[2019.02.17-13.22.52:947][  0]LogInit: CPU Page size=4096, Cores=4
+[2019.02.17-13.22.52:947][  0]LogInit: High frequency timer resolution =2.531255 MHz
+[2019.02.17-13.22.52:948][  0]LogMemory: Memory total: Physical=11.9GB (12GB approx)
+[2019.02.17-13.22.52:948][  0]LogMemory: Platform Memory Stats for Windows
+[2019.02.17-13.22.52:948][  0]LogMemory: Process Physical Memory: 106.12 MB used, 106.12 MB peak
+[2019.02.17-13.22.52:948][  0]LogMemory: Process Virtual Memory: 93.96 MB used, 93.96 MB peak
+[2019.02.17-13.22.52:948][  0]LogMemory: Physical Memory: 5162.16 MB used,  6991.64 MB free, 12153.80 MB total
+[2019.02.17-13.22.52:948][  0]LogMemory: Virtual Memory: 4666.70 MB used,  134213064.00 MB free, 134217728.00 MB total
+[2019.02.17-13.22.53:365][  0]LogInit: Overriding language with editor language configuration option (en).
+[2019.02.17-13.22.53:365][  0]LogInit: Overriding locale with editor culture configuration option ().
+[2019.02.17-13.22.53:365][  0]LogInit: Using OS detected locale (es-MX).
+[2019.02.17-13.22.54:414][  0]LogStreaming: Display: Took  1.049s to InitEngineTextLocalization.
+[2019.02.17-13.22.54:414][  0]LogInit: Setting process to per monitor DPI aware
+[2019.02.17-13.22.54:635][  0]LogSlate: New Slate User Created.  User Index 0, Is Virtual User: 0
+[2019.02.17-13.22.54:635][  0]LogSlate: Slate User Registered.  User Index 0, Is Virtual User: 0
+[2019.02.17-13.22.57:164][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2019.02.17-13.22.57:164][  0]LogD3D11RHI: D3D11 adapters:
+[2019.02.17-13.22.57:263][  0]LogD3D11RHI:    0. 'NVIDIA GeForce GTX 970M' (Feature Level 11_0)
+[2019.02.17-13.22.57:263][  0]LogD3D11RHI:       3029/0/6076 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:2, VendorId:0x10de
+[2019.02.17-13.22.57:593][  0]LogD3D11RHI:    1. 'Intel(R) HD Graphics 530' (Feature Level 11_0)
+[2019.02.17-13.22.57:594][  0]LogD3D11RHI:       128/0/6076 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x8086
+[2019.02.17-13.22.57:598][  0]LogD3D11RHI:    2. 'Microsoft Basic Render Driver' (Feature Level 11_0)
+[2019.02.17-13.22.57:598][  0]LogD3D11RHI:       0/0/6076 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
+[2019.02.17-13.22.57:598][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
+[2019.02.17-13.22.57:673][  0]LogD3D11RHI: Creating new Direct3DDevice
+[2019.02.17-13.22.57:673][  0]LogD3D11RHI:     GPU DeviceId: 0x13d8 (for the marketing name, search the web for "GPU Device Id")
+[2019.02.17-13.22.57:673][  0]LogWindows: EnumDisplayDevices:
+[2019.02.17-13.22.57:673][  0]LogWindows:    0. 'Intel(R) HD Graphics 530' (P:1 D:1)
+[2019.02.17-13.22.57:674][  0]LogWindows:    1. 'Intel(R) HD Graphics 530' (P:0 D:0)
+[2019.02.17-13.22.57:674][  0]LogWindows:    2. 'Intel(R) HD Graphics 530' (P:0 D:0)
+[2019.02.17-13.22.57:675][  0]LogWindows:    3. 'NVIDIA GeForce GTX 970M' (P:0 D:1)
+[2019.02.17-13.22.57:675][  0]LogWindows: DebugString: PrimaryIsNotTheChoosenAdapter PrimaryIsNotTheChoosenAdapter PrimaryIsNotTheChoosenAdapter 
+[2019.02.17-13.22.57:675][  0]LogD3D11RHI:     Adapter Name: NVIDIA GeForce GTX 970M
+[2019.02.17-13.22.57:675][  0]LogD3D11RHI:   Driver Version: 418.81 (internal:25.21.14.1881, unified:418.81)
+[2019.02.17-13.22.57:675][  0]LogD3D11RHI:      Driver Date: 1-30-2019
+[2019.02.17-13.22.57:675][  0]LogRHI: Texture pool is 2120 MB (70% of 3029 MB)
+[2019.02.17-13.22.57:775][  0]LogD3D11RHI: Async texture creation enabled
+[2019.02.17-13.22.57:805][  0]LogD3D11RHI: GPU Timing Frequency: 1000.000000 (Debug: 2 1)
+[2019.02.17-13.22.58:866][  0]LogTemp: Display: Loaded TP AllDesktopTargetPlatform
+[2019.02.17-13.22.58:898][  0]LogTemp: Display: Loaded TP MacClientTargetPlatform
+[2019.02.17-13.22.58:923][  0]LogTemp: Display: Loaded TP MacNoEditorTargetPlatform
+[2019.02.17-13.22.58:951][  0]LogTemp: Display: Loaded TP MacServerTargetPlatform
+[2019.02.17-13.22.58:992][  0]LogTemp: Display: Loaded TP MacTargetPlatform
+[2019.02.17-13.22.59:026][  0]LogTemp: Display: Loaded TP WindowsClientTargetPlatform
+[2019.02.17-13.22.59:085][  0]LogTemp: Display: Loaded TP WindowsNoEditorTargetPlatform
+[2019.02.17-13.22.59:133][  0]LogTemp: Display: Loaded TP WindowsServerTargetPlatform
+[2019.02.17-13.22.59:165][  0]LogTemp: Display: Loaded TP WindowsTargetPlatform
+[2019.02.17-13.22.59:328][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.02.17-13.22.59:328][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.02.17-13.22.59:328][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.02.17-13.22.59:328][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.02.17-13.22.59:328][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.02.17-13.22.59:328][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.02.17-13.22.59:328][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.02.17-13.22.59:328][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.02.17-13.22.59:328][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.02.17-13.22.59:328][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.02.17-13.22.59:328][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.02.17-13.22.59:328][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.02.17-13.22.59:328][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.02.17-13.22.59:328][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.02.17-13.22.59:328][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.02.17-13.22.59:328][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.02.17-13.22.59:328][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.02.17-13.22.59:328][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.02.17-13.22.59:344][  0]LogTemp: Display: Loaded TP HTML5TargetPlatform
+[2019.02.17-13.22.59:485][  0]LogTemp: Display: Loaded TP IOSTargetPlatform
+[2019.02.17-13.22.59:485][  0]LogTemp: Display: Loaded TP IOSTargetPlatform
+[2019.02.17-13.22.59:535][  0]LogTemp: Display: Loaded TP TVOSTargetPlatform
+[2019.02.17-13.22.59:535][  0]LogTemp: Display: Loaded TP TVOSTargetPlatform
+[2019.02.17-13.22.59:567][  0]LogTemp: Display: Loaded TP LinuxClientTargetPlatform
+[2019.02.17-13.22.59:596][  0]LogTemp: Display: Loaded TP LinuxNoEditorTargetPlatform
+[2019.02.17-13.22.59:626][  0]LogTemp: Display: Loaded TP LinuxServerTargetPlatform
+[2019.02.17-13.22.59:673][  0]LogTemp: Display: Loaded TP LinuxTargetPlatform
+[2019.02.17-13.22.59:753][  0]LogTemp: Display: Loaded TP LuminTargetPlatform
+[2019.02.17-13.22.59:753][  0]LogTemp: Display: Loaded TP LuminTargetPlatform
+[2019.02.17-13.22.59:753][  0]LogTargetPlatformManager: Display: Building Assets For Windows
+[2019.02.17-13.23.00:362][  0]LogShaderCompilers: Guid format shader working directory is -23 characters bigger than the processId version (../../../../../../Users/Juan Pablo/Documents/Unreal Projects/AI/PathSearch/Intermediate/Shaders/WorkingDirectory/4616/).
+[2019.02.17-13.23.00:362][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/Juan Pablo/AppData/Local/Temp/UnrealShaderWorkingDir/E00217CE4EBAAC87B71526B3CCC2B24B/'.
+[2019.02.17-13.23.00:395][  0]LogXGEController: Cleaning working directory: C:/Users/Juan Pablo/AppData/Local/Temp/UnrealXGEWorkingDir/
+[2019.02.17-13.23.00:396][  0]LogXGEController: Cannot use XGE Controller as Incredibuild is not installed on this machine.
+[2019.02.17-13.23.00:396][  0]LogShaderCompilers: Cannot use XGE Shader Compiler as Incredibuild is not installed on this machine.
+[2019.02.17-13.23.00:396][  0]LogShaderCompilers: Display: Using Local Shader Compiler.
+[2019.02.17-13.23.04:561][  0]LogDerivedDataCache: Display: Max Cache Size: 512 MB
+[2019.02.17-13.23.06:054][  0]LogDerivedDataCache: Loaded boot cache 1.49s 148MB C:/Users/Juan Pablo/AppData/Local/UnrealEngine/4.21/DerivedDataCache/Boot.ddc.
+[2019.02.17-13.23.06:054][  0]LogDerivedDataCache: Display: Loaded Boot cache: C:/Users/Juan Pablo/AppData/Local/UnrealEngine/4.21/DerivedDataCache/Boot.ddc
+[2019.02.17-13.23.06:054][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../../Users/Juan Pablo/Documents/Unreal Projects/AI/PathSearch/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2019.02.17-13.23.06:054][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2019.02.17-13.23.06:054][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file ../../../../../../Users/Juan Pablo/Documents/Unreal Projects/AI/PathSearch/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2019.02.17-13.23.06:054][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2019.02.17-13.23.06:159][  0]LogDerivedDataCache: Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2019.02.17-13.23.06:160][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  EnterprisePak pak cache file ../../../Enterprise/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2019.02.17-13.23.06:160][  0]LogDerivedDataCache: Unable to find inner node EnterprisePak for hierarchical cache Hierarchy.
+[2019.02.17-13.23.06:266][  0]LogDerivedDataCache: Using Local data cache path C:/Users/Juan Pablo/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2019.02.17-13.23.06:266][  0]LogDerivedDataCache: Shared data cache path not found in *engine.ini, will not use an Shared cache.
+[2019.02.17-13.23.06:266][  0]LogDerivedDataCache: Unable to find inner node Shared for hierarchical cache Hierarchy.
+[2019.02.17-13.23.06:319][  0]LogMaterial: Verifying Global Shaders for PCD3D_SM5
+[2019.02.17-13.23.06:341][  0]LogSlate: Using FreeType 2.6.0
+[2019.02.17-13.23.06:389][  0]LogSlate: SlateFontServices - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2019.02.17-13.23.08:422][  0]LogAssetRegistry: FAssetRegistry took 0.0467 seconds to start up
+[2019.02.17-13.23.09:863][  0]LogInit: Selected Device Profile: [Windows]
+[2019.02.17-13.23.11:138][  0]LogSimplygon: Simplygon DLL not present - disabling.
+[2019.02.17-13.23.11:310][  0]LogMeshReduction: Using SimplygonSwarm for distributed automatic mesh merging
+[2019.02.17-13.23.11:311][  0]LogMeshReduction: Using ProxyLODMeshReduction for automatic mesh merging
+[2019.02.17-13.23.11:339][  0]LogMeshReduction: Using QuadricMeshReduction for automatic static mesh reduction
+[2019.02.17-13.23.11:339][  0]LogMeshReduction: No automatic skeletal mesh reduction module available
+[2019.02.17-13.23.11:502][  0]LogNetVersion: PathSearch 1.0.0, NetCL: 4541578, EngineNetVer: 5, GameNetVer: 0 (Checksum: 4271065824)
+[2019.02.17-13.23.15:222][  0]LogPackageLocalizationCache: Processed 11 localized package path(s) for 1 prioritized culture(s) in 0.117759 seconds
+[2019.02.17-13.23.15:229][  0]LogUObjectArray: 39775 objects as part of root set at end of initial load.
+[2019.02.17-13.23.15:229][  0]LogUObjectAllocator: 6914664 out of 0 bytes used by permanent object pool.
+[2019.02.17-13.23.15:229][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
+[2019.02.17-13.23.38:609][  0]LogTcpMessaging: Initializing TcpMessaging bridge
+[2019.02.17-13.23.38:671][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2019.02.17-13.23.41:323][  0]SourceControl: Source control is disabled
+[2019.02.17-13.23.41:323][  0]SourceControl: Source control is disabled
+[2019.02.17-13.23.41:450][  0]SourceControl: Source control is disabled
+[2019.02.17-13.23.41:483][  0]SourceControl: Source control is disabled
+[2019.02.17-13.23.43:383][  0]LogAndroidPermission: UAndroidPermissionCallbackProxy::GetInstance
+[2019.02.17-13.23.43:740][  0]LogOcInput: OculusInput pre-init called
+[2019.02.17-13.23.44:470][  0]LogEngine: Initializing Engine...
+[2019.02.17-13.23.44:473][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2019.02.17-13.23.44:477][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: ImportINI prefixes -  0.000 s
+[2019.02.17-13.23.44:477][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
+[2019.02.17-13.23.44:478][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: ImportINI -  0.000 s
+[2019.02.17-13.23.44:478][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
+[2019.02.17-13.23.45:518][  0]LogInit: Initializing FReadOnlyCVARCache
+[2019.02.17-13.23.45:678][  0]LogAIModule: Creating AISystem for world Untitled
+[2019.02.17-13.23.45:746][  0]LogInit: XAudio2 using 'Altavoces (Sound Blaster Recon3Di)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2019.02.17-13.23.46:183][  0]LogInit: FAudioDevice initialized.
+[2019.02.17-13.23.46:184][  0]LogNetVersion: Set ProjectVersion to 1.0.0.0. Version Checksum will be recalculated on next use.
+[2019.02.17-13.23.46:412][  0]LogDerivedDataCache: Saved boot cache 0.23s 71MB C:/Users/Juan Pablo/AppData/Local/UnrealEngine/4.21/DerivedDataCache/Boot.ddc.
+[2019.02.17-13.23.46:414][  0]LogInit: Texture streaming: Enabled
+[2019.02.17-13.23.46:546][  0]LogEngineSessionManager: EngineSessionManager initialized
+[2019.02.17-13.23.46:558][  0]LogEngineSessionManager: EngineSessionManager sent abnormal shutdown report. Type=Crashed, SessionId={B34129A9-48FE-B4CD-DD2A-2493AD63899A}
+[2019.02.17-13.23.46:682][  0]LogInit: Transaction tracking system initialized
+[2019.02.17-13.23.47:092][  0]BlueprintLog: New page: Editor Load
+[2019.02.17-13.23.48:701][  0]LocalizationService: Localization service is disabled
+[2019.02.17-13.23.52:144][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Juan Pablo/Documents/Unreal Projects/AI/PathSearch/Content/' took 0.02s
+[2019.02.17-13.23.52:144][  0]LogCook: Display: Max memory allowance for cook 16384mb min free memory 0mb
+[2019.02.17-13.23.52:144][  0]LogCook: Display: Mobile HDR setting 1
+[2019.02.17-13.23.52:144][  0]LogGameplayTags: Display: UGameplayTagsManager::DoneAddingNativeTags. DelegateIsBound: 0
+[2019.02.17-13.23.52:144][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: ImportINI prefixes -  0.000 s
+[2019.02.17-13.23.52:144][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
+[2019.02.17-13.23.52:145][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: ImportINI -  0.000 s
+[2019.02.17-13.23.52:145][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
+[2019.02.17-13.23.55:403][  0]SourceControl: Source control is disabled
+[2019.02.17-13.23.55:424][  0]Cmd: MAP LOAD FILE="../../../../../../Users/Juan Pablo/Documents/Unreal Projects/AI/PathSearch/Content/Levels/PathSearch.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2019.02.17-13.23.55:471][  0]LightingResults: New page: Lighting Build
+[2019.02.17-13.23.55:504][  0]MapCheck: New page: Map Check
+[2019.02.17-13.23.55:504][  0]LightingResults: New page: Lighting Build
+[2019.02.17-13.23.56:949][  0]LogAIModule: Creating AISystem for world PathSearch
+[2019.02.17-13.23.57:053][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2019.02.17-13.23.57:081][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2019.02.17-13.23.57:081][  0]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 0.326ms to complete.
+[2019.02.17-13.23.57:081][  0]LogFileHelpers: Loading map 'PathSearch' took 1.658
+[2019.02.17-13.23.57:541][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.02.17-13.23.57:549][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.02.17-13.23.57:557][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.02.17-13.23.57:565][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.02.17-13.23.57:816][  0]LogCollectionManager: Loaded 0 collections in 0.002947 seconds
+[2019.02.17-13.23.58:188][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Juan Pablo/Documents/Unreal Projects/AI/PathSearch/Saved/Collections/' took 0.01s
+[2019.02.17-13.23.58:188][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Juan Pablo/Documents/Unreal Projects/AI/PathSearch/Content/Developers/JuanPablo/Collections/' took 0.01s
+[2019.02.17-13.23.58:188][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Juan Pablo/Documents/Unreal Projects/AI/PathSearch/Content/Collections/' took 0.01s
+[2019.02.17-13.23.58:188][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000001 seconds
+[2019.02.17-13.23.58:205][  0]LogContentBrowser: Native class hierarchy populated in 0.0165 seconds. Added 2664 classes and 625 folders.
+[2019.02.17-13.23.58:387][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0005 seconds. Added 0 classes and 0 folders.
+[2019.02.17-13.23.58:516][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.02.17-13.23.58:568][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.02.17-13.23.58:571][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.02.17-13.23.58:622][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.02.17-13.23.58:641][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.02.17-13.23.58:649][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.02.17-13.23.58:662][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.02.17-13.23.58:680][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.02.17-13.23.58:698][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.02.17-13.23.58:756][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.02.17-13.23.58:771][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.02.17-13.23.58:785][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.02.17-13.23.58:819][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.02.17-13.23.58:821][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.02.17-13.23.58:831][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.02.17-13.23.58:880][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.02.17-13.23.58:907][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.02.17-13.23.58:919][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.02.17-13.23.58:925][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.02.17-13.23.58:951][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.02.17-13.23.58:961][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.02.17-13.23.58:984][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.02.17-13.23.59:007][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.02.17-13.23.59:056][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.02.17-13.23.59:104][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.02.17-13.23.59:116][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.02.17-13.24.00:806][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0007 seconds. Added 0 classes and 0 folders.
+[2019.02.17-13.24.05:932][  0]LogTemp: Executing iPhonePackager certificates Engine -bundlename com.YourCompany.PathSearch
+[2019.02.17-13.24.05:932][  0]LogTemp: CWD: C:\Program Files\Epic Games\UE_4.21\Engine\Binaries\DotNET\IOS
+[2019.02.17-13.24.05:933][  0]LogTemp: Initial Dir: C:\Program Files\Epic Games\UE_4.21
+[2019.02.17-13.24.05:933][  0]LogTemp: Env CWD: C:\Program Files\Epic Games\UE_4.21\Engine\Binaries\DotNET\IOS
+[2019.02.17-13.24.05:933][  0]LogTemp: BranchPath = DESKTOP-1MK8LI7/C/Program Files/Epic Games/UE_4.21/Engine/Binaries --- GameBranchPath = DESKTOP-1MK8LI7/C/Program Files/Epic Games/UE_4.21/Engine/Binaries
+[2019.02.17-13.24.05:933][  0]LogTemp: IPP ERROR: Could not find provision directory 'C:\Users\Juan Pablo\AppData\Local/Apple Computer/MobileDevice/Provisioning Profiles/'.
+[2019.02.17-13.24.05:933][  0]LogSlate: Only BGRA pngs, bmps or icos are supported in by External Image Picker
+[2019.02.17-13.24.06:132][  0]LogSlate: Took 0.041136 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2019.02.17-13.24.06:182][  0]LogSlate: Took 0.044558 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
+[2019.02.17-13.24.06:210][  0]LogSlate: Took 0.023578 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
+[2019.02.17-13.24.06:444][  0]LogRenderer: Reallocating scene render targets to support 1172x592 Format 9 NumSamples 1 (Frame:1).
+[2019.02.17-13.24.06:876][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0005 seconds. Added 0 classes and 0 folders.
+[2019.02.17-13.24.06:876][  0]LogLoad: (Engine Initialization) Total time: 84.70 seconds
+[2019.02.17-13.24.06:876][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.00 seconds
+[2019.02.17-13.24.07:045][  0]LogContentStreaming: Texture pool size now 800 MB
+[2019.02.17-13.24.07:172][  0]LogSlate: Took 0.061926 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
+[2019.02.17-13.24.07:354][  1]LogAssetRegistry: Asset discovery search completed in 58.9542 seconds
+[2019.02.17-13.24.07:357][  1]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000000 seconds (found 0 objects)
+[2019.02.17-13.24.07:357][  1]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000087 seconds (updated 0 objects)
+[2019.02.17-13.24.24:060][917]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.02.17-13.24.28:673][364]LogSlate: Took 0.000900 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
+[2019.02.17-13.24.28:691][364]LogAssetEditorManager: Opening Asset editor for MaterialInstanceConstant /Game/Materials/M_Path.M_Path
+[2019.02.17-13.24.37:346][942]LogAssetEditorManager: Opening Asset editor for Material /Game/Materials/M_Wall.M_Wall
+[2019.02.17-13.24.37:462][942]LogMaterial: Display: Missing cached shader map for material M_Wall, compiling. 
+[2019.02.17-13.24.38:241][942]LogMaterial: Display: Missing cached shader map for material M_Wall, compiling. 
+[2019.02.17-13.24.38:294][942]LogShaderCompilers: Display: Shaders left to compile 21
+[2019.02.17-13.24.38:294][942]LogShaderCompilers: Display: Shaders left to compile 20
+[2019.02.17-13.24.38:294][942]LogShaderCompilers: Display: Shaders left to compile 19
+[2019.02.17-13.24.38:294][942]LogShaderCompilers: Display: Shaders left to compile 18
+[2019.02.17-13.24.38:329][942]LogMaterial: Display: Missing cached shader map for material M_Wall, compiling. 
+[2019.02.17-13.24.38:463][942]LogMaterial: Display: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_0, compiling. 
+[2019.02.17-13.24.38:544][942]LogSlate: Took 0.027221 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-BoldCondensed.ttf' (158K)
+[2019.02.17-13.24.39:311][945]LogSlate: Took 0.036628 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Italic.ttf' (157K)
+[2019.02.17-13.24.41:230][104]LogSlate: Window 'M_Path' being destroyed
+[2019.02.17-13.24.42:916][269]LogShaderCompilers: Display: Shaders left to compile 23
+[2019.02.17-13.24.42:916][269]LogShaderCompilers: Display: Shaders left to compile 22
+[2019.02.17-13.24.42:916][269]LogShaderCompilers: Display: Shaders left to compile 21
+[2019.02.17-13.24.42:916][269]LogShaderCompilers: Display: Shaders left to compile 20
+[2019.02.17-13.24.43:202][297]LogShaderCompilers: Display: Shaders left to compile 19
+[2019.02.17-13.24.43:252][302]LogShaderCompilers: Display: Shaders left to compile 18
+[2019.02.17-13.24.43:262][303]LogShaderCompilers: Display: Shaders left to compile 17
+[2019.02.17-13.24.43:262][303]LogShaderCompilers: Display: Shaders left to compile 16
+[2019.02.17-13.24.43:467][323]LogShaderCompilers: Display: Shaders left to compile 15
+[2019.02.17-13.24.43:498][326]LogShaderCompilers: Display: Shaders left to compile 14
+[2019.02.17-13.24.43:536][330]LogShaderCompilers: Display: Shaders left to compile 13
+[2019.02.17-13.24.43:563][333]LogShaderCompilers: Display: Shaders left to compile 12
+[2019.02.17-13.24.43:707][348]LogShaderCompilers: Display: Shaders left to compile 11
+[2019.02.17-13.24.43:952][369]LogShaderCompilers: Display: Shaders left to compile 10
+[2019.02.17-13.24.44:204][393]LogShaderCompilers: Display: Shaders left to compile 9
+[2019.02.17-13.24.44:268][399]LogShaderCompilers: Display: Shaders left to compile 8
+[2019.02.17-13.24.44:370][410]LogShaderCompilers: Display: Shaders left to compile 7
+[2019.02.17-13.24.44:564][429]LogShaderCompilers: Display: Shaders left to compile 6
+[2019.02.17-13.24.44:631][434]LogShaderCompilers: Display: Shaders left to compile 5
+[2019.02.17-13.24.44:974][461]LogShaderCompilers: Display: Shaders left to compile 4
+[2019.02.17-13.24.44:997][463]LogShaderCompilers: Display: Shaders left to compile 3
+[2019.02.17-13.24.45:200][482]LogShaderCompilers: Display: Shaders left to compile 2
+[2019.02.17-13.24.45:275][489]LogShaderCompilers: Display: Shaders left to compile 1
+[2019.02.17-13.24.45:676][523]MaterialEditorStats: Base pass shader: 105 instructions
+[2019.02.17-13.24.45:676][523]MaterialEditorStats: Base pass shader with Volumetric Lightmap: 179 instructions
+[2019.02.17-13.24.45:676][523]MaterialEditorStats: Base pass vertex shader: 32 instructions
+[2019.02.17-13.24.45:676][523]MaterialEditorStats: Texture samplers: 3/16
+[2019.02.17-13.24.50:300][ 17]LogMaterial: Display: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_0, compiling. 
+[2019.02.17-13.24.50:315][ 17]LogShaderCompilers: Display: Shaders left to compile 2
+[2019.02.17-13.24.50:315][ 17]LogShaderCompilers: Display: Shaders left to compile 1
+[2019.02.17-13.24.50:345][ 17]LogMaterial: Display: Missing cached shader map for material M_Wall, compiling. 
+[2019.02.17-13.24.50:371][ 17]LogShaderCompilers: Display: Shaders left to compile 21
+[2019.02.17-13.24.50:371][ 17]LogShaderCompilers: Display: Shaders left to compile 20
+[2019.02.17-13.24.50:396][ 17]LogMaterial: Display: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_0, compiling. 
+[2019.02.17-13.24.50:426][ 17]LogMaterial: Display: Missing cached shader map for material M_Wall, compiling. 
+[2019.02.17-13.24.50:686][ 33]LogShaderCompilers: Display: Shaders left to compile 23
+[2019.02.17-13.24.50:982][ 58]LogShaderCompilers: Display: Shaders left to compile 22
+[2019.02.17-13.24.51:133][ 68]LogShaderCompilers: Display: Shaders left to compile 21
+[2019.02.17-13.24.51:196][ 73]LogShaderCompilers: Display: Shaders left to compile 20
+[2019.02.17-13.24.51:678][108]LogShaderCompilers: Display: Shaders left to compile 19
+[2019.02.17-13.24.51:757][115]LogShaderCompilers: Display: Shaders left to compile 18
+[2019.02.17-13.24.51:835][122]LogShaderCompilers: Display: Shaders left to compile 17
+[2019.02.17-13.24.51:867][125]LogShaderCompilers: Display: Shaders left to compile 16
+[2019.02.17-13.24.52:133][146]LogShaderCompilers: Display: Shaders left to compile 15
+[2019.02.17-13.24.52:200][152]LogShaderCompilers: Display: Shaders left to compile 14
+[2019.02.17-13.24.52:211][153]LogShaderCompilers: Display: Shaders left to compile 13
+[2019.02.17-13.24.52:265][158]LogShaderCompilers: Display: Shaders left to compile 12
+[2019.02.17-13.24.52:445][174]LogShaderCompilers: Display: Shaders left to compile 11
+[2019.02.17-13.24.52:456][175]LogShaderCompilers: Display: Shaders left to compile 10
+[2019.02.17-13.24.52:479][177]LogShaderCompilers: Display: Shaders left to compile 9
+[2019.02.17-13.24.52:890][210]LogShaderCompilers: Display: Shaders left to compile 8
+[2019.02.17-13.24.53:078][226]LogShaderCompilers: Display: Shaders left to compile 7
+[2019.02.17-13.24.53:307][245]LogShaderCompilers: Display: Shaders left to compile 6
+[2019.02.17-13.24.53:332][247]LogShaderCompilers: Display: Shaders left to compile 5
+[2019.02.17-13.24.53:520][263]LogShaderCompilers: Display: Shaders left to compile 4
+[2019.02.17-13.24.53:699][278]LogShaderCompilers: Display: Shaders left to compile 3
+[2019.02.17-13.24.53:937][298]LogShaderCompilers: Display: Shaders left to compile 2
+[2019.02.17-13.24.54:200][320]LogShaderCompilers: Display: Shaders left to compile 1
+[2019.02.17-13.24.54:654][360]MaterialEditorStats: Base pass shader: 105 instructions
+[2019.02.17-13.24.54:654][360]MaterialEditorStats: Base pass shader with Volumetric Lightmap: 179 instructions
+[2019.02.17-13.24.54:654][360]MaterialEditorStats: Base pass vertex shader: 32 instructions
+[2019.02.17-13.24.54:654][360]MaterialEditorStats: Texture samplers: 3/16
+[2019.02.17-13.25.12:843][589]LogMaterial: Display: Missing cached shader map for material M_Wall, compiling. 
+[2019.02.17-13.25.12:864][589]LogShaderCompilers: Display: Shaders left to compile 21
+[2019.02.17-13.25.12:864][589]LogShaderCompilers: Display: Shaders left to compile 20
+[2019.02.17-13.25.12:864][589]LogShaderCompilers: Display: Shaders left to compile 19
+[2019.02.17-13.25.12:864][589]LogShaderCompilers: Display: Shaders left to compile 18
+[2019.02.17-13.25.12:878][589]LogMaterial: Display: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_0, compiling. 
+[2019.02.17-13.25.12:914][589]LogMaterial: Display: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_0, compiling. 
+[2019.02.17-13.25.12:953][589]LogMaterial: Display: Missing cached shader map for material M_Wall, compiling. 
+[2019.02.17-13.25.13:003][589]LogMaterial: Display: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_0, compiling. 
+[2019.02.17-13.25.13:042][589]LogMaterial: Display: Missing cached shader map for material M_Wall, compiling. 
+[2019.02.17-13.25.13:062][589]LogShaderCompilers: Display: Shaders left to compile 2
+[2019.02.17-13.25.13:106][593]LogShaderCompilers: Display: Shaders left to compile 22
+[2019.02.17-13.25.13:145][596]LogShaderCompilers: Display: Shaders left to compile 21
+[2019.02.17-13.25.13:155][597]LogShaderCompilers: Display: Shaders left to compile 20
+[2019.02.17-13.25.13:604][635]LogShaderCompilers: Display: Shaders left to compile 19
+[2019.02.17-13.25.13:681][641]LogShaderCompilers: Display: Shaders left to compile 18
+[2019.02.17-13.25.13:692][642]LogShaderCompilers: Display: Shaders left to compile 17
+[2019.02.17-13.25.13:761][648]LogShaderCompilers: Display: Shaders left to compile 16
+[2019.02.17-13.25.14:115][675]LogShaderCompilers: Display: Shaders left to compile 15
+[2019.02.17-13.25.14:135][677]LogShaderCompilers: Display: Shaders left to compile 14
+[2019.02.17-13.25.14:135][677]LogShaderCompilers: Display: Shaders left to compile 13
+[2019.02.17-13.25.14:178][681]LogShaderCompilers: Display: Shaders left to compile 12
+[2019.02.17-13.25.14:374][698]LogShaderCompilers: Display: Shaders left to compile 11
+[2019.02.17-13.25.14:428][703]LogShaderCompilers: Display: Shaders left to compile 10
+[2019.02.17-13.25.14:437][704]LogShaderCompilers: Display: Shaders left to compile 9
+[2019.02.17-13.25.14:856][738]LogShaderCompilers: Display: Shaders left to compile 8
+[2019.02.17-13.25.14:971][748]LogShaderCompilers: Display: Shaders left to compile 7
+[2019.02.17-13.25.15:186][767]LogShaderCompilers: Display: Shaders left to compile 6
+[2019.02.17-13.25.15:224][770]LogShaderCompilers: Display: Shaders left to compile 5
+[2019.02.17-13.25.15:392][785]LogShaderCompilers: Display: Shaders left to compile 4
+[2019.02.17-13.25.15:650][807]LogShaderCompilers: Display: Shaders left to compile 3
+[2019.02.17-13.25.15:835][823]LogShaderCompilers: Display: Shaders left to compile 2
+[2019.02.17-13.25.16:030][839]LogShaderCompilers: Display: Shaders left to compile 1
+[2019.02.17-13.25.16:545][887]MaterialEditorStats: Base pass shader: 105 instructions
+[2019.02.17-13.25.16:546][887]MaterialEditorStats: Base pass shader with Volumetric Lightmap: 179 instructions
+[2019.02.17-13.25.16:546][887]MaterialEditorStats: Base pass vertex shader: 32 instructions
+[2019.02.17-13.25.16:546][887]MaterialEditorStats: Texture samplers: 3/16
+[2019.02.17-13.25.19:336][209]LogMaterial: Display: Missing cached shader map for material M_Wall, compiling. 
+[2019.02.17-13.25.19:354][209]LogShaderCompilers: Display: Shaders left to compile 21
+[2019.02.17-13.25.19:354][209]LogShaderCompilers: Display: Shaders left to compile 20
+[2019.02.17-13.25.19:354][209]LogShaderCompilers: Display: Shaders left to compile 19
+[2019.02.17-13.25.19:354][209]LogShaderCompilers: Display: Shaders left to compile 18
+[2019.02.17-13.25.19:358][209]LogMaterial: Display: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_0, compiling. 
+[2019.02.17-13.25.19:414][209]LogMaterial: Display: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_0, compiling. 
+[2019.02.17-13.25.19:470][209]LogMaterial: Display: Missing cached shader map for material M_Wall, compiling. 
+[2019.02.17-13.25.19:519][209]LogMaterial: Display: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_0, compiling. 
+[2019.02.17-13.25.19:550][209]LogShaderCompilers: Display: Shaders left to compile 23
+[2019.02.17-13.25.19:568][209]LogMaterial: Display: Missing cached shader map for material M_Wall, compiling. 
+[2019.02.17-13.25.19:594][210]LogShaderCompilers: Display: Shaders left to compile 23
+[2019.02.17-13.25.19:595][210]LogShaderCompilers: Display: Shaders left to compile 22
+[2019.02.17-13.25.19:595][210]LogShaderCompilers: Display: Shaders left to compile 21
+[2019.02.17-13.25.19:940][238]LogShaderCompilers: Display: Shaders left to compile 20
+[2019.02.17-13.25.19:977][241]LogShaderCompilers: Display: Shaders left to compile 19
+[2019.02.17-13.25.19:991][242]LogShaderCompilers: Display: Shaders left to compile 18
+[2019.02.17-13.25.20:106][252]LogShaderCompilers: Display: Shaders left to compile 17
+[2019.02.17-13.25.20:270][264]LogShaderCompilers: Display: Shaders left to compile 16
+[2019.02.17-13.25.20:322][268]LogShaderCompilers: Display: Shaders left to compile 15
+[2019.02.17-13.25.20:379][274]LogShaderCompilers: Display: Shaders left to compile 14
+[2019.02.17-13.25.20:390][275]LogShaderCompilers: Display: Shaders left to compile 13
+[2019.02.17-13.25.20:546][290]LogShaderCompilers: Display: Shaders left to compile 12
+[2019.02.17-13.25.20:600][295]LogShaderCompilers: Display: Shaders left to compile 11
+[2019.02.17-13.25.20:611][296]LogShaderCompilers: Display: Shaders left to compile 10
+[2019.02.17-13.25.20:649][300]LogShaderCompilers: Display: Shaders left to compile 9
+[2019.02.17-13.25.20:994][329]LogShaderCompilers: Display: Shaders left to compile 8
+[2019.02.17-13.25.21:326][357]LogShaderCompilers: Display: Shaders left to compile 7
+[2019.02.17-13.25.21:432][366]LogShaderCompilers: Display: Shaders left to compile 6
+[2019.02.17-13.25.21:444][367]LogShaderCompilers: Display: Shaders left to compile 5
+[2019.02.17-13.25.21:801][398]LogShaderCompilers: Display: Shaders left to compile 4
+[2019.02.17-13.25.21:867][403]LogShaderCompilers: Display: Shaders left to compile 3
+[2019.02.17-13.25.22:275][437]LogShaderCompilers: Display: Shaders left to compile 2
+[2019.02.17-13.25.22:324][441]LogShaderCompilers: Display: Shaders left to compile 1
+[2019.02.17-13.25.22:838][493]MaterialEditorStats: Base pass shader: 105 instructions
+[2019.02.17-13.25.22:838][493]MaterialEditorStats: Base pass shader with Volumetric Lightmap: 179 instructions
+[2019.02.17-13.25.22:838][493]MaterialEditorStats: Base pass vertex shader: 32 instructions
+[2019.02.17-13.25.22:838][493]MaterialEditorStats: Texture samplers: 3/16
+[2019.02.17-13.25.24:722][711]LogMaterial: Display: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_0, compiling. 
+[2019.02.17-13.25.24:738][711]LogShaderCompilers: Display: Shaders left to compile 2
+[2019.02.17-13.25.24:738][711]LogShaderCompilers: Display: Shaders left to compile 1
+[2019.02.17-13.25.24:764][711]LogMaterial: Display: Missing cached shader map for material M_Wall, compiling. 
+[2019.02.17-13.25.24:782][711]LogShaderCompilers: Display: Shaders left to compile 21
+[2019.02.17-13.25.24:782][711]LogShaderCompilers: Display: Shaders left to compile 20
+[2019.02.17-13.25.24:804][711]LogMaterial: Display: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_0, compiling. 
+[2019.02.17-13.25.24:852][711]LogMaterial: Display: Missing cached shader map for material M_Wall, compiling. 
+[2019.02.17-13.25.24:874][711]LogSlate: Window 'Color Picker' being destroyed
+[2019.02.17-13.25.25:046][725]LogShaderCompilers: Display: Shaders left to compile 23
+[2019.02.17-13.25.25:154][736]LogShaderCompilers: Display: Shaders left to compile 22
+[2019.02.17-13.25.25:180][739]LogShaderCompilers: Display: Shaders left to compile 21
+[2019.02.17-13.25.25:209][742]LogShaderCompilers: Display: Shaders left to compile 20
+[2019.02.17-13.25.25:611][778]LogShaderCompilers: Display: Shaders left to compile 19
+[2019.02.17-13.25.25:643][781]LogShaderCompilers: Display: Shaders left to compile 18
+[2019.02.17-13.25.25:664][783]LogShaderCompilers: Display: Shaders left to compile 17
+[2019.02.17-13.25.25:687][785]LogShaderCompilers: Display: Shaders left to compile 16
+[2019.02.17-13.25.25:956][811]LogShaderCompilers: Display: Shaders left to compile 15
+[2019.02.17-13.25.25:983][814]LogShaderCompilers: Display: Shaders left to compile 14
+[2019.02.17-13.25.26:000][816]LogShaderCompilers: Display: Shaders left to compile 13
+[2019.02.17-13.25.26:010][817]LogShaderCompilers: Display: Shaders left to compile 12
+[2019.02.17-13.25.26:190][835]LogShaderCompilers: Display: Shaders left to compile 11
+[2019.02.17-13.25.26:240][840]LogShaderCompilers: Display: Shaders left to compile 10
+[2019.02.17-13.25.26:249][841]LogShaderCompilers: Display: Shaders left to compile 9
+[2019.02.17-13.25.26:632][878]LogShaderCompilers: Display: Shaders left to compile 8
+[2019.02.17-13.25.26:705][885]LogShaderCompilers: Display: Shaders left to compile 7
+[2019.02.17-13.25.26:942][908]LogShaderCompilers: Display: Shaders left to compile 6
+[2019.02.17-13.25.26:953][909]LogShaderCompilers: Display: Shaders left to compile 5
+[2019.02.17-13.25.27:075][920]LogShaderCompilers: Display: Shaders left to compile 4
+[2019.02.17-13.25.27:336][945]LogShaderCompilers: Display: Shaders left to compile 3
+[2019.02.17-13.25.27:476][959]LogShaderCompilers: Display: Shaders left to compile 2
+[2019.02.17-13.25.27:714][982]LogShaderCompilers: Display: Shaders left to compile 1
+[2019.02.17-13.25.28:077][ 20]MaterialEditorStats: Base pass shader: 105 instructions
+[2019.02.17-13.25.28:077][ 20]MaterialEditorStats: Base pass shader with Volumetric Lightmap: 179 instructions
+[2019.02.17-13.25.28:077][ 20]MaterialEditorStats: Base pass vertex shader: 32 instructions
+[2019.02.17-13.25.28:077][ 20]MaterialEditorStats: Texture samplers: 3/16
+[2019.02.17-13.25.53:062][764]LogSlate: Window 'Message' being destroyed
+[2019.02.17-13.25.53:574][764]LogMaterial: Display: Missing cached shader map for material M_Wall, compiling. 
+[2019.02.17-13.25.53:646][764]LogShaderCompilers: Display: Shaders left to compile 21
+[2019.02.17-13.25.53:646][764]LogShaderCompilers: Display: Shaders left to compile 20
+[2019.02.17-13.25.53:646][764]LogShaderCompilers: Display: Shaders left to compile 19
+[2019.02.17-13.25.53:646][764]LogShaderCompilers: Display: Shaders left to compile 18
+[2019.02.17-13.25.53:700][764]LogMaterial: Display: Missing cached shader map for material M_Wall, compiling. 
+[2019.02.17-13.25.53:780][764]LogMaterial: Display: Missing cached shader map for material M_Wall, compiling. 
+[2019.02.17-13.25.53:884][764]LogMaterial: Display: Missing cached shader map for material FDebugViewModeMaterialProxy M_Wall, compiling. 
+[2019.02.17-13.25.55:594][764]LogShaderCompilers: Display: Shaders left to compile 40
+[2019.02.17-13.25.55:594][764]LogShaderCompilers: Display: Shaders left to compile 39
+[2019.02.17-13.25.55:594][764]LogShaderCompilers: Display: Shaders left to compile 38
+[2019.02.17-13.25.55:594][764]LogShaderCompilers: Display: Shaders left to compile 37
+[2019.02.17-13.25.55:594][764]LogShaderCompilers: Display: Shaders left to compile 36
+[2019.02.17-13.25.55:594][764]LogShaderCompilers: Display: Shaders left to compile 35
+[2019.02.17-13.25.55:594][764]LogShaderCompilers: Display: Shaders left to compile 34
+[2019.02.17-13.25.55:594][764]LogShaderCompilers: Display: Shaders left to compile 33
+[2019.02.17-13.25.55:594][764]LogShaderCompilers: Display: Shaders left to compile 32
+[2019.02.17-13.25.55:594][764]LogShaderCompilers: Display: Shaders left to compile 31
+[2019.02.17-13.25.55:594][764]LogShaderCompilers: Display: Shaders left to compile 30
+[2019.02.17-13.25.55:594][764]LogShaderCompilers: Display: Shaders left to compile 29
+[2019.02.17-13.25.55:594][764]LogShaderCompilers: Display: Shaders left to compile 28
+[2019.02.17-13.25.55:594][764]LogShaderCompilers: Display: Shaders left to compile 27
+[2019.02.17-13.25.55:594][764]LogShaderCompilers: Display: Shaders left to compile 26
+[2019.02.17-13.25.55:594][764]LogShaderCompilers: Display: Shaders left to compile 25
+[2019.02.17-13.25.55:594][764]LogShaderCompilers: Display: Shaders left to compile 24
+[2019.02.17-13.25.55:594][764]LogShaderCompilers: Display: Shaders left to compile 23
+[2019.02.17-13.25.55:594][764]LogShaderCompilers: Display: Shaders left to compile 22
+[2019.02.17-13.25.55:594][764]LogShaderCompilers: Display: Shaders left to compile 12
+[2019.02.17-13.25.55:594][764]LogShaderCompilers: Display: Shaders left to compile 2
+[2019.02.17-13.25.55:617][764]TextureStreamingBuild: Display: Compiling optional shaders took 1.748 seconds.
+[2019.02.17-13.26.05:301][848]LogTemp: Repeating last play command: Selected Viewport
+[2019.02.17-13.26.05:315][848]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Levels/PathSearch.PathSearch:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/PathSearch.PathSearch:PersistentLevel.PathSearch' with GeneratedClass '/Game/Levels/PathSearch.PathSearch_C' with ClassGeneratedBy '/Game/Levels/PathSearch.PathSearch:PersistentLevel.PathSearch'
+[2019.02.17-13.26.05:330][848]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2019.02.17-13.26.05:340][848]PIE: New page: PIE session: PathSearch (17/02/2019 01:26:05)
+[2019.02.17-13.26.05:379][848]LogPlayLevel: Creating play world package: /Game/Levels/UEDPIE_0_PathSearch
+[2019.02.17-13.26.05:406][848]LogPlayLevel: PIE: StaticDuplicateObject took: (0.026669s)
+[2019.02.17-13.26.05:407][848]LogAIModule: Creating AISystem for world PathSearch
+[2019.02.17-13.26.05:407][848]LogPlayLevel: PIE: World Init took: (0.001570s)
+[2019.02.17-13.26.05:407][848]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/PathSearch.PathSearch to /Game/Levels/UEDPIE_0_PathSearch.PathSearch (0.029043s)
+[2019.02.17-13.26.05:450][848]LogInit: XAudio2 using 'Altavoces (Sound Blaster Recon3Di)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2019.02.17-13.26.05:463][848]LogInit: FAudioDevice initialized.
+[2019.02.17-13.26.05:511][848]LogLoad: Game class is 'BP_GameMode_C'
+[2019.02.17-13.26.05:513][848]LogWorld: Bringing World /Game/Levels/UEDPIE_0_PathSearch.PathSearch up for play (max tick rate 0) at 2019.02.17-07.26.05
+[2019.02.17-13.26.05:514][848]LogWorld: Bringing up level for play took: 0.000885
+[2019.02.17-13.26.05:567][848]LogContentBrowser: Native class hierarchy updated for 'MovieSceneCapture' in 0.0006 seconds. Added 20 classes and 0 folders.
+[2019.02.17-13.26.05:568][848]LogTemp: Warning: Init called
+[2019.02.17-13.26.05:568][848]LogTemp: Warning: Couldn't find player
+[2019.02.17-13.26.05:568][848]LogTemp: Warning: Init called
+[2019.02.17-13.26.05:568][848]LogTemp: Warning: Couldn't find player
+[2019.02.17-13.26.05:568][848]LogTemp: Warning: Init called
+[2019.02.17-13.26.05:568][848]LogTemp: Warning: Couldn't find player
+[2019.02.17-13.26.05:568][848]LogTemp: Warning: Init called
+[2019.02.17-13.26.05:568][848]LogTemp: Warning: Couldn't find player
+[2019.02.17-13.26.05:568][848]LogTemp: Warning: Init called
+[2019.02.17-13.26.05:568][848]LogTemp: Warning: Couldn't find player
+[2019.02.17-13.26.05:568][848]LogTemp: Warning: Init called
+[2019.02.17-13.26.05:568][848]LogTemp: Warning: Couldn't find player
+[2019.02.17-13.26.05:568][848]LogTemp: Warning: Init called
+[2019.02.17-13.26.05:568][848]LogTemp: Warning: Couldn't find player
+[2019.02.17-13.26.05:569][848]LogTemp: Warning: Init called
+[2019.02.17-13.26.05:569][848]LogTemp: Warning: Couldn't find player
+[2019.02.17-13.26.05:571][848]LogTemp: Warning: Prob: 3
+[2019.02.17-13.26.05:572][848]LogTemp: Warning: Prob: 4
+[2019.02.17-13.26.05:572][848]LogTemp: Warning: Prob: 1
+[2019.02.17-13.26.05:572][848]LogTemp: Warning: Prob: 10
+[2019.02.17-13.26.05:572][848]LogTemp: Warning: Prob: 10
+[2019.02.17-13.26.05:573][848]LogTemp: Warning: Prob: 9
+[2019.02.17-13.26.05:573][848]LogTemp: Warning: Prob: 6
+[2019.02.17-13.26.05:573][848]LogTemp: Warning: Prob: 6
+[2019.02.17-13.26.05:573][848]LogTemp: Warning: Prob: 8
+[2019.02.17-13.26.05:573][848]LogTemp: Warning: Prob: 10
+[2019.02.17-13.26.05:574][848]LogTemp: Warning: Prob: 10
+[2019.02.17-13.26.05:574][848]LogTemp: Warning: Prob: 8
+[2019.02.17-13.26.05:574][848]LogTemp: Warning: Prob: 1
+[2019.02.17-13.26.05:574][848]LogTemp: Warning: Prob: 3
+[2019.02.17-13.26.05:575][848]LogTemp: Warning: Prob: 0
+[2019.02.17-13.26.05:575][848]LogTemp: Warning: Prob: 2
+[2019.02.17-13.26.05:575][848]LogTemp: Warning: Prob: 7
+[2019.02.17-13.26.05:575][848]LogTemp: Warning: Prob: 0
+[2019.02.17-13.26.05:575][848]LogTemp: Warning: Prob: 4
+[2019.02.17-13.26.05:576][848]LogTemp: Warning: Prob: 3
+[2019.02.17-13.26.05:576][848]LogTemp: Warning: Prob: 4
+[2019.02.17-13.26.05:576][848]LogTemp: Warning: Prob: 0
+[2019.02.17-13.26.05:576][848]LogTemp: Warning: Prob: 9
+[2019.02.17-13.26.05:576][848]LogTemp: Warning: Prob: 8
+[2019.02.17-13.26.05:577][848]LogTemp: Warning: Prob: 9
+[2019.02.17-13.26.05:577][848]LogTemp: Warning: Prob: 5
+[2019.02.17-13.26.05:577][848]LogTemp: Warning: Prob: 0
+[2019.02.17-13.26.05:577][848]LogTemp: Warning: Prob: 1
+[2019.02.17-13.26.05:577][848]LogTemp: Warning: Prob: 7
+[2019.02.17-13.26.05:578][848]LogTemp: Warning: Prob: 10
+[2019.02.17-13.26.05:578][848]LogTemp: Warning: Prob: 5
+[2019.02.17-13.26.05:578][848]LogTemp: Warning: Prob: 4
+[2019.02.17-13.26.05:578][848]LogTemp: Warning: Prob: 7
+[2019.02.17-13.26.05:578][848]LogTemp: Warning: Prob: 7
+[2019.02.17-13.26.05:579][848]LogTemp: Warning: Prob: 8
+[2019.02.17-13.26.05:579][848]LogTemp: Warning: Prob: 7
+[2019.02.17-13.26.05:579][848]LogTemp: Warning: Prob: 10
+[2019.02.17-13.26.05:579][848]LogTemp: Warning: Prob: 0
+[2019.02.17-13.26.05:579][848]LogTemp: Warning: Prob: 9
+[2019.02.17-13.26.05:580][848]LogTemp: Warning: Prob: 3
+[2019.02.17-13.26.05:580][848]LogTemp: Warning: Prob: 0
+[2019.02.17-13.26.05:580][848]LogTemp: Warning: Prob: 0
+[2019.02.17-13.26.05:580][848]LogTemp: Warning: Prob: 4
+[2019.02.17-13.26.05:580][848]LogTemp: Warning: Prob: 9
+[2019.02.17-13.26.05:581][848]LogTemp: Warning: Prob: 0
+[2019.02.17-13.26.05:581][848]LogTemp: Warning: Prob: 5
+[2019.02.17-13.26.05:581][848]LogTemp: Warning: Prob: 4
+[2019.02.17-13.26.05:582][848]LogTemp: Warning: Prob: 5
+[2019.02.17-13.26.05:582][848]LogTemp: Warning: Prob: 9
+[2019.02.17-13.26.05:582][848]LogTemp: Warning: Prob: 6
+[2019.02.17-13.26.05:582][848]LogTemp: Warning: Prob: 5
+[2019.02.17-13.26.05:583][848]LogTemp: Warning: Prob: 2
+[2019.02.17-13.26.05:583][848]LogTemp: Warning: Prob: 4
+[2019.02.17-13.26.05:583][848]LogTemp: Warning: Prob: 8
+[2019.02.17-13.26.05:583][848]LogTemp: Warning: Prob: 8
+[2019.02.17-13.26.05:583][848]LogTemp: Warning: Prob: 8
+[2019.02.17-13.26.05:584][848]LogTemp: Warning: Prob: 4
+[2019.02.17-13.26.05:584][848]LogTemp: Warning: Prob: 3
+[2019.02.17-13.26.05:584][848]LogTemp: Warning: Prob: 6
+[2019.02.17-13.26.05:584][848]LogTemp: Warning: Prob: 5
+[2019.02.17-13.26.05:584][848]LogTemp: Warning: Prob: 2
+[2019.02.17-13.26.05:585][848]LogTemp: Warning: Prob: 10
+[2019.02.17-13.26.05:585][848]LogTemp: Warning: Prob: 2
+[2019.02.17-13.26.05:585][848]LogTemp: Warning: Prob: 10
+[2019.02.17-13.26.05:585][848]LogTemp: Warning: Prob: 2
+[2019.02.17-13.26.05:585][848]LogTemp: Warning: Prob: 4
+[2019.02.17-13.26.05:586][848]LogTemp: Warning: Prob: 1
+[2019.02.17-13.26.05:586][848]LogTemp: Warning: Prob: 6
+[2019.02.17-13.26.05:586][848]LogTemp: Warning: Prob: 8
+[2019.02.17-13.26.05:586][848]LogTemp: Warning: Prob: 5
+[2019.02.17-13.26.05:586][848]LogTemp: Warning: Prob: 3
+[2019.02.17-13.26.05:587][848]LogTemp: Warning: Prob: 9
+[2019.02.17-13.26.05:587][848]LogTemp: Warning: Prob: 5
+[2019.02.17-13.26.05:587][848]LogTemp: Warning: Prob: 0
+[2019.02.17-13.26.05:587][848]LogTemp: Warning: Prob: 3
+[2019.02.17-13.26.05:588][848]LogTemp: Warning: Prob: 1
+[2019.02.17-13.26.05:588][848]LogTemp: Warning: Prob: 0
+[2019.02.17-13.26.05:588][848]LogTemp: Warning: Prob: 3
+[2019.02.17-13.26.05:588][848]LogTemp: Warning: Prob: 7
+[2019.02.17-13.26.05:589][848]LogTemp: Warning: Prob: 1
+[2019.02.17-13.26.05:589][848]LogTemp: Warning: Prob: 8
+[2019.02.17-13.26.05:589][848]LogTemp: Warning: Prob: 10
+[2019.02.17-13.26.05:589][848]LogTemp: Warning: Prob: 6
+[2019.02.17-13.26.05:590][848]LogTemp: Warning: Prob: 1
+[2019.02.17-13.26.05:590][848]LogTemp: Warning: Prob: 5
+[2019.02.17-13.26.05:590][848]LogTemp: Warning: Prob: 1
+[2019.02.17-13.26.05:590][848]LogTemp: Warning: Prob: 2
+[2019.02.17-13.26.05:591][848]LogTemp: Warning: Prob: 6
+[2019.02.17-13.26.05:591][848]LogTemp: Warning: Prob: 0
+[2019.02.17-13.26.05:591][848]LogTemp: Warning: Prob: 5
+[2019.02.17-13.26.05:591][848]LogTemp: Warning: Prob: 4
+[2019.02.17-13.26.05:591][848]LogTemp: Warning: Prob: 8
+[2019.02.17-13.26.05:591][848]LogTemp: Warning: Prob: 3
+[2019.02.17-13.26.05:592][848]LogTemp: Warning: Prob: 5
+[2019.02.17-13.26.05:592][848]LogTemp: Warning: Prob: 8
+[2019.02.17-13.26.05:592][848]LogTemp: Warning: Prob: 3
+[2019.02.17-13.26.05:592][848]LogTemp: Warning: Prob: 0
+[2019.02.17-13.26.05:593][848]LogTemp: Warning: Prob: 9
+[2019.02.17-13.26.05:593][848]LogTemp: Warning: Prob: 8
+[2019.02.17-13.26.05:593][848]LogTemp: Warning: Prob: 8
+[2019.02.17-13.26.05:593][848]LogTemp: Warning: Prob: 7
+[2019.02.17-13.26.05:593][848]LogTemp: Warning: Prob: 5
+[2019.02.17-13.26.05:594][848]LogTemp: Warning: Prob: 7
+[2019.02.17-13.26.05:594][848]LogTemp: Warning: Prob: 7
+[2019.02.17-13.26.05:594][848]LogTemp: Warning: Prob: 7
+[2019.02.17-13.26.05:594][848]LogTemp: Warning: Prob: 1
+[2019.02.17-13.26.05:595][848]LogTemp: Warning: Prob: 2
+[2019.02.17-13.26.05:595][848]LogTemp: Warning: Prob: 2
+[2019.02.17-13.26.05:595][848]LogTemp: Warning: Prob: 6
+[2019.02.17-13.26.05:595][848]LogTemp: Warning: Prob: 9
+[2019.02.17-13.26.05:595][848]LogTemp: Warning: Prob: 5
+[2019.02.17-13.26.05:596][848]LogTemp: Warning: Prob: 2
+[2019.02.17-13.26.05:596][848]LogTemp: Warning: Prob: 4
+[2019.02.17-13.26.05:596][848]LogTemp: Warning: Prob: 4
+[2019.02.17-13.26.05:596][848]LogTemp: Warning: Prob: 7
+[2019.02.17-13.26.05:597][848]LogTemp: Warning: Prob: 10
+[2019.02.17-13.26.05:597][848]LogTemp: Warning: Prob: 2
+[2019.02.17-13.26.05:597][848]LogTemp: Warning: Prob: 4
+[2019.02.17-13.26.05:597][848]LogTemp: Warning: Prob: 4
+[2019.02.17-13.26.05:597][848]LogTemp: Warning: Prob: 5
+[2019.02.17-13.26.05:598][848]LogTemp: Warning: Prob: 8
+[2019.02.17-13.26.05:598][848]LogTemp: Warning: Prob: 4
+[2019.02.17-13.26.05:598][848]LogTemp: Warning: Prob: 3
+[2019.02.17-13.26.05:598][848]LogTemp: Warning: Prob: 9
+[2019.02.17-13.26.05:598][848]LogTemp: Warning: Prob: 7
+[2019.02.17-13.26.05:599][848]LogTemp: Warning: Prob: 9
+[2019.02.17-13.26.05:599][848]LogTemp: Warning: Prob: 10
+[2019.02.17-13.26.05:599][848]LogTemp: Warning: Prob: 6
+[2019.02.17-13.26.05:599][848]LogTemp: Warning: Prob: 8
+[2019.02.17-13.26.05:599][848]LogTemp: Warning: Prob: 3
+[2019.02.17-13.26.05:600][848]LogTemp: Warning: Prob: 4
+[2019.02.17-13.26.05:600][848]LogTemp: Warning: Prob: 2
+[2019.02.17-13.26.05:600][848]LogTemp: Warning: Prob: 4
+[2019.02.17-13.26.05:600][848]LogTemp: Warning: Prob: 8
+[2019.02.17-13.26.05:600][848]LogTemp: Warning: Prob: 2
+[2019.02.17-13.26.05:601][848]LogTemp: Warning: Prob: 9
+[2019.02.17-13.26.05:601][848]LogTemp: Warning: Prob: 2
+[2019.02.17-13.26.05:601][848]LogTemp: Warning: Prob: 2
+[2019.02.17-13.26.05:601][848]LogTemp: Warning: Prob: 10
+[2019.02.17-13.26.05:602][848]LogTemp: Warning: Prob: 4
+[2019.02.17-13.26.05:602][848]LogTemp: Warning: Prob: 6
+[2019.02.17-13.26.05:602][848]LogTemp: Warning: Prob: 10
+[2019.02.17-13.26.05:602][848]LogTemp: Warning: Prob: 0
+[2019.02.17-13.26.05:602][848]LogTemp: Warning: Prob: 6
+[2019.02.17-13.26.05:603][848]LogTemp: Warning: Prob: 0
+[2019.02.17-13.26.05:603][848]LogTemp: Warning: Prob: 8
+[2019.02.17-13.26.05:603][848]LogTemp: Warning: Prob: 1
+[2019.02.17-13.26.05:603][848]LogTemp: Warning: Prob: 1
+[2019.02.17-13.26.05:603][848]LogTemp: Warning: Prob: 5
+[2019.02.17-13.26.05:604][848]LogTemp: Warning: Prob: 8
+[2019.02.17-13.26.05:604][848]LogTemp: Warning: Prob: 6
+[2019.02.17-13.26.05:604][848]LogTemp: Warning: Prob: 2
+[2019.02.17-13.26.05:604][848]LogTemp: Warning: Prob: 2
+[2019.02.17-13.26.05:604][848]LogTemp: Warning: Prob: 4
+[2019.02.17-13.26.05:605][848]LogTemp: Warning: Prob: 9
+[2019.02.17-13.26.05:605][848]LogTemp: Warning: Prob: 0
+[2019.02.17-13.26.05:605][848]LogTemp: Warning: Prob: 10
+[2019.02.17-13.26.05:605][848]LogTemp: Warning: Prob: 1
+[2019.02.17-13.26.05:605][848]LogTemp: Warning: Prob: 10
+[2019.02.17-13.26.05:605][848]LogTemp: Warning: Prob: 0
+[2019.02.17-13.26.05:606][848]LogTemp: Warning: Prob: 8
+[2019.02.17-13.26.05:606][848]LogTemp: Warning: Prob: 6
+[2019.02.17-13.26.05:606][848]LogTemp: Warning: Prob: 0
+[2019.02.17-13.26.05:606][848]LogTemp: Warning: Prob: 10
+[2019.02.17-13.26.05:606][848]LogTemp: Warning: Prob: 1
+[2019.02.17-13.26.05:607][848]LogTemp: Warning: Prob: 2
+[2019.02.17-13.26.05:607][848]LogTemp: Warning: Prob: 6
+[2019.02.17-13.26.05:607][848]LogTemp: Warning: Prob: 9
+[2019.02.17-13.26.05:607][848]LogTemp: Warning: Prob: 1
+[2019.02.17-13.26.05:607][848]LogTemp: Warning: Prob: 7
+[2019.02.17-13.26.05:608][848]LogTemp: Warning: Prob: 3
+[2019.02.17-13.26.05:608][848]LogTemp: Warning: Prob: 9
+[2019.02.17-13.26.05:608][848]LogTemp: Warning: Prob: 6
+[2019.02.17-13.26.05:608][848]LogTemp: Warning: Prob: 0
+[2019.02.17-13.26.05:609][848]LogTemp: Warning: Prob: 8
+[2019.02.17-13.26.05:609][848]LogTemp: Warning: Prob: 5
+[2019.02.17-13.26.05:609][848]LogTemp: Warning: Prob: 7
+[2019.02.17-13.26.05:610][848]LogTemp: Warning: Prob: 10
+[2019.02.17-13.26.05:610][848]LogTemp: Warning: Prob: 3
+[2019.02.17-13.26.05:610][848]LogTemp: Warning: Prob: 9
+[2019.02.17-13.26.05:610][848]LogTemp: Warning: Prob: 3
+[2019.02.17-13.26.05:610][848]LogTemp: Warning: Prob: 8
+[2019.02.17-13.26.05:610][848]LogTemp: Warning: Prob: 6
+[2019.02.17-13.26.05:611][848]LogTemp: Warning: Prob: 0
+[2019.02.17-13.26.05:611][848]LogTemp: Warning: Prob: 5
+[2019.02.17-13.26.05:611][848]LogTemp: Warning: Prob: 5
+[2019.02.17-13.26.05:611][848]LogTemp: Warning: Prob: 9
+[2019.02.17-13.26.05:611][848]LogTemp: Warning: Prob: 0
+[2019.02.17-13.26.05:612][848]LogTemp: Warning: Prob: 10
+[2019.02.17-13.26.05:612][848]LogTemp: Warning: Prob: 9
+[2019.02.17-13.26.05:612][848]LogTemp: Warning: Prob: 9
+[2019.02.17-13.26.05:612][848]LogTemp: Warning: Prob: 6
+[2019.02.17-13.26.05:612][848]PIE: Play in editor start time for /Game/Levels/UEDPIE_0_PathSearch -0.347
+[2019.02.17-13.26.05:613][848]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Levels/PathSearch.PathSearch:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/PathSearch.PathSearch:PersistentLevel.PathSearch' with GeneratedClass '/Game/Levels/PathSearch.PathSearch_C' with ClassGeneratedBy '/Game/Levels/PathSearch.PathSearch:PersistentLevel.PathSearch'
+[2019.02.17-13.26.08:639][142]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Levels/PathSearch.PathSearch:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/PathSearch.PathSearch:PersistentLevel.PathSearch' with GeneratedClass '/Game/Levels/PathSearch.PathSearch_C' with ClassGeneratedBy '/Game/Levels/PathSearch.PathSearch:PersistentLevel.PathSearch'
+[2019.02.17-13.26.08:709][142]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.02.17-13.26.08:801][142]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2019.02.17-13.26.08:802][142]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Levels/PathSearch.PathSearch:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/PathSearch.PathSearch:PersistentLevel.PathSearch' with GeneratedClass '/Game/Levels/PathSearch.PathSearch_C' with ClassGeneratedBy '/Game/Levels/PathSearch.PathSearch:PersistentLevel.PathSearch'
+[2019.02.17-13.26.08:866][142]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.02.17-13.26.08:916][143]LogPlayLevel: Display: Destroying online subsystem :Context_9
+[2019.02.17-13.26.13:591][601]LogAssetEditorManager: Opening Asset editor for Blueprint /Game/BP/BP_Spectator.BP_Spectator
+[2019.02.17-13.26.15:368][601]LogContentBrowser: Native class hierarchy updated for 'BlueprintGraph' in 0.0027 seconds. Added 117 classes and 0 folders.
+[2019.02.17-13.26.21:433][884]LogSlate: Window 'BP_Spectator' being destroyed
+[2019.02.17-13.26.42:990][  0]LogAssetEditorManager: Opening Asset editor for LevelScriptBlueprint /Game/Levels/PathSearch.PathSearch:PersistentLevel.PathSearch
+[2019.02.17-13.29.51:276][939]BlueprintLog: New page: Compile PathSearch
+[2019.02.17-13.31.24:885][324]BlueprintLog: New page: Compile PathSearch
+[2019.02.17-13.31.26:255][379]LogSavePackage: Moving '../../../../../../Users/Juan Pablo/Documents/Unreal Projects/AI/PathSearch/Saved/PathSearchBF615D744797D75EC250D188802ECB39.tmp' to '../../../../../../Users/Juan Pablo/Documents/Unreal Projects/AI/PathSearch/Content/Levels/PathSearch.umap'
+[2019.02.17-13.31.26:395][379]LogFileHelpers: Saving map 'PathSearch' took 0.666
+[2019.02.17-13.32.30:072][674]BlueprintLog: New page: Compile BP_Spectator
+[2019.02.17-13.33.38:108][406]BlueprintLog: New page: Compile BP_Spectator
+[2019.02.17-13.33.39:054][489]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/BP/BP_Spectator" FILE="../../../../../../Users/Juan Pablo/Documents/Unreal Projects/AI/PathSearch/Content/BP/BP_Spectator.uasset" SILENT=true
+[2019.02.17-13.33.39:082][489]LogSavePackage: Moving '../../../../../../Users/Juan Pablo/Documents/Unreal Projects/AI/PathSearch/Saved/BP_Spectator614255D04680022D1CA8698DDF340B7D.tmp' to '../../../../../../Users/Juan Pablo/Documents/Unreal Projects/AI/PathSearch/Content/BP/BP_Spectator.uasset'
+[2019.02.17-13.33.40:585][641]LogTemp: Repeating last play command: Selected Viewport
+[2019.02.17-13.33.40:601][641]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Levels/PathSearch.PathSearch:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/PathSearch.PathSearch:PersistentLevel.PathSearch' with GeneratedClass '/Game/Levels/PathSearch.PathSearch_C' with ClassGeneratedBy '/Game/Levels/PathSearch.PathSearch:PersistentLevel.PathSearch'
+[2019.02.17-13.33.40:601][641]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2019.02.17-13.33.40:601][641]PIE: New page: PIE session: PathSearch (17/02/2019 01:33:40)
+[2019.02.17-13.33.40:602][641]LogPlayLevel: Creating play world package: /Game/Levels/UEDPIE_0_PathSearch
+[2019.02.17-13.33.40:606][641]LogPlayLevel: PIE: StaticDuplicateObject took: (0.003667s)
+[2019.02.17-13.33.40:607][641]LogAIModule: Creating AISystem for world PathSearch
+[2019.02.17-13.33.40:607][641]LogPlayLevel: PIE: World Init took: (0.001491s)
+[2019.02.17-13.33.40:607][641]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/PathSearch.PathSearch to /Game/Levels/UEDPIE_0_PathSearch.PathSearch (0.005567s)
+[2019.02.17-13.33.40:648][641]LogInit: XAudio2 using 'Altavoces (Sound Blaster Recon3Di)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2019.02.17-13.33.40:663][641]LogInit: FAudioDevice initialized.
+[2019.02.17-13.33.40:710][641]LogLoad: Game class is 'BP_GameMode_C'
+[2019.02.17-13.33.40:713][641]LogWorld: Bringing World /Game/Levels/UEDPIE_0_PathSearch.PathSearch up for play (max tick rate 0) at 2019.02.17-07.33.40
+[2019.02.17-13.33.40:714][641]LogWorld: Bringing up level for play took: 0.001099
+[2019.02.17-13.33.40:728][641]LogTemp: Warning: Init called
+[2019.02.17-13.33.40:728][641]LogTemp: Warning: Couldn't find player
+[2019.02.17-13.33.40:728][641]LogTemp: Warning: Init called
+[2019.02.17-13.33.40:728][641]LogTemp: Warning: Couldn't find player
+[2019.02.17-13.33.40:728][641]LogTemp: Warning: Init called
+[2019.02.17-13.33.40:729][641]LogTemp: Warning: Couldn't find player
+[2019.02.17-13.33.40:729][641]LogTemp: Warning: Init called
+[2019.02.17-13.33.40:729][641]LogTemp: Warning: Couldn't find player
+[2019.02.17-13.33.40:729][641]LogTemp: Warning: Init called
+[2019.02.17-13.33.40:729][641]LogTemp: Warning: Couldn't find player
+[2019.02.17-13.33.40:729][641]LogTemp: Warning: Init called
+[2019.02.17-13.33.40:729][641]LogTemp: Warning: Couldn't find player
+[2019.02.17-13.33.40:729][641]LogTemp: Warning: Init called
+[2019.02.17-13.33.40:729][641]LogTemp: Warning: Couldn't find player
+[2019.02.17-13.33.40:729][641]LogTemp: Warning: Init called
+[2019.02.17-13.33.40:729][641]LogTemp: Warning: Couldn't find player
+[2019.02.17-13.33.40:737][641]LogTemp: Warning: Prob: 0
+[2019.02.17-13.33.40:737][641]LogTemp: Warning: Prob: 7
+[2019.02.17-13.33.40:738][641]LogTemp: Warning: Prob: 9
+[2019.02.17-13.33.40:738][641]LogTemp: Warning: Prob: 9
+[2019.02.17-13.33.40:739][641]LogTemp: Warning: Prob: 6
+[2019.02.17-13.33.40:739][641]LogTemp: Warning: Prob: 7
+[2019.02.17-13.33.40:740][641]LogTemp: Warning: Prob: 0
+[2019.02.17-13.33.40:740][641]LogTemp: Warning: Prob: 2
+[2019.02.17-13.33.40:740][641]LogTemp: Warning: Prob: 3
+[2019.02.17-13.33.40:741][641]LogTemp: Warning: Prob: 4
+[2019.02.17-13.33.40:741][641]LogTemp: Warning: Prob: 9
+[2019.02.17-13.33.40:741][641]LogTemp: Warning: Prob: 7
+[2019.02.17-13.33.40:742][641]LogTemp: Warning: Prob: 8
+[2019.02.17-13.33.40:742][641]LogTemp: Warning: Prob: 5
+[2019.02.17-13.33.40:743][641]LogTemp: Warning: Prob: 0
+[2019.02.17-13.33.40:743][641]LogTemp: Warning: Prob: 1
+[2019.02.17-13.33.40:743][641]LogTemp: Warning: Prob: 2
+[2019.02.17-13.33.40:744][641]LogTemp: Warning: Prob: 10
+[2019.02.17-13.33.40:744][641]LogTemp: Warning: Prob: 5
+[2019.02.17-13.33.40:744][641]LogTemp: Warning: Prob: 4
+[2019.02.17-13.33.40:745][641]LogTemp: Warning: Prob: 9
+[2019.02.17-13.33.40:745][641]LogTemp: Warning: Prob: 5
+[2019.02.17-13.33.40:746][641]LogTemp: Warning: Prob: 4
+[2019.02.17-13.33.40:746][641]LogTemp: Warning: Prob: 6
+[2019.02.17-13.33.40:746][641]LogTemp: Warning: Prob: 2
+[2019.02.17-13.33.40:747][641]LogTemp: Warning: Prob: 10
+[2019.02.17-13.33.40:747][641]LogTemp: Warning: Prob: 1
+[2019.02.17-13.33.40:748][641]LogTemp: Warning: Prob: 0
+[2019.02.17-13.33.40:748][641]LogTemp: Warning: Prob: 4
+[2019.02.17-13.33.40:748][641]LogTemp: Warning: Prob: 0
+[2019.02.17-13.33.40:749][641]LogTemp: Warning: Prob: 3
+[2019.02.17-13.33.40:749][641]LogTemp: Warning: Prob: 8
+[2019.02.17-13.33.40:750][641]LogTemp: Warning: Prob: 1
+[2019.02.17-13.33.40:750][641]LogTemp: Warning: Prob: 9
+[2019.02.17-13.33.40:750][641]LogTemp: Warning: Prob: 9
+[2019.02.17-13.33.40:751][641]LogTemp: Warning: Prob: 6
+[2019.02.17-13.33.40:751][641]LogTemp: Warning: Prob: 9
+[2019.02.17-13.33.40:752][641]LogTemp: Warning: Prob: 3
+[2019.02.17-13.33.40:752][641]LogTemp: Warning: Prob: 0
+[2019.02.17-13.33.40:752][641]LogTemp: Warning: Prob: 8
+[2019.02.17-13.33.40:753][641]LogTemp: Warning: Prob: 2
+[2019.02.17-13.33.40:753][641]LogTemp: Warning: Prob: 6
+[2019.02.17-13.33.40:753][641]LogTemp: Warning: Prob: 7
+[2019.02.17-13.33.40:754][641]LogTemp: Warning: Prob: 2
+[2019.02.17-13.33.40:754][641]LogTemp: Warning: Prob: 0
+[2019.02.17-13.33.40:754][641]LogTemp: Warning: Prob: 0
+[2019.02.17-13.33.40:755][641]LogTemp: Warning: Prob: 6
+[2019.02.17-13.33.40:755][641]LogTemp: Warning: Prob: 10
+[2019.02.17-13.33.40:756][641]LogTemp: Warning: Prob: 4
+[2019.02.17-13.33.40:756][641]LogTemp: Warning: Prob: 3
+[2019.02.17-13.33.40:756][641]LogTemp: Warning: Prob: 5
+[2019.02.17-13.33.40:757][641]LogTemp: Warning: Prob: 6
+[2019.02.17-13.33.40:757][641]LogTemp: Warning: Prob: 3
+[2019.02.17-13.33.40:757][641]LogTemp: Warning: Prob: 3
+[2019.02.17-13.33.40:758][641]LogTemp: Warning: Prob: 10
+[2019.02.17-13.33.40:758][641]LogTemp: Warning: Prob: 2
+[2019.02.17-13.33.40:759][641]LogTemp: Warning: Prob: 8
+[2019.02.17-13.33.40:759][641]LogTemp: Warning: Prob: 8
+[2019.02.17-13.33.40:759][641]LogTemp: Warning: Prob: 1
+[2019.02.17-13.33.40:760][641]LogTemp: Warning: Prob: 5
+[2019.02.17-13.33.40:760][641]LogTemp: Warning: Prob: 4
+[2019.02.17-13.33.40:761][641]LogTemp: Warning: Prob: 5
+[2019.02.17-13.33.40:761][641]LogTemp: Warning: Prob: 3
+[2019.02.17-13.33.40:761][641]LogTemp: Warning: Prob: 6
+[2019.02.17-13.33.40:762][641]LogTemp: Warning: Prob: 1
+[2019.02.17-13.33.40:762][641]LogTemp: Warning: Prob: 0
+[2019.02.17-13.33.40:762][641]LogTemp: Warning: Prob: 7
+[2019.02.17-13.33.40:763][641]LogTemp: Warning: Prob: 0
+[2019.02.17-13.33.40:763][641]LogTemp: Warning: Prob: 6
+[2019.02.17-13.33.40:763][641]LogTemp: Warning: Prob: 1
+[2019.02.17-13.33.40:764][641]LogTemp: Warning: Prob: 10
+[2019.02.17-13.33.40:764][641]LogTemp: Warning: Prob: 0
+[2019.02.17-13.33.40:765][641]LogTemp: Warning: Prob: 5
+[2019.02.17-13.33.40:765][641]LogTemp: Warning: Prob: 0
+[2019.02.17-13.33.40:765][641]LogTemp: Warning: Prob: 10
+[2019.02.17-13.33.40:765][641]LogTemp: Warning: Prob: 6
+[2019.02.17-13.33.40:765][641]LogTemp: Warning: Prob: 1
+[2019.02.17-13.33.40:766][641]LogTemp: Warning: Prob: 6
+[2019.02.17-13.33.40:766][641]LogTemp: Warning: Prob: 1
+[2019.02.17-13.33.40:766][641]LogTemp: Warning: Prob: 10
+[2019.02.17-13.33.40:766][641]LogTemp: Warning: Prob: 8
+[2019.02.17-13.33.40:766][641]LogTemp: Warning: Prob: 5
+[2019.02.17-13.33.40:767][641]LogTemp: Warning: Prob: 8
+[2019.02.17-13.33.40:767][641]LogTemp: Warning: Prob: 1
+[2019.02.17-13.33.40:767][641]LogTemp: Warning: Prob: 8
+[2019.02.17-13.33.40:767][641]LogTemp: Warning: Prob: 7
+[2019.02.17-13.33.40:767][641]LogTemp: Warning: Prob: 5
+[2019.02.17-13.33.40:767][641]LogTemp: Warning: Prob: 4
+[2019.02.17-13.33.40:768][641]LogTemp: Warning: Prob: 2
+[2019.02.17-13.33.40:768][641]LogTemp: Warning: Prob: 8
+[2019.02.17-13.33.40:768][641]LogTemp: Warning: Prob: 10
+[2019.02.17-13.33.40:768][641]LogTemp: Warning: Prob: 4
+[2019.02.17-13.33.40:768][641]LogTemp: Warning: Prob: 8
+[2019.02.17-13.33.40:769][641]LogTemp: Warning: Prob: 3
+[2019.02.17-13.33.40:769][641]LogTemp: Warning: Prob: 8
+[2019.02.17-13.33.40:769][641]LogTemp: Warning: Prob: 1
+[2019.02.17-13.33.40:769][641]LogTemp: Warning: Prob: 5
+[2019.02.17-13.33.40:769][641]LogTemp: Warning: Prob: 5
+[2019.02.17-13.33.40:769][641]LogTemp: Warning: Prob: 6
+[2019.02.17-13.33.40:770][641]LogTemp: Warning: Prob: 2
+[2019.02.17-13.33.40:770][641]LogTemp: Warning: Prob: 4
+[2019.02.17-13.33.40:770][641]LogTemp: Warning: Prob: 8
+[2019.02.17-13.33.40:770][641]LogTemp: Warning: Prob: 4
+[2019.02.17-13.33.40:770][641]LogTemp: Warning: Prob: 1
+[2019.02.17-13.33.40:770][641]LogTemp: Warning: Prob: 9
+[2019.02.17-13.33.40:770][641]LogTemp: Warning: Prob: 6
+[2019.02.17-13.33.40:771][641]LogTemp: Warning: Prob: 4
+[2019.02.17-13.33.40:771][641]LogTemp: Warning: Prob: 10
+[2019.02.17-13.33.40:771][641]LogTemp: Warning: Prob: 10
+[2019.02.17-13.33.40:771][641]LogTemp: Warning: Prob: 3
+[2019.02.17-13.33.40:771][641]LogTemp: Warning: Prob: 4
+[2019.02.17-13.33.40:772][641]LogTemp: Warning: Prob: 7
+[2019.02.17-13.33.40:772][641]LogTemp: Warning: Prob: 4
+[2019.02.17-13.33.40:772][641]LogTemp: Warning: Prob: 3
+[2019.02.17-13.33.40:772][641]LogTemp: Warning: Prob: 5
+[2019.02.17-13.33.40:772][641]LogTemp: Warning: Prob: 8
+[2019.02.17-13.33.40:772][641]LogTemp: Warning: Prob: 3
+[2019.02.17-13.33.40:772][641]LogTemp: Warning: Prob: 3
+[2019.02.17-13.33.40:773][641]LogTemp: Warning: Prob: 10
+[2019.02.17-13.33.40:773][641]LogTemp: Warning: Prob: 4
+[2019.02.17-13.33.40:773][641]LogTemp: Warning: Prob: 7
+[2019.02.17-13.33.40:773][641]LogTemp: Warning: Prob: 0
+[2019.02.17-13.33.40:773][641]LogTemp: Warning: Prob: 5
+[2019.02.17-13.33.40:774][641]LogTemp: Warning: Prob: 2
+[2019.02.17-13.33.40:774][641]LogTemp: Warning: Prob: 3
+[2019.02.17-13.33.40:774][641]LogTemp: Warning: Prob: 1
+[2019.02.17-13.33.40:774][641]LogTemp: Warning: Prob: 5
+[2019.02.17-13.33.40:774][641]LogTemp: Warning: Prob: 4
+[2019.02.17-13.33.40:774][641]LogTemp: Warning: Prob: 2
+[2019.02.17-13.33.40:774][641]LogTemp: Warning: Prob: 1
+[2019.02.17-13.33.40:775][641]LogTemp: Warning: Prob: 6
+[2019.02.17-13.33.40:775][641]LogTemp: Warning: Prob: 6
+[2019.02.17-13.33.40:775][641]LogTemp: Warning: Prob: 2
+[2019.02.17-13.33.40:775][641]LogTemp: Warning: Prob: 9
+[2019.02.17-13.33.40:775][641]LogTemp: Warning: Prob: 1
+[2019.02.17-13.33.40:775][641]LogTemp: Warning: Prob: 8
+[2019.02.17-13.33.40:776][641]LogTemp: Warning: Prob: 1
+[2019.02.17-13.33.40:776][641]LogTemp: Warning: Prob: 3
+[2019.02.17-13.33.40:776][641]LogTemp: Warning: Prob: 5
+[2019.02.17-13.33.40:776][641]LogTemp: Warning: Prob: 6
+[2019.02.17-13.33.40:776][641]LogTemp: Warning: Prob: 1
+[2019.02.17-13.33.40:776][641]LogTemp: Warning: Prob: 3
+[2019.02.17-13.33.40:776][641]LogTemp: Warning: Prob: 7
+[2019.02.17-13.33.40:777][641]LogTemp: Warning: Prob: 6
+[2019.02.17-13.33.40:777][641]LogTemp: Warning: Prob: 8
+[2019.02.17-13.33.40:777][641]LogTemp: Warning: Prob: 8
+[2019.02.17-13.33.40:777][641]LogTemp: Warning: Prob: 10
+[2019.02.17-13.33.40:777][641]LogTemp: Warning: Prob: 0
+[2019.02.17-13.33.40:778][641]LogTemp: Warning: Prob: 8
+[2019.02.17-13.33.40:778][641]LogTemp: Warning: Prob: 5
+[2019.02.17-13.33.40:778][641]LogTemp: Warning: Prob: 0
+[2019.02.17-13.33.40:778][641]LogTemp: Warning: Prob: 6
+[2019.02.17-13.33.40:778][641]LogTemp: Warning: Prob: 3
+[2019.02.17-13.33.40:778][641]LogTemp: Warning: Prob: 10
+[2019.02.17-13.33.40:779][641]LogTemp: Warning: Prob: 4
+[2019.02.17-13.33.40:779][641]LogTemp: Warning: Prob: 9
+[2019.02.17-13.33.40:779][641]LogTemp: Warning: Prob: 1
+[2019.02.17-13.33.40:779][641]LogTemp: Warning: Prob: 8
+[2019.02.17-13.33.40:779][641]LogTemp: Warning: Prob: 0
+[2019.02.17-13.33.40:779][641]LogTemp: Warning: Prob: 6
+[2019.02.17-13.33.40:780][641]LogTemp: Warning: Prob: 5
+[2019.02.17-13.33.40:780][641]LogTemp: Warning: Prob: 5
+[2019.02.17-13.33.40:780][641]LogTemp: Warning: Prob: 7
+[2019.02.17-13.33.40:780][641]LogTemp: Warning: Prob: 5
+[2019.02.17-13.33.40:780][641]LogTemp: Warning: Prob: 9
+[2019.02.17-13.33.40:780][641]LogTemp: Warning: Prob: 9
+[2019.02.17-13.33.40:780][641]LogTemp: Warning: Prob: 5
+[2019.02.17-13.33.40:781][641]LogTemp: Warning: Prob: 9
+[2019.02.17-13.33.40:781][641]LogTemp: Warning: Prob: 8
+[2019.02.17-13.33.40:781][641]LogTemp: Warning: Prob: 5
+[2019.02.17-13.33.40:781][641]LogTemp: Warning: Prob: 4
+[2019.02.17-13.33.40:781][641]LogTemp: Warning: Prob: 9
+[2019.02.17-13.33.40:781][641]LogTemp: Warning: Prob: 7
+[2019.02.17-13.33.40:782][641]LogTemp: Warning: Prob: 1
+[2019.02.17-13.33.40:782][641]LogTemp: Warning: Prob: 2
+[2019.02.17-13.33.40:782][641]LogTemp: Warning: Prob: 8
+[2019.02.17-13.33.40:782][641]LogTemp: Warning: Prob: 5
+[2019.02.17-13.33.40:782][641]LogTemp: Warning: Prob: 5
+[2019.02.17-13.33.40:782][641]LogTemp: Warning: Prob: 5
+[2019.02.17-13.33.40:783][641]LogTemp: Warning: Prob: 8
+[2019.02.17-13.33.40:783][641]LogTemp: Warning: Prob: 9
+[2019.02.17-13.33.40:783][641]LogTemp: Warning: Prob: 5
+[2019.02.17-13.33.40:784][641]LogTemp: Warning: Prob: 9
+[2019.02.17-13.33.40:784][641]LogTemp: Warning: Prob: 10
+[2019.02.17-13.33.40:784][641]LogTemp: Warning: Prob: 2
+[2019.02.17-13.33.40:784][641]LogTemp: Warning: Prob: 9
+[2019.02.17-13.33.40:784][641]LogTemp: Warning: Prob: 8
+[2019.02.17-13.33.40:784][641]LogTemp: Warning: Prob: 9
+[2019.02.17-13.33.40:785][641]LogTemp: Warning: Prob: 5
+[2019.02.17-13.33.40:785][641]LogTemp: Warning: Prob: 7
+[2019.02.17-13.33.40:785][641]LogTemp: Warning: Prob: 5
+[2019.02.17-13.33.40:785][641]LogTemp: Warning: Prob: 8
+[2019.02.17-13.33.40:785][641]PIE: Play in editor start time for /Game/Levels/UEDPIE_0_PathSearch 0.826
+[2019.02.17-13.33.40:786][641]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Levels/PathSearch.PathSearch:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/PathSearch.PathSearch:PersistentLevel.PathSearch' with GeneratedClass '/Game/Levels/PathSearch.PathSearch_C' with ClassGeneratedBy '/Game/Levels/PathSearch.PathSearch:PersistentLevel.PathSearch'
+[2019.02.17-13.33.54:235][827]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.02.17-13.33.54:267][830]LogTemp: Warning: Init called
+[2019.02.17-13.33.54:275][830]LogOutputDevice: Warning: 
+
+Script Stack (2 frames):
+PathSearch_C.ExecuteUbergraph_PathSearch
+PathSearch_C.DrawPathBreadth
+
+[2019.02.17-13.33.54:275][830]LogWindows: Windows GetLastError: La operación se completó correctamente. (0)
+[2019.02.17-13.34.04:660][830]LogWindows: Error: === Critical error: ===
+[2019.02.17-13.34.04:660][830]LogWindows: Error: 
+[2019.02.17-13.34.04:660][830]LogWindows: Error: Assertion failed: Pair != nullptr [File:C:\Program Files\Epic Games\UE_4.21\Engine\Source\Runtime\Core\Public\Containers/Map.h] [Line: 476] 
+[2019.02.17-13.34.04:660][830]LogWindows: Error: 
+[2019.02.17-13.34.04:660][830]LogWindows: Error: 
+[2019.02.17-13.34.04:660][830]LogWindows: Error: 
+[2019.02.17-13.34.04:660][830]LogWindows: Error: [Callstack] 0x00007ffbc1b5a388 KERNELBASE.dll!UnknownFunction []
+[2019.02.17-13.34.04:660][830]LogWindows: Error: [Callstack] 0x00007ffb7744cd1a UE4Editor-Core.dll!UnknownFunction []
+[2019.02.17-13.34.04:660][830]LogWindows: Error: [Callstack] 0x00007ffb7722a967 UE4Editor-Core.dll!UnknownFunction []
+[2019.02.17-13.34.04:660][830]LogWindows: Error: [Callstack] 0x00007ffb77160df7 UE4Editor-Core.dll!UnknownFunction []
+[2019.02.17-13.34.04:660][830]LogWindows: Error: [Callstack] 0x00007ffb478dcafa UE4Editor-PathSearch-8925.dll!AGraph::CheckAdjacency() [c:\users\juan pablo\documents\unreal projects\ai\pathsearch\source\pathsearch\private\graph.cpp:93]
+[2019.02.17-13.34.04:660][830]LogWindows: Error: [Callstack] 0x00007ffb478d750d UE4Editor-PathSearch-8925.dll!ABFS::Search() [c:\users\juan pablo\documents\unreal projects\ai\pathsearch\source\pathsearch\private\bfs.cpp:39]
+[2019.02.17-13.34.04:661][830]LogWindows: Error: [Callstack] 0x00007ffb478dcd8a UE4Editor-PathSearch-8925.dll!AGraph::GetPath() [c:\users\juan pablo\documents\unreal projects\ai\pathsearch\source\pathsearch\private\graph.cpp:104]
+[2019.02.17-13.34.04:661][830]LogWindows: Error: [Callstack] 0x00007ffb478e2019 UE4Editor-PathSearch-8925.dll!ALevelManager::DrawPathBFS() [c:\users\juan pablo\documents\unreal projects\ai\pathsearch\source\pathsearch\private\levelmanager.cpp:100]
+[2019.02.17-13.34.04:661][830]LogWindows: Error: [Callstack] 0x00007ffb76194b14 UE4Editor-CoreUObject.dll!UnknownFunction []
+[2019.02.17-13.34.04:661][830]LogWindows: Error: [Callstack] 0x00007ffb763fbc2a UE4Editor-CoreUObject.dll!UnknownFunction []
+[2019.02.17-13.34.04:661][830]LogWindows: Error: [Callstack] 0x00007ffb76427d2f UE4Editor-CoreUObject.dll!UnknownFunction []
+[2019.02.17-13.34.04:661][830]LogWindows: Error: [Callstack] 0x00007ffb763fc5dd UE4Editor-CoreUObject.dll!UnknownFunction []
+[2019.02.17-13.34.04:661][830]LogWindows: Error: [Callstack] 0x00007ffb76427d2f UE4Editor-CoreUObject.dll!UnknownFunction []
+[2019.02.17-13.34.04:661][830]LogWindows: Error: [Callstack] 0x00007ffb76194b14 UE4Editor-CoreUObject.dll!UnknownFunction []
+[2019.02.17-13.34.04:661][830]LogWindows: Error: [Callstack] 0x00007ffb764273c6 UE4Editor-CoreUObject.dll!UnknownFunction []
+[2019.02.17-13.34.04:661][830]LogWindows: Error: [Callstack] 0x00007ffb53dd3923 UE4Editor-Engine.dll!UnknownFunction []
+[2019.02.17-13.34.04:661][830]LogWindows: Error: [Callstack] 0x00007ffb74b356e1 UE4Editor-UMG.dll!UnknownFunction []
+[2019.02.17-13.34.04:661][830]LogWindows: Error: [Callstack] 0x00007ffb74c53d67 UE4Editor-UMG.dll!UnknownFunction []
+[2019.02.17-13.34.04:661][830]LogWindows: Error: [Callstack] 0x00007ffb74bbff7b UE4Editor-UMG.dll!UnknownFunction []
+[2019.02.17-13.34.04:661][830]LogWindows: Error: [Callstack] 0x00007ffb759fc7bb UE4Editor-Slate.dll!UnknownFunction []
+[2019.02.17-13.34.04:661][830]LogWindows: Error: [Callstack] 0x00007ffb757e8e25 UE4Editor-Slate.dll!UnknownFunction []
+[2019.02.17-13.34.04:661][830]LogWindows: Error: [Callstack] 0x00007ffb75882678 UE4Editor-Slate.dll!UnknownFunction []
+[2019.02.17-13.34.04:661][830]LogWindows: Error: [Callstack] 0x00007ffb7586857a UE4Editor-Slate.dll!UnknownFunction []
+[2019.02.17-13.34.04:661][830]LogWindows: Error: [Callstack] 0x00007ffb7585b44c UE4Editor-Slate.dll!UnknownFunction []
+[2019.02.17-13.34.04:661][830]LogWindows: Error: [Callstack] 0x00007ffb8e5ade26 UE4Editor-ApplicationCore.dll!UnknownFunction []
+[2019.02.17-13.34.04:661][830]LogWindows: Error: [Callstack] 0x00007ffb8e5a0de0 UE4Editor-ApplicationCore.dll!UnknownFunction []
+[2019.02.17-13.34.04:662][830]LogWindows: Error: [Callstack] 0x00007ffb8e5b01eb UE4Editor-ApplicationCore.dll!UnknownFunction []
+[2019.02.17-13.34.04:662][830]LogWindows: Error: [Callstack] 0x00007ffb8e59ca19 UE4Editor-ApplicationCore.dll!UnknownFunction []
+[2019.02.17-13.34.04:662][830]LogWindows: Error: [Callstack] 0x00007ffbc37c6d41 USER32.dll!UnknownFunction []
+[2019.02.17-13.34.04:662][830]LogWindows: Error: [Callstack] 0x00007ffbc37c6713 USER32.dll!UnknownFunction []
+[2019.02.17-13.34.04:662][830]LogWindows: Error: [Callstack] 0x00007ffb8e5b1746 UE4Editor-ApplicationCore.dll!UnknownFunction []
+[2019.02.17-13.34.04:662][830]LogWindows: Error: [Callstack] 0x00007ff6c81f5546 UE4Editor.exe!UnknownFunction []
+[2019.02.17-13.34.04:662][830]LogWindows: Error: [Callstack] 0x00007ff6c820596c UE4Editor.exe!UnknownFunction []
+[2019.02.17-13.34.04:662][830]LogWindows: Error: [Callstack] 0x00007ff6c82059ea UE4Editor.exe!UnknownFunction []
+[2019.02.17-13.34.04:662][830]LogWindows: Error: [Callstack] 0x00007ff6c82148da UE4Editor.exe!UnknownFunction []
+[2019.02.17-13.34.04:662][830]LogWindows: Error: [Callstack] 0x00007ff6c821659a UE4Editor.exe!UnknownFunction []
+[2019.02.17-13.34.04:662][830]LogWindows: Error: [Callstack] 0x00007ffbc5673dc4 KERNEL32.DLL!UnknownFunction []
+[2019.02.17-13.34.04:662][830]LogWindows: Error: [Callstack] 0x00007ffbc57c3691 ntdll.dll!UnknownFunction []
+[2019.02.17-13.34.04:662][830]LogWindows: Error: 
+[2019.02.17-13.34.04:696][830]LogExit: Executing StaticShutdownAfterError
+[2019.02.17-13.34.05:005][830]LogWindows: FPlatformMisc::RequestExit(1)
+[2019.02.17-13.34.05:038][830]Log file closed, 02/17/19 07:34:05

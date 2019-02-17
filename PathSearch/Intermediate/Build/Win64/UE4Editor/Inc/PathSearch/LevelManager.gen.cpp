@@ -369,6 +369,10 @@ void EmptyLinkFunctionForGeneratedCodeLevelManager() {}
 #endif
 		static const UE4CodeGen_Private::FUnsizedIntPropertyParams NewProp_WallProbability;
 #if WITH_METADATA
+		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_HeightNum_MetaData[];
+#endif
+		static const UE4CodeGen_Private::FUnsizedIntPropertyParams NewProp_HeightNum;
+#if WITH_METADATA
 		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_RowNum_MetaData[];
 #endif
 		static const UE4CodeGen_Private::FUnsizedIntPropertyParams NewProp_RowNum;
@@ -517,6 +521,13 @@ void EmptyLinkFunctionForGeneratedCodeLevelManager() {}
 #endif
 	const UE4CodeGen_Private::FUnsizedIntPropertyParams Z_Construct_UClass_ALevelManager_Statics::NewProp_WallProbability = { UE4CodeGen_Private::EPropertyClass::Int, "WallProbability", RF_Public|RF_Transient|RF_MarkAsNative, (EPropertyFlags)0x0020080000010001, 1, nullptr, STRUCT_OFFSET(ALevelManager, WallProbability), METADATA_PARAMS(Z_Construct_UClass_ALevelManager_Statics::NewProp_WallProbability_MetaData, ARRAY_COUNT(Z_Construct_UClass_ALevelManager_Statics::NewProp_WallProbability_MetaData)) };
 #if WITH_METADATA
+	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_ALevelManager_Statics::NewProp_HeightNum_MetaData[] = {
+		{ "Category", "Level design" },
+		{ "ModuleRelativePath", "Public/LevelManager.h" },
+	};
+#endif
+	const UE4CodeGen_Private::FUnsizedIntPropertyParams Z_Construct_UClass_ALevelManager_Statics::NewProp_HeightNum = { UE4CodeGen_Private::EPropertyClass::Int, "HeightNum", RF_Public|RF_Transient|RF_MarkAsNative, (EPropertyFlags)0x0020080000010001, 1, nullptr, STRUCT_OFFSET(ALevelManager, HeightNum), METADATA_PARAMS(Z_Construct_UClass_ALevelManager_Statics::NewProp_HeightNum_MetaData, ARRAY_COUNT(Z_Construct_UClass_ALevelManager_Statics::NewProp_HeightNum_MetaData)) };
+#if WITH_METADATA
 	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_ALevelManager_Statics::NewProp_RowNum_MetaData[] = {
 		{ "Category", "Level design" },
 		{ "ModuleRelativePath", "Public/LevelManager.h" },
@@ -548,6 +559,7 @@ void EmptyLinkFunctionForGeneratedCodeLevelManager() {}
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_ALevelManager_Statics::NewProp_PlayerClass,
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_ALevelManager_Statics::NewProp_GoalPosition,
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_ALevelManager_Statics::NewProp_WallProbability,
+		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_ALevelManager_Statics::NewProp_HeightNum,
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_ALevelManager_Statics::NewProp_RowNum,
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_ALevelManager_Statics::NewProp_ColumNum,
 	};
@@ -574,7 +586,7 @@ void EmptyLinkFunctionForGeneratedCodeLevelManager() {}
 		}
 		return OuterClass;
 	}
-	IMPLEMENT_CLASS(ALevelManager, 687935928);
+	IMPLEMENT_CLASS(ALevelManager, 1704794048);
 	static FCompiledInDefer Z_CompiledInDefer_UClass_ALevelManager(Z_Construct_UClass_ALevelManager, &ALevelManager::StaticClass, TEXT("/Script/PathSearch"), TEXT("ALevelManager"), false, nullptr, nullptr, nullptr);
 	DEFINE_VTABLE_PTR_HELPER_CTOR(ALevelManager);
 PRAGMA_ENABLE_DEPRECATION_WARNINGS

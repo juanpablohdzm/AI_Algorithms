@@ -77,7 +77,10 @@ void AGraph::CheckAdjacency(const FVector& Position, TArray<FVector>& WalkableNo
 		FVector(Position.X+100,Position.Y,Position.Z),
 		FVector(Position.X-100,Position.Y,Position.Z),
 		FVector(Position.X,Position.Y+100,Position.Z),
-		FVector(Position.X,Position.Y-100,Position.Z)
+		FVector(Position.X,Position.Y-100,Position.Z),
+		FVector(Position.X,Position.Y,Position.Z+100),
+		FVector(Position.X,Position.Y,Position.Z-100)
+
 	};
 
 	//Check all the neighbors if they are walkable

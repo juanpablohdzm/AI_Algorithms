@@ -229,6 +229,7 @@ DEFINE_VTABLE_PTR_HELPER_CTOR_CALLER(ALevelManager); \
 #define PathSearch_Source_PathSearch_Public_LevelManager_h_16_PRIVATE_PROPERTY_OFFSET \
 	FORCEINLINE static uint32 __PPO__ColumNum() { return STRUCT_OFFSET(ALevelManager, ColumNum); } \
 	FORCEINLINE static uint32 __PPO__RowNum() { return STRUCT_OFFSET(ALevelManager, RowNum); } \
+	FORCEINLINE static uint32 __PPO__HeightNum() { return STRUCT_OFFSET(ALevelManager, HeightNum); } \
 	FORCEINLINE static uint32 __PPO__WallProbability() { return STRUCT_OFFSET(ALevelManager, WallProbability); } \
 	FORCEINLINE static uint32 __PPO__GoalPosition() { return STRUCT_OFFSET(ALevelManager, GoalPosition); } \
 	FORCEINLINE static uint32 __PPO__PlayerClass() { return STRUCT_OFFSET(ALevelManager, PlayerClass); } \

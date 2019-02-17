@@ -28,17 +28,20 @@ void ALevelManager::DrawLevel()
 	{
 		for (size_t j = 0; j < RowNum; j++)
 		{
-			int Prob = FMath::RandRange(0, 10);
-			UE_LOG(LogTemp, Warning, TEXT("Prob: %i"),Prob);
-			if (Prob >= WallProbability || GoalPosition == FVector(j*100.0f, i*100.0f, 0.0f))
+			for (size_t k = 0; k < HeightNum; k++)
 			{
-				APoint * Point;
-				Point = World->SpawnActor<APoint>(PointClass, FVector(j*100.0f, i*100.0f, 0.0f), FRotator::ZeroRotator, SpawnParameters);
-				Point->SetCost(FMath::RandRange(0, 3));
-			}
-			else
-			{
-				World->SpawnActor<AActor>(WallClass, FVector(j*100.0f, i*100.0f, 0.0f), FRotator::ZeroRotator, SpawnParameters);
+				int Prob = FMath::RandRange(0, 10);
+				UE_LOG(LogTemp, Warning, TEXT("Prob: %i"), Prob);
+				if (Prob >= WallProbability || GoalPosition == FVector(j*100.0f, i*100.0f, k*100.0f))
+				{
+					APoint * Point;
+					Point = World->SpawnActor<APoint>(PointClass, FVector(j*100.0f, i*100.0f, k*100.0f), FRotator::ZeroRotator, SpawnParameters);
+					Point->SetCost(FMath::RandRange(0, 3));
+				}
+				else
+				{
+					World->SpawnActor<AActor>(WallClass, FVector(j*100.0f, i*100.0f, k*100.0f), FRotator::ZeroRotator, SpawnParameters);
+				}
 			}
 		}
 	}
@@ -68,14 +71,14 @@ void ALevelManager::BeginPlay()
 	Super::BeginPlay();
 
 	//Set the camera position and rotation
-	if (Camera == nullptr) { UE_LOG(LogTemp, Warning, TEXT("Camera is set to null")); return; }
+	/*if (Camera == nullptr) { UE_LOG(LogTemp, Warning, TEXT("Camera is set to null")); return; }
 	Camera->SetActorLocationAndRotation(FVector(ColumNum*100 / 2.0f, RowNum*100 / 2.0f, 400.0f), FRotator(-90.0f, 0.0f, 0.0f));
 	
 	//Change view target to the camera previously set 
 	APlayerController* pc = UGameplayStatics::GetPlayerController(GetWorld(), 0);
 	if (!pc) { UE_LOG(LogTemp, Warning, TEXT("No controllr")); return; }
 	FViewTargetTransitionParams ViewParams;
-	pc->SetViewTarget(Camera, ViewParams);
+	pc->SetViewTarget(Camera, ViewParams);*/
 
 	SpawnParams.SpawnCollisionHandlingOverride = ESpawnActorCollisionHandlingMethod::AlwaysSpawn;
 

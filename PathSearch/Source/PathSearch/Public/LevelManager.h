@@ -37,6 +37,9 @@ protected:
 		int RowNum;
 
 	UPROPERTY(EditDefaultsOnly, Category = "Level design")
+		int HeightNum;
+
+	UPROPERTY(EditDefaultsOnly, Category = "Level design")
 		int WallProbability;
 
 	UPROPERTY(EditDefaultsOnly, Category = "Level design")
