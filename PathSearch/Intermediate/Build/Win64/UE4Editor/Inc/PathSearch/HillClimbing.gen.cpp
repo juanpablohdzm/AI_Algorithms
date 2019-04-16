@@ -1,4 +1,4 @@
-// Copyright 1998-2018 Epic Games, Inc. All Rights Reserved.
+// Copyright 1998-2019 Epic Games, Inc. All Rights Reserved.
 /*===========================================================================
 	Generated code exported from UnrealHeaderTool.
 	DO NOT modify this manually! Edit the corresponding .h files instead!
@@ -49,13 +49,17 @@ void EmptyLinkFunctionForGeneratedCodeHillClimbing() {}
 	};
 	const UE4CodeGen_Private::FClassParams Z_Construct_UClass_AHillClimbing_Statics::ClassParams = {
 		&AHillClimbing::StaticClass,
-		DependentSingletons, ARRAY_COUNT(DependentSingletons),
-		0x009000A0u,
-		nullptr, 0,
-		nullptr, 0,
 		nullptr,
 		&StaticCppClassTypeInfo,
-		nullptr, 0,
+		DependentSingletons,
+		nullptr,
+		nullptr,
+		nullptr,
+		ARRAY_COUNT(DependentSingletons),
+		0,
+		0,
+		0,
+		0x009000A0u,
 		METADATA_PARAMS(Z_Construct_UClass_AHillClimbing_Statics::Class_MetaDataParams, ARRAY_COUNT(Z_Construct_UClass_AHillClimbing_Statics::Class_MetaDataParams))
 	};
 	UClass* Z_Construct_UClass_AHillClimbing()
@@ -67,7 +71,11 @@ void EmptyLinkFunctionForGeneratedCodeHillClimbing() {}
 		}
 		return OuterClass;
 	}
-	IMPLEMENT_CLASS(AHillClimbing, 1335756651);
+	IMPLEMENT_CLASS(AHillClimbing, 2813654356);
+	template<> PATHSEARCH_API UClass* StaticClass<AHillClimbing>()
+	{
+		return AHillClimbing::StaticClass();
+	}
 	static FCompiledInDefer Z_CompiledInDefer_UClass_AHillClimbing(Z_Construct_UClass_AHillClimbing, &AHillClimbing::StaticClass, TEXT("/Script/PathSearch"), TEXT("AHillClimbing"), false, nullptr, nullptr, nullptr);
 	DEFINE_VTABLE_PTR_HELPER_CTOR(AHillClimbing);
 PRAGMA_ENABLE_DEPRECATION_WARNINGS

@@ -1,4 +1,4 @@
-// Copyright 1998-2018 Epic Games, Inc. All Rights Reserved.
+// Copyright 1998-2019 Epic Games, Inc. All Rights Reserved.
 /*===========================================================================
 	Generated code exported from UnrealHeaderTool.
 	DO NOT modify this manually! Edit the corresponding .h files instead!
@@ -55,7 +55,7 @@ void EmptyLinkFunctionForGeneratedCodeBeamSearch() {}
 		{ "ModuleRelativePath", "Public/BeamSearch.h" },
 	};
 #endif
-	const UE4CodeGen_Private::FUnsizedIntPropertyParams Z_Construct_UClass_ABeamSearch_Statics::NewProp_NumNodes = { UE4CodeGen_Private::EPropertyClass::Int, "NumNodes", RF_Public|RF_Transient|RF_MarkAsNative, (EPropertyFlags)0x0020080000000005, 1, nullptr, STRUCT_OFFSET(ABeamSearch, NumNodes), METADATA_PARAMS(Z_Construct_UClass_ABeamSearch_Statics::NewProp_NumNodes_MetaData, ARRAY_COUNT(Z_Construct_UClass_ABeamSearch_Statics::NewProp_NumNodes_MetaData)) };
+	const UE4CodeGen_Private::FUnsizedIntPropertyParams Z_Construct_UClass_ABeamSearch_Statics::NewProp_NumNodes = { "NumNodes", nullptr, (EPropertyFlags)0x0020080000000005, UE4CodeGen_Private::EPropertyGenFlags::Int, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(ABeamSearch, NumNodes), METADATA_PARAMS(Z_Construct_UClass_ABeamSearch_Statics::NewProp_NumNodes_MetaData, ARRAY_COUNT(Z_Construct_UClass_ABeamSearch_Statics::NewProp_NumNodes_MetaData)) };
 	const UE4CodeGen_Private::FPropertyParamsBase* const Z_Construct_UClass_ABeamSearch_Statics::PropPointers[] = {
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_ABeamSearch_Statics::NewProp_NumNodes,
 	};
@@ -64,13 +64,17 @@ void EmptyLinkFunctionForGeneratedCodeBeamSearch() {}
 	};
 	const UE4CodeGen_Private::FClassParams Z_Construct_UClass_ABeamSearch_Statics::ClassParams = {
 		&ABeamSearch::StaticClass,
-		DependentSingletons, ARRAY_COUNT(DependentSingletons),
-		0x009000A0u,
-		nullptr, 0,
-		Z_Construct_UClass_ABeamSearch_Statics::PropPointers, ARRAY_COUNT(Z_Construct_UClass_ABeamSearch_Statics::PropPointers),
 		nullptr,
 		&StaticCppClassTypeInfo,
-		nullptr, 0,
+		DependentSingletons,
+		nullptr,
+		Z_Construct_UClass_ABeamSearch_Statics::PropPointers,
+		nullptr,
+		ARRAY_COUNT(DependentSingletons),
+		0,
+		ARRAY_COUNT(Z_Construct_UClass_ABeamSearch_Statics::PropPointers),
+		0,
+		0x009000A0u,
 		METADATA_PARAMS(Z_Construct_UClass_ABeamSearch_Statics::Class_MetaDataParams, ARRAY_COUNT(Z_Construct_UClass_ABeamSearch_Statics::Class_MetaDataParams))
 	};
 	UClass* Z_Construct_UClass_ABeamSearch()
@@ -82,7 +86,11 @@ void EmptyLinkFunctionForGeneratedCodeBeamSearch() {}
 		}
 		return OuterClass;
 	}
-	IMPLEMENT_CLASS(ABeamSearch, 3439528592);
+	IMPLEMENT_CLASS(ABeamSearch, 1684041092);
+	template<> PATHSEARCH_API UClass* StaticClass<ABeamSearch>()
+	{
+		return ABeamSearch::StaticClass();
+	}
 	static FCompiledInDefer Z_CompiledInDefer_UClass_ABeamSearch(Z_Construct_UClass_ABeamSearch, &ABeamSearch::StaticClass, TEXT("/Script/PathSearch"), TEXT("ABeamSearch"), false, nullptr, nullptr, nullptr);
 	DEFINE_VTABLE_PTR_HELPER_CTOR(ABeamSearch);
 PRAGMA_ENABLE_DEPRECATION_WARNINGS

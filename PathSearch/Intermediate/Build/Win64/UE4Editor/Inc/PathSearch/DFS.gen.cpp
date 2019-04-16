@@ -1,4 +1,4 @@
-// Copyright 1998-2018 Epic Games, Inc. All Rights Reserved.
+// Copyright 1998-2019 Epic Games, Inc. All Rights Reserved.
 /*===========================================================================
 	Generated code exported from UnrealHeaderTool.
 	DO NOT modify this manually! Edit the corresponding .h files instead!
@@ -49,13 +49,17 @@ void EmptyLinkFunctionForGeneratedCodeDFS() {}
 	};
 	const UE4CodeGen_Private::FClassParams Z_Construct_UClass_ADFS_Statics::ClassParams = {
 		&ADFS::StaticClass,
-		DependentSingletons, ARRAY_COUNT(DependentSingletons),
-		0x009000A0u,
-		nullptr, 0,
-		nullptr, 0,
 		nullptr,
 		&StaticCppClassTypeInfo,
-		nullptr, 0,
+		DependentSingletons,
+		nullptr,
+		nullptr,
+		nullptr,
+		ARRAY_COUNT(DependentSingletons),
+		0,
+		0,
+		0,
+		0x009000A0u,
 		METADATA_PARAMS(Z_Construct_UClass_ADFS_Statics::Class_MetaDataParams, ARRAY_COUNT(Z_Construct_UClass_ADFS_Statics::Class_MetaDataParams))
 	};
 	UClass* Z_Construct_UClass_ADFS()
@@ -67,7 +71,11 @@ void EmptyLinkFunctionForGeneratedCodeDFS() {}
 		}
 		return OuterClass;
 	}
-	IMPLEMENT_CLASS(ADFS, 2951028325);
+	IMPLEMENT_CLASS(ADFS, 1828508242);
+	template<> PATHSEARCH_API UClass* StaticClass<ADFS>()
+	{
+		return ADFS::StaticClass();
+	}
 	static FCompiledInDefer Z_CompiledInDefer_UClass_ADFS(Z_Construct_UClass_ADFS, &ADFS::StaticClass, TEXT("/Script/PathSearch"), TEXT("ADFS"), false, nullptr, nullptr, nullptr);
 	DEFINE_VTABLE_PTR_HELPER_CTOR(ADFS);
 PRAGMA_ENABLE_DEPRECATION_WARNINGS

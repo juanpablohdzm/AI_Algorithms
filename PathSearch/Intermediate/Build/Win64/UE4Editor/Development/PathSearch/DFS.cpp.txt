@@ -1,0 +1,5 @@
+C:\Users\Juan Pablo\Documents\Unreal Projects\AI\PathSearch\Intermediate\Build\Win64\UE4Editor\Development\PathSearch\Definitions.PathSearch.h
+C:\Users\Juan Pablo\Documents\Unreal Projects\AI\PathSearch\Source\PathSearch\Public/DFS.h
+C:\Users\Juan Pablo\Documents\Unreal Projects\AI\PathSearch\Source\PathSearch\Public\Graph.h
+C:\Users\Juan Pablo\Documents\Unreal Projects\AI\PathSearch\Intermediate\Build\Win64\UE4Editor\Inc\PathSearch\Graph.generated.h
+C:\Users\Juan Pablo\Documents\Unreal Projects\AI\PathSearch\Intermediate\Build\Win64\UE4Editor\Inc\PathSearch\DFS.generated.h

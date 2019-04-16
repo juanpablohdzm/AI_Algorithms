@@ -17,6 +17,7 @@ void AAStar::Sort_BestFirst(TArray<FVector>& List)
 {
 	TMap<FVector, APoint*> Temp = Points;
 	float Porcentage = HeuristicPorcentage;
+	
 
 	//The  vector with the lowest cost is placed at the front
 	List.Sort([Temp, Porcentage](const FVector& LHS, const FVector& RHS)

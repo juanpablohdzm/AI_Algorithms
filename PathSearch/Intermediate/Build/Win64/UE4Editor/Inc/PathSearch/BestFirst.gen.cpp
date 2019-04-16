@@ -1,4 +1,4 @@
-// Copyright 1998-2018 Epic Games, Inc. All Rights Reserved.
+// Copyright 1998-2019 Epic Games, Inc. All Rights Reserved.
 /*===========================================================================
 	Generated code exported from UnrealHeaderTool.
 	DO NOT modify this manually! Edit the corresponding .h files instead!
@@ -49,13 +49,17 @@ void EmptyLinkFunctionForGeneratedCodeBestFirst() {}
 	};
 	const UE4CodeGen_Private::FClassParams Z_Construct_UClass_ABestFirst_Statics::ClassParams = {
 		&ABestFirst::StaticClass,
-		DependentSingletons, ARRAY_COUNT(DependentSingletons),
-		0x009000A0u,
-		nullptr, 0,
-		nullptr, 0,
 		nullptr,
 		&StaticCppClassTypeInfo,
-		nullptr, 0,
+		DependentSingletons,
+		nullptr,
+		nullptr,
+		nullptr,
+		ARRAY_COUNT(DependentSingletons),
+		0,
+		0,
+		0,
+		0x009000A0u,
 		METADATA_PARAMS(Z_Construct_UClass_ABestFirst_Statics::Class_MetaDataParams, ARRAY_COUNT(Z_Construct_UClass_ABestFirst_Statics::Class_MetaDataParams))
 	};
 	UClass* Z_Construct_UClass_ABestFirst()
@@ -67,7 +71,11 @@ void EmptyLinkFunctionForGeneratedCodeBestFirst() {}
 		}
 		return OuterClass;
 	}
-	IMPLEMENT_CLASS(ABestFirst, 2132853494);
+	IMPLEMENT_CLASS(ABestFirst, 493610346);
+	template<> PATHSEARCH_API UClass* StaticClass<ABestFirst>()
+	{
+		return ABestFirst::StaticClass();
+	}
 	static FCompiledInDefer Z_CompiledInDefer_UClass_ABestFirst(Z_Construct_UClass_ABestFirst, &ABestFirst::StaticClass, TEXT("/Script/PathSearch"), TEXT("ABestFirst"), false, nullptr, nullptr, nullptr);
 	DEFINE_VTABLE_PTR_HELPER_CTOR(ABestFirst);
 PRAGMA_ENABLE_DEPRECATION_WARNINGS

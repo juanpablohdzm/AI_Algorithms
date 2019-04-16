@@ -1,4 +1,4 @@
-// Copyright 1998-2018 Epic Games, Inc. All Rights Reserved.
+// Copyright 1998-2019 Epic Games, Inc. All Rights Reserved.
 /*===========================================================================
 	Generated code exported from UnrealHeaderTool.
 	DO NOT modify this manually! Edit the corresponding .h files instead!
@@ -51,13 +51,17 @@ void EmptyLinkFunctionForGeneratedCodePathSearchGameModeBase() {}
 	};
 	const UE4CodeGen_Private::FClassParams Z_Construct_UClass_APathSearchGameModeBase_Statics::ClassParams = {
 		&APathSearchGameModeBase::StaticClass,
-		DependentSingletons, ARRAY_COUNT(DependentSingletons),
-		0x009002A8u,
-		nullptr, 0,
-		nullptr, 0,
 		nullptr,
 		&StaticCppClassTypeInfo,
-		nullptr, 0,
+		DependentSingletons,
+		nullptr,
+		nullptr,
+		nullptr,
+		ARRAY_COUNT(DependentSingletons),
+		0,
+		0,
+		0,
+		0x009002A8u,
 		METADATA_PARAMS(Z_Construct_UClass_APathSearchGameModeBase_Statics::Class_MetaDataParams, ARRAY_COUNT(Z_Construct_UClass_APathSearchGameModeBase_Statics::Class_MetaDataParams))
 	};
 	UClass* Z_Construct_UClass_APathSearchGameModeBase()
@@ -69,7 +73,11 @@ void EmptyLinkFunctionForGeneratedCodePathSearchGameModeBase() {}
 		}
 		return OuterClass;
 	}
-	IMPLEMENT_CLASS(APathSearchGameModeBase, 3849815426);
+	IMPLEMENT_CLASS(APathSearchGameModeBase, 4196445721);
+	template<> PATHSEARCH_API UClass* StaticClass<APathSearchGameModeBase>()
+	{
+		return APathSearchGameModeBase::StaticClass();
+	}
 	static FCompiledInDefer Z_CompiledInDefer_UClass_APathSearchGameModeBase(Z_Construct_UClass_APathSearchGameModeBase, &APathSearchGameModeBase::StaticClass, TEXT("/Script/PathSearch"), TEXT("APathSearchGameModeBase"), false, nullptr, nullptr, nullptr);
 	DEFINE_VTABLE_PTR_HELPER_CTOR(APathSearchGameModeBase);
 PRAGMA_ENABLE_DEPRECATION_WARNINGS

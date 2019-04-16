@@ -1,4 +1,4 @@
-// Copyright 1998-2018 Epic Games, Inc. All Rights Reserved.
+// Copyright 1998-2019 Epic Games, Inc. All Rights Reserved.
 /*===========================================================================
 	Generated code exported from UnrealHeaderTool.
 	DO NOT modify this manually! Edit the corresponding .h files instead!
@@ -55,7 +55,7 @@ void EmptyLinkFunctionForGeneratedCodeDLFS() {}
 		{ "ModuleRelativePath", "Public/DLFS.h" },
 	};
 #endif
-	const UE4CodeGen_Private::FUnsizedIntPropertyParams Z_Construct_UClass_ADLFS_Statics::NewProp_DepthLimit = { UE4CodeGen_Private::EPropertyClass::Int, "DepthLimit", RF_Public|RF_Transient|RF_MarkAsNative, (EPropertyFlags)0x0020080000000005, 1, nullptr, STRUCT_OFFSET(ADLFS, DepthLimit), METADATA_PARAMS(Z_Construct_UClass_ADLFS_Statics::NewProp_DepthLimit_MetaData, ARRAY_COUNT(Z_Construct_UClass_ADLFS_Statics::NewProp_DepthLimit_MetaData)) };
+	const UE4CodeGen_Private::FUnsizedIntPropertyParams Z_Construct_UClass_ADLFS_Statics::NewProp_DepthLimit = { "DepthLimit", nullptr, (EPropertyFlags)0x0020080000000005, UE4CodeGen_Private::EPropertyGenFlags::Int, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(ADLFS, DepthLimit), METADATA_PARAMS(Z_Construct_UClass_ADLFS_Statics::NewProp_DepthLimit_MetaData, ARRAY_COUNT(Z_Construct_UClass_ADLFS_Statics::NewProp_DepthLimit_MetaData)) };
 	const UE4CodeGen_Private::FPropertyParamsBase* const Z_Construct_UClass_ADLFS_Statics::PropPointers[] = {
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_ADLFS_Statics::NewProp_DepthLimit,
 	};
@@ -64,13 +64,17 @@ void EmptyLinkFunctionForGeneratedCodeDLFS() {}
 	};
 	const UE4CodeGen_Private::FClassParams Z_Construct_UClass_ADLFS_Statics::ClassParams = {
 		&ADLFS::StaticClass,
-		DependentSingletons, ARRAY_COUNT(DependentSingletons),
-		0x009000A0u,
-		nullptr, 0,
-		Z_Construct_UClass_ADLFS_Statics::PropPointers, ARRAY_COUNT(Z_Construct_UClass_ADLFS_Statics::PropPointers),
 		nullptr,
 		&StaticCppClassTypeInfo,
-		nullptr, 0,
+		DependentSingletons,
+		nullptr,
+		Z_Construct_UClass_ADLFS_Statics::PropPointers,
+		nullptr,
+		ARRAY_COUNT(DependentSingletons),
+		0,
+		ARRAY_COUNT(Z_Construct_UClass_ADLFS_Statics::PropPointers),
+		0,
+		0x009000A0u,
 		METADATA_PARAMS(Z_Construct_UClass_ADLFS_Statics::Class_MetaDataParams, ARRAY_COUNT(Z_Construct_UClass_ADLFS_Statics::Class_MetaDataParams))
 	};
 	UClass* Z_Construct_UClass_ADLFS()
@@ -82,7 +86,11 @@ void EmptyLinkFunctionForGeneratedCodeDLFS() {}
 		}
 		return OuterClass;
 	}
-	IMPLEMENT_CLASS(ADLFS, 1109769542);
+	IMPLEMENT_CLASS(ADLFS, 1617279522);
+	template<> PATHSEARCH_API UClass* StaticClass<ADLFS>()
+	{
+		return ADLFS::StaticClass();
+	}
 	static FCompiledInDefer Z_CompiledInDefer_UClass_ADLFS(Z_Construct_UClass_ADLFS, &ADLFS::StaticClass, TEXT("/Script/PathSearch"), TEXT("ADLFS"), false, nullptr, nullptr, nullptr);
 	DEFINE_VTABLE_PTR_HELPER_CTOR(ADLFS);
 PRAGMA_ENABLE_DEPRECATION_WARNINGS

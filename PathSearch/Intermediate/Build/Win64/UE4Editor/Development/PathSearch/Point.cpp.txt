@@ -1,0 +1,3 @@
+C:\Users\Juan Pablo\Documents\Unreal Projects\AI\PathSearch\Intermediate\Build\Win64\UE4Editor\Development\PathSearch\Definitions.PathSearch.h
+C:\Users\Juan Pablo\Documents\Unreal Projects\AI\PathSearch\Source\PathSearch\Public\Point.h
+C:\Users\Juan Pablo\Documents\Unreal Projects\AI\PathSearch\Intermediate\Build\Win64\UE4Editor\Inc\PathSearch\Point.generated.h
